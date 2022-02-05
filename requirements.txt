@@ -1,0 +1,12 @@
+PyQt5==5.15.6
+scapy==2.4.5
+bitcoin==1.1.42
+paramiko==2.8.0
+pynput==1.7.4
+Pillow==8.4.0
+cryptography==35.0.0
+setuptools==58.4.0
+beautifulsoup4==4.10.0
+PyYAML==6.0
+pycryptodome==3.11.0 
+pypiwin32==223
