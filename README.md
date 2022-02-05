@@ -1,5 +1,5 @@
 # scpt
-scpt is a cross platform  set tool kit that will automate some of your pentesting tasks
+scpt is a cross platform   tool kit that will automate some of your pentesting tasks
 
 (windows, linux , mac)
 
