@@ -1,0 +1,172 @@
+<!DOCTYPE html><html><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
+	<link rel="shortcut icon"  href="/static/img/about/scpt.png" type="image/icon type">
+	<title>SCPT</title><link rel="stylesheet" href="/static/bootstrap/css/bootstrap.min.css?h=b7d3c1a22edc52ec6f197d2b3e02a7b7"><link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat:400,700"><link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Kaushan+Script"><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"><link rel="stylesheet" href="/static/css/styles.min.css?h=abdccdf7b7f2fa089dee0d29042223ce"></head><body><nav class="navbar navbar-dark navbar-expand-lg fixed-top bg-dark" id="mainNav"><div class="container"><button data-bs-toggle="collapse" data-bs-target="#navbarResponsive" class="navbar-toggler navbar-toggler-right" type="button" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation"><i class="fa fa-bars"></i></button><a class="navbar-brand" href="index.html">SCPT</a><div class="collapse navbar-collapse" id="navbarResponsive"><ul class="navbar-nav ms-auto text-uppercase"><li class="nav-item"><a class="nav-link" href="btc.html">btc_exploit</a></li><li class="nav-item"></li><li class="nav-item"><a class="nav-link" href="google_dork.html">google_dork</a></li><li class="nav-item"><a class="nav-link" href="port_scan.html">port_scan</a></li>
+		<!-- <li class="nav-item"><a class="nav-link" href="web_scan.html">web_scan</a></li> -->
+		<li class="nav-item"><a class="nav-link" href="vuln_search.html">vulnerability_search</a></li><li class="nav-item"><a class="nav-link" href="phishing.html">Phishing</a></li><li class="nav-item"><a class="nav-link" href="payload.html">payload</a></li>
+		<!-- <li class="nav-item"><a class="nav-link" href="brutefroce.html">brute_force</a></li> -->
+		<li class="nav-item"></li><li class="nav-item"></li></ul></div></div></nav><div><div class="intro-lead-in"><span>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp;</span><span>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp;</span></div><div><span>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp;</span></div><div class="intro-lead-in"><span>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp;</span><span>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp;</span></div><div class="intro-heading text-uppercase"><span style="transform: scale(4.52);">&nbsp;</span></div><div><button class="btn btn-primary"  onclick="encode()" type="button">encode/decode</button><span>&nbsp; &nbsp; &nbsp; &nbsp;&nbsp;</span><button class="btn btn-primary" onclick="hashNop()" type="button">HashName</button><span>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp;</span><button class="btn btn-primary" onclick="hashBrop()" type="button">hash_brute_force</button></div></div>
+<script>
+	function configureDropDownLists(ddl1,ddl2) {
+    var sym = ['AES'];
+    var asym = ['RSA'];
+    var hash = ['md5','sha1','sha256','sha3_224','sha224','sha512','base64','base16','base32','base85'];
+
+    switch (ddl1.value) {
+        case 'symmetric':
+            ddl2.options.length = 0;
+            for (i = 0; i < sym.length; i++) {
+                createOption(ddl2, sym[i], sym[i]);
+            }
+            break;
+        case 'asymmetric':
+            ddl2.options.length = 0;
+        for (i = 0; i < asym.length; i++) {
+            createOption(ddl2, asym[i], asym[i]);
+            }
+            break;
+        case 'hash':
+            ddl2.options.length = 0;
+            for (i = 0; i < hash.length; i++) {
+                createOption(ddl2, hash[i], hash[i]);
+            }
+            break;
+            default:
+                ddl2.options.length = 0;
+            break;
+    }
+
+}
+
+    function createOption(ddl, text, value) {
+        var opt = document.createElement('option');
+        opt.value = value;
+        opt.text = text;
+        ddl.options.add(opt);
+    }
+
+
+    function encode(){
+  enkd = document.querySelector('.en_deco');
+  enkd.style.visibility = 'visible' ;
+
+  hashN = document.querySelector('.hashnamesio');
+  hashN.style.visibility = 'hidden';
+  hashB = document.querySelector('.hash_brute');
+  hashB.style.visibility = 'hidden';
+
+
+
+}
+function hashNop(){
+  enkd = document.querySelector('.en_deco');
+  enkd.style.visibility = 'hidden' ;
+
+  hashN = document.querySelector('.hashnamesio');
+  hashN.style.visibility = 'visible';
+  hashB = document.querySelector('.hash_brute');
+  hashB.style.visibility = 'hidden';
+
+
+
+}
+function hashBrop(){
+  enkd = document.querySelector('.en_deco');
+  enkd.style.visibility = 'hidden' ;
+
+  hashN = document.querySelector('.hashnamesio');
+  hashN.style.visibility = 'hidden';
+  hashB = document.querySelector('.hash_brute');
+  hashB.style.visibility = 'visible';
+
+
+}
+
+</script>
+<div class="en_deco" id="en_deco">
+	<form action="{{ url_for('crptoengolll')}}" method="post">
+	<div class="intro-lead-in">
+		<span>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp;</span><span>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp;</span>
+	</div><div><span>&nbsp; &nbsp; &nbsp;<span>&nbsp;&nbsp;</span> &nbsp;
+	<select id="endeotype" name="endeotype"><optgroup label="en/de">
+		<option value="en" selected="">encode</option>
+		<option value="den">decode</option></optgroup>
+	</select> &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;<span>crypto_type:&nbsp;</span>
+	<select  id="crptotype" name="crptotype" onchange="configureDropDownLists(this,document.getElementById('functiomtype'))"><optgroup label="cryproty">
+		<option value="asymmetric" selected="">asymmetric</option>
+		<option value="symmetric">symmetric </option>
+		<option value="hash">hash</option></optgroup>
+	</select>&nbsp; <span>functhion:&nbsp;</span>&nbsp;
+	<select id="functiomtype" name="functiomtype"><optgroup label="This is a group">
+
+	</optgroup>
+	</select> &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp;</span>
+</div><div class="intro-lead-in"><span>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp;</span><span>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp;</span></div><div class="intro-heading text-uppercase"><span style="transform: scale(4.52);">&nbsp;</span>
+	<span>key:&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp;</span>
+	<input id="keys" name="keys" type="text"></div><div><span>&nbsp; &nbsp;
+	<span>massage:&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp;</span> &nbsp;
+	<input id="massg" name="massg" type="text"> &nbsp;&nbsp;</span>
+	<button class="btn btn-primary" type="submit">cryptotime</button>
+	<div></div><div></div></div><div></div><div><div class="intro-heading text-uppercase"><span style="transform: scale(4.52);">&nbsp;</span>
+	<span>output:&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;</span>
+	<textarea>{{crotpmassg}}</textarea>
+	<div>
+
+	</div>
+		<div>
+
+		</div>
+		<div>
+
+		</div>
+		<div>
+
+	</div>
+
+
+	<span>________________________________________________________________________________________________________________________________________________________________________</span>
+	</div>
+	</div>
+		</form>
+</div>
+<!--	end of encode/decode-->
+<div class="hashnamesio" id="hashnamesio">
+	<form action="{{ url_for('shoipk')}}" method="post">
+	<span>hash:&nbsp; &nbsp;</span>
+	<input id="hashingop" name="hashingop" type="text"><span>&nbsp; &nbsp; &nbsp; &nbsp;</span>
+	<button class="btn btn-primary" type="submit">GetName2</button>
+		</form>
+	<div><span>type:&nbsp;</span>
+		<textarea>{{hashnameopppp}}</textarea>
+	</div>
+
+</div>
+<!--	end of hash name-->
+	<span>________________________________________________________________________________________________________________________________________________________________________</span></div>
+<div class="hash_brute" id="hash_brute">
+	<form action="{{ url_for('hash_brute_go')}}" method="post">
+	<span>hash_type:&nbsp; &nbsp;&nbsp;</span>
+	<select id="hash_type" name="hash_type"><optgroup label="hash_type">
+		<option value="md5" selected="">md5</option>
+		<option value="sha1">sha1</option>
+		<option value="sha256">sha256</option>
+		<option value="sha3_224">sha3_224</option>
+		<option value="sha224">sha224</option>
+		<option value="sha512">sha512</option>
+		<option value="base64">base64</option>
+		<option value="base16">base16</option>
+		<option value="base32">base32</option>
+		<option value="base85">base85</option>
+	</optgroup></select><div>
+	<span>hash:&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;</span>
+	<input id="hash_n" name="hash_n" type="text"><span>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp;</span>
+	<button class="btn btn-primary" type="submit">brute</button>
+
+	</div>
+	</form>
+	<div><span>output:&nbsp;</span>
+
+	<textarea>{{hashop}}</textarea>
+
+</div>
+<!--	end of hashbrute-force-->
+	<span>_______________________________________________________________________________________________________________________________________________________________________________________</span></div><footer><div class="container"><div class="row"><div class="col-md-4"><span class="copyright" style="background: var(--bs-danger);">Copyright&nbsp;© AOU 2021</span></div><div class="col-md-4"><ul class="list-inline social-buttons"><li class="list-inline-item"></li><li class="list-inline-item"><a href="https://www.facebook.com/SCPT-252710723284538" target="_blank"><i class="fa fa-facebook"></i></a></li><li class="list-inline-item"></li></ul></div></div></div><span>_____________________________________________________________________________________________________________________________________________________________________________________________________________________________________________</span></footer><script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.bundle.min.js"></script><script src="/static/js/script.min.js?h=cdc2a257869299bc9b92c4a704c5059f"></script></body></html>

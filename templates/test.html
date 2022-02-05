@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+	function configureDropDownLists(ddl1,ddl2) {
+    var sym = ['AES'];
+    var asym = ['RSA'];
+    var hash = ['md5','sha1','sha256','sha3_224','sha224','sha512','base64','base16','base32','base85'];
+
+    switch (ddl1.value) {
+        case 'symmetric':
+            ddl2.options.length = 0;
+            for (i = 0; i < sym.length; i++) {
+                createOption(ddl2, sym[i], sym[i]);
+            }
+            break;
+        case 'asymmetric':
+            ddl2.options.length = 0;
+        for (i = 0; i < asym.length; i++) {
+            createOption(ddl2, asym[i], asym[i]);
+            }
+            break;
+        case 'hash':
+            ddl2.options.length = 0;
+            for (i = 0; i < hash.length; i++) {
+                createOption(ddl2, hash[i], hash[i]);
+            }
+            break;
+            default:
+                ddl2.options.length = 0;
+            break;
+    }
+
+}
+
+    function createOption(ddl, text, value) {
+        var opt = document.createElement('option');
+        opt.value = value;
+        opt.text = text;
+        ddl.options.add(opt);
+    }
+</script>
+<select id="ddl" onchange="configureDropDownLists(this,document.getElementById('ddl2'))">
+<option value=""></option>
+<option value="Colours">Colours</option>
+<option value="Shapes">Shapes</option>
+<option value="Names">Names</option>
+</select>
+
+<select id="ddl2">
+</select>
+
+
+
+	<select id="page" name="page" onchange="configureDropDownLists(this,document.getElementById('ptype'))"><optgroup label="sites">
+		<option value="Facebook" selected="">facebook</option>
+		<option value="github">github</option>
+		<option value="gmail">gmail</option></optgroup></select>
+
+  <select  id="ptype" name="ptype"><optgroup label="sub sites">
+		</optgroup></select>
+
+
+<script>
+	function encode(){
+  enkd = document.querySelector('.en_deco');
+  enkd.style.visibility = 'visible' ;
+
+  hashN = document.querySelector('.hashnamesio');
+  hashN.style.visibility = 'hidden';
+  hashB = document.querySelector('.hash_brute');
+  hashB.style.visibility = 'hidden';
+
+
+
+}
+function hashNop(){
+  enkd = document.querySelector('.en_deco');
+  enkd.style.visibility = 'hidden' ;
+
+  hashN = document.querySelector('.hashnamesio');
+  hashN.style.visibility = 'visible';
+  hashB = document.querySelector('.hash_brute');
+  hashB.style.visibility = 'hidden';
+
+
+
+}
+function hashBrop(){
+  enkd = document.querySelector('.en_deco');
+  enkd.style.visibility = 'hidden' ;
+
+  hashN = document.querySelector('.hashnamesio');
+  hashN.style.visibility = 'hidden';
+  hashB = document.querySelector('.hash_brute');
+  hashB.style.visibility = 'visible';
+
+
+}
+</script>
+
+onclick="encode()"
+onclick="hashNop()"
+onclick="hashBrop()"
+<button onclick="toggle_display()">Toggle display</button>
+<div class="content_section">
+<form id="f1" name="f1">
+	<span>hi</span>
+</form>
+</div>
+<form id="f2" name="f2">
+	<span>hi 2</span>
+</form>
+</body>
+</html>

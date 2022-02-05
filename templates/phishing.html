@@ -1,0 +1,62 @@
+<!DOCTYPE html><html><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
+	<link rel="shortcut icon"  href="/static/img/about/scpt.png" type="image/icon type">
+	<title>SCPT - Phishing</title>
+	<link rel="icon" href="/static/img/about/scpt.png" type="image/icon type">
+	<link rel="stylesheet" href="/static/bootstrap/css/bootstrap.min.css?h=dea45813d4c934b09e121b79deca6e09"><link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat:400,700"><link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Kaushan+Script"><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"><link rel="stylesheet" href="/static/css/styles.min.css?h=abdccdf7b7f2fa089dee0d29042223ce"></head><body style="background: var(--bs-info);"><nav class="navbar navbar-dark navbar-expand-lg fixed-top bg-dark" id="mainNav"><div class="container"><button data-bs-toggle="collapse" data-bs-target="#navbarResponsive" class="navbar-toggler navbar-toggler-right" type="button" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation"><i class="fa fa-bars"></i></button><a class="navbar-brand" href="/index.html">SCPT</a><div class="collapse navbar-collapse" id="navbarResponsive"><ul class="navbar-nav ms-auto text-uppercase"><li class="nav-item"><a class="nav-link" href="/btc.html">btc_exploit</a></li><li class="nav-item"><a class="nav-link" href="/cryptograpy.html">cryptography</a></li><li class="nav-item"><a class="nav-link" href="/google_dork.html">google_dork</a></li><li class="nav-item"><a class="nav-link" href="/port_scan.html">port_scan</a></li>
+        <!-- <li class="nav-item"><a class="nav-link" href="/web_scan.html">web_scan</a></li> -->
+        <li class="nav-item"><a class="nav-link" href="/vuln_search.html">vulnerability_search</a></li><li class="nav-item"></li><li class="nav-item"><a class="nav-link" href="/payload.html">payload</a></li>
+        <!-- <li class="nav-item"><a class="nav-link" href="/brutefroce.html">brute_force</a></li> -->
+        <li class="nav-item"></li><li class="nav-item"></li></ul></div></div></nav><div><div class="intro-lead-in"><span>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp;</span><span>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp;</span></div><div><span>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp;</span></div><div class="intro-lead-in"><span>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp;</span><span>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp;</span></div><div class="intro-heading text-uppercase"><span style="transform: scale(4.52);">&nbsp;</span></div><div><span>&nbsp; &nbsp; &nbsp; &nbsp;&nbsp;</span></div></div><div><span>&nbsp; &nbsp;sites:&nbsp;
+<script>
+	function configureDropDownLists(ddl1,ddl2) {
+    var fb = ['Standard Page', 'Advanced Phishing-Poll', 'Fake Security','Phising-Messenger'];
+    var gm = ['Standard Page', 'Advanced Phishing-Poll', 'New Google Web'];
+    var gt = ['John', 'David', 'Sarah'];
+
+    switch (ddl1.value) {
+        case 'Facebook':
+            ddl2.options.length = 0;
+            for (i = 0; i < fb.length; i++) {
+                createOption(ddl2, fb[i], fb[i]);
+            }
+            break;
+        case 'gmail':
+            ddl2.options.length = 0;
+        for (i = 0; i < gm.length; i++) {
+            createOption(ddl2, gm[i], gm[i]);
+            }
+            break;
+        case 'github':
+            ddl2.options.length = 0;
+            for (i = 0; i < gt.length; i++) {
+                createOption(ddl2, gt[i], gt[i]);
+            }
+            break;
+            default:
+                ddl2.options.length = 0;
+            break;
+    }
+
+}
+
+    function createOption(ddl, text, value) {
+        var opt = document.createElement('option');
+        opt.value = value;
+        opt.text = text;
+        ddl.options.add(opt);
+    }
+</script>
+	<form action="{{ url_for('phishinggo')}}" method="post">
+		<select id="page" name="page" onchange="configureDropDownLists(this,document.getElementById('ptype'))"><optgroup label="sites">
+		<option value="Facebook" selected="">facebook</option>
+		<option value="github">github</option>
+		<option value="gmail">gmail</option></optgroup></select><span>&nbsp; &nbsp; &nbsp; &nbsp;:&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp;
+
+  <select  id="ptype" name="ptype"><optgroup label="sub sites">
+		</optgroup></select>
+		<span>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;</span>
+		<span>&nbsp; rediracte uel:&nbsp;<input class="form-control"  id="redurl" name="redurl" type="text"></span><span>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp;<button class="btn btn-primary" type="submit">phish</button></span></span>
+</form></span><div>
+	<span>&nbsp; phishing url:&nbsp;{{phingurl}}</span>
+</div></div><div><span>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;</span></div><div><span>&nbsp; Output:&nbsp;&nbsp;
+	<textarea style="width: 900px;height:200px;">{{phinshingout}}</textarea></span></div><div><div class="intro-lead-in"><span>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp;</span><span>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp;</span></div><div><span>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp;</span></div><div class="intro-lead-in"><span>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp;</span><span>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp;</span></div><div class="intro-heading text-uppercase"><span style="transform: scale(4.52);">&nbsp;</span></div><div><span>&nbsp; &nbsp; &nbsp; &nbsp;&nbsp;</span></div></div><div><div class="intro-heading text-uppercase"><span style="transform: scale(4.52);">&nbsp;</span><span>________________________________________________________________________________________________________________________________________________________________________</span></div></div><footer><div class="container"><div class="row"><div class="col-md-4"><span class="copyright" style="background: var(--bs-danger);">Copyright&nbsp;© AOU 2021</span></div><div class="col-md-4"><ul class="list-inline social-buttons"><li class="list-inline-item"></li><li class="list-inline-item"><a href="https://www.facebook.com/SCPT-252710723284538" target="_blank"><i class="fa fa-facebook"></i></a></li><li class="list-inline-item"></li></ul></div></div></div></footer><script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.bundle.min.js"></script><script src="/static/js/script.min.js?h=cdc2a257869299bc9b92c4a704c5059f"></script></body></html>
