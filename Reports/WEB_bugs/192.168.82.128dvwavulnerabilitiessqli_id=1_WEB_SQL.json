@@ -1,0 +1,46 @@
+[+] SQL Injection vulnerability detected, link: http://192.168.82.128/dvwa/vulnerabilities/sqli/?id=1'&Submit=Submit#
+[+] SQL Injection vulnerability detected, link: http://192.168.82.128/dvwa/vulnerabilities/sqli/?id=1'&Submit=Submit#
+[+] SQL Injection vulnerability detected, link: http://192.168.82.128/dvwa/vulnerabilities/sqli/?id=1'&Submit=Submit#
+[+] SQL Injection vulnerability detected, link: http://192.168.82.128/dvwa/vulnerabilities/sqli/?id=1'&Submit=Submit#
+[+] SQL Injection vulnerability detected, link: http://192.168.82.128/dvwa/vulnerabilities/sqli/?id=1'&Submit=Submit#
+[+] SQL Injection vulnerability detected, link: http://192.168.82.128/dvwa/vulnerabilities/sqli/?id=1'&Submit=Submit#
+[+] SQL Injection vulnerability detected, link: http://192.168.82.128/dvwa/vulnerabilities/sqli/?id=1'&Submit=Submit#
+[+] SQL Injection vulnerability detected, link: http://192.168.82.128/dvwa/vulnerabilities/sqli/?id=1'&Submit=Submit#
+[+] SQL Injection vulnerability detected, link: http://192.168.82.128/dvwa/vulnerabilities/sqli/?id=1'&Submit=Submit#
+[+] SQL Injection vulnerability detected, link: http://192.168.82.128/dvwa/vulnerabilities/sqli/?id=1'&Submit=Submit#
+[+] SQL Injection vulnerability detected, link: http://192.168.82.128/dvwa/vulnerabilities/sqli/?id=1'&Submit=Submit#
+[+] SQL Injection vulnerability detected, link: http://192.168.82.128/dvwa/vulnerabilities/sqli/?id=1'&Submit=Submit#
+[+] SQL Injection vulnerability detected, link: http://192.168.82.128/dvwa/vulnerabilities/sqli/?id=1'&Submit=Submit#
+[+] SQL Injection vulnerability detected, link: http://192.168.82.128/dvwa/vulnerabilities/sqli/?id=1'&Submit=Submit#
+[+] SQL Injection vulnerability detected, link: http://192.168.82.128/dvwa/vulnerabilities/sqli/?id=1'&Submit=Submit#
+[+] SQL Injection vulnerability detected, link: http://192.168.82.128/dvwa/vulnerabilities/sqli/?id=1'&Submit=Submit#
+[+] SQL Injection vulnerability detected, link: http://192.168.82.128/dvwa/vulnerabilities/sqli/?id=1'&Submit=Submit#
+[+] SQL Injection vulnerability detected, link: http://192.168.82.128/dvwa/vulnerabilities/sqli/?id=1'&Submit=Submit#
+[+] SQL Injection vulnerability detected, link: http://192.168.82.128/dvwa/vulnerabilities/sqli/?id=1'&Submit=Submit#
+[+] SQL Injection vulnerability detected, link: http://192.168.82.128/dvwa/vulnerabilities/sqli/?id=1'&Submit=Submit#
+[+] SQL Injection vulnerability detected, link: http://192.168.82.128/dvwa/vulnerabilities/sqli/?id=1'&Submit=Submit#
+[+] SQL Injection vulnerability detected, link: http://192.168.82.128/dvwa/vulnerabilities/sqli/?id=1'&Submit=Submit#
+[+] SQL Injection vulnerability detected, link:http://192.168.82.128/dvwa/vulnerabilities/sqli/?id=1
+[*] Form details:
+{'action': '#', 'method': 'get', 'inputs': [{'type': 'text', 'name': 'id', 'value': ''}, {'type': 'submit', 'name': 'Submit', 'value': 'Submit'}]}
+[+] SQL Injection vulnerability detected, link: http://192.168.82.128/dvwa/vulnerabilities/sqli/?id=1'&Submit=Submit#
+[+] SQL Injection vulnerability detected, link:http://192.168.82.128/dvwa/vulnerabilities/sqli/?id=1
+[*] Form details:
+{'action': '#', 'method': 'get', 'inputs': [{'type': 'text', 'name': 'id', 'value': ''}, {'type': 'submit', 'name': 'Submit', 'value': 'Submit'}]}
+[+] SQL Injection vulnerability detected, link: http://192.168.82.128/dvwa/vulnerabilities/sqli/?id=1'&Submit=Submit#
+[+] SQL Injection vulnerability detected, link:http://192.168.82.128/dvwa/vulnerabilities/sqli/?id=1
+[*] Form details:
+{'action': '#', 'method': 'get', 'inputs': [{'type': 'text', 'name': 'id', 'value': ''}, {'type': 'submit', 'name': 'Submit', 'value': 'Submit'}]}
+[+] SQL Injection vulnerability detected, link: http://192.168.82.128/dvwa/vulnerabilities/sqli/?id=1'&Submit=Submit#
+[+] SQL Injection vulnerability detected, link:http://192.168.82.128/dvwa/vulnerabilities/sqli/?id=1
+[*] Form details:
+{'action': '#', 'method': 'get', 'inputs': [{'type': 'text', 'name': 'id', 'value': ''}, {'type': 'submit', 'name': 'Submit', 'value': 'Submit'}]}
+[+] SQL Injection vulnerability detected, link: http://192.168.82.128/dvwa/vulnerabilities/sqli/?id=1'&Submit=Submit#
+[+] SQL Injection vulnerability detected, link:http://192.168.82.128/dvwa/vulnerabilities/sqli/?id=1
+[*] Form details:
+{'action': '#', 'method': 'get', 'inputs': [{'type': 'text', 'name': 'id', 'value': ''}, {'type': 'submit', 'name': 'Submit', 'value': 'Submit'}]}
+[+] SQL Injection vulnerability detected, link: http://192.168.82.128/dvwa/vulnerabilities/sqli/?id=1'&Submit=Submit#
+[+] SQL Injection vulnerability detected, link:http://192.168.82.128/dvwa/vulnerabilities/sqli/?id=1
+[*] Form details:
+{'action': '#', 'method': 'get', 'inputs': [{'type': 'text', 'name': 'id', 'value': ''}, {'type': 'submit', 'name': 'Submit', 'value': 'Submit'}]}
+Payload: '

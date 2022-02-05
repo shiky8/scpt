@@ -1,0 +1,21 @@
+{
+    "response": {
+        "version": "3.34",
+        "format": "json",
+        "status": "403",
+        "lang": "en",
+        "error": "API rate exceeded",
+        "consumption": 0,
+        "remaining": 0,
+        "log": "duplicate",
+        "querylimitmax": 0,
+        "timestamp": "1635145765",
+        "rtt": 0,
+        "etag": "b9c8dc44116f3bcc-413e43edd6ae0bc4-dcca48101505dd86"
+    },
+    "request": {
+        "timestamp": "1635145765",
+        "apikey": "valid",
+        "userid": "17303"
+    }
+}

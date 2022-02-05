@@ -1,0 +1,33 @@
+s Backspace  Key.up  Key.up 
+sdk     Key.ctrl_r c Key.up 
+ Key.up 
+ Key.up 
+c
+ Key.ctrl_r cwhoami
+ Key.up 
+ Key.up  Key.up 
+ Key.up 
+ Key.up 
+sti Backspace o Key.ctrl_r  Key.ctrl_r cels
+whoa Backspace ami
+ Key.down  Key.down  Key.down  Key.down  Key.down  Key.down  Key.down  Key.down  Key.down  Key.ctrl_r c Key.ctrl_r  Shift V
+ Key.ctrl_r  Key.ctrl_r cls
+whoami
+echo    b
+ Key.down  Key.down  Key.down  Key.down  Key.down  Key.down  Key.down  Key.down  Key.down  Key.ctrl_r c Key.ctrl_r  Shift V
+whoami
+ls
+ls
+exit
+ Key.ctrl_r cwhoami
+ Key.ctrl_r c Key.ctrl_r  Shift V
+mo
+ Key.ctrl_r  Shift CV
+ls
+echo    j
+help
+ Key.ctrl_r  Shift CV
+ls
+nm
+help
+ Key.ctrl_r  Shift CV

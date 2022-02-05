@@ -1,0 +1,2 @@
+[+] SQL Injection vulnerability detected, link: http://testphp.vulnweb.com/artists.php?artist=1"&Submit=Submit#
+[+] SQL Injection vulnerability detected, link: http://testphp.vulnweb.com/artists.php?artist=1'&Submit=Submit#

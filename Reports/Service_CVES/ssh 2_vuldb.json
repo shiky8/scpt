@@ -1,0 +1,148 @@
+{
+    "response": {
+        "version": "3.34",
+        "format": "json",
+        "status": "200",
+        "lang": "en",
+        "monblock": "1",
+        "items": 5,
+        "consumption": 1,
+        "remaining": 3,
+        "querylimit": 5,
+        "querylimitmax": 5,
+        "timestamp": "1635943167",
+        "rtt": 3,
+        "etag": "4bab97e732283020-8984d33114ae3ef8-dcca48101505dd86"
+    },
+    "request": {
+        "timestamp": "1635943164",
+        "apikey": "valid",
+        "userid": "17303",
+        "details": 0,
+        "sort": "entry_timestamp_create",
+        "type": "search",
+        "value": "ssh 2"
+    },
+    "result": [
+        {
+            "entry": {
+                "id": "185582",
+                "title": "Cisco Firepower Threat Defense SSH Connection memory corruption",
+                "timestamp": {
+                    "create": "1635395240",
+                    "change": "1635752230"
+                }
+            },
+            "vulnerability": {
+                "risk": {
+                    "value": "2",
+                    "name": "medium"
+                }
+            },
+            "advisory": {
+                "date": "1635372000"
+            },
+            "source": {
+                "cve": {
+                    "id": "CVE-2021-34781"
+                }
+            }
+        },
+        {
+            "entry": {
+                "id": "183711",
+                "title": "Dell EMC InsightIQ up to 4.1.3 SSH risky encryption",
+                "timestamp": {
+                    "create": "1633155100",
+                    "change": "1633683460"
+                }
+            },
+            "vulnerability": {
+                "risk": {
+                    "value": "1",
+                    "name": "medium"
+                }
+            },
+            "advisory": {
+                "date": "1633125600"
+            },
+            "source": {
+                "cve": {
+                    "id": "CVE-2021-36298"
+                }
+            }
+        },
+        {
+            "entry": {
+                "id": "183250",
+                "title": "Cisco Access Point SSH Management access control",
+                "timestamp": {
+                    "create": "1632393007",
+                    "change": "1633091894"
+                }
+            },
+            "vulnerability": {
+                "risk": {
+                    "value": "2",
+                    "name": "medium"
+                }
+            },
+            "advisory": {
+                "date": "1632348000"
+            },
+            "source": {
+                "cve": {
+                    "id": "CVE-2021-1419"
+                }
+            }
+        },
+        {
+            "entry": {
+                "id": "182897",
+                "title": "Gravitational Teleport up to 4.4.10\/5.2.3\/6.2.11\/7.1.0 SSH certificate validation",
+                "timestamp": {
+                    "create": "1632029570",
+                    "change": "1632326569"
+                }
+            },
+            "vulnerability": {
+                "risk": {
+                    "value": "2",
+                    "name": "medium"
+                }
+            },
+            "advisory": {
+                "date": "1632002400"
+            },
+            "source": {
+                "cve": {
+                    "id": "CVE-2021-41393"
+                }
+            }
+        },
+        {
+            "entry": {
+                "id": "182578",
+                "title": "Siemens RUGGEDCOM ROX RX5000 up to 2.14.0 SSH information disclosure",
+                "timestamp": {
+                    "create": "1631626583",
+                    "change": "1631814208"
+                }
+            },
+            "vulnerability": {
+                "risk": {
+                    "value": "1",
+                    "name": "low"
+                }
+            },
+            "advisory": {
+                "date": "1631570400"
+            },
+            "source": {
+                "cve": {
+                    "id": "CVE-2021-37173"
+                }
+            }
+        }
+    ]
+}
