@@ -1,0 +1,226 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>800</width>
+    <height>600</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>SCPT-Port-scan</string>
+  </property>
+  <property name="windowIcon">
+   <iconset>
+    <normaloff>../../Pictures/scpt.png</normaloff>../../Pictures/scpt.png</iconset>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QFrame" name="frame">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>20</y>
+      <width>771</width>
+      <height>521</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: rgb(170, 85, 127);</string>
+    </property>
+    <property name="frameShape">
+     <enum>QFrame::StyledPanel</enum>
+    </property>
+    <property name="frameShadow">
+     <enum>QFrame::Raised</enum>
+    </property>
+    <widget class="QPushButton" name="pushButton">
+     <property name="geometry">
+      <rect>
+       <x>430</x>
+       <y>80</y>
+       <width>88</width>
+       <height>34</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">alternate-background-color: rgb(0, 0, 255);
+background-color: rgb(0, 0, 255);</string>
+     </property>
+     <property name="text">
+      <string>sub</string>
+     </property>
+    </widget>
+    <widget class="QTextEdit" name="textEdit">
+     <property name="geometry">
+      <rect>
+       <x>90</x>
+       <y>220</y>
+       <width>631</width>
+       <height>281</height>
+      </rect>
+     </property>
+    </widget>
+    <widget class="QLabel" name="label">
+     <property name="geometry">
+      <rect>
+       <x>40</x>
+       <y>80</y>
+       <width>58</width>
+       <height>18</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>target_ip:</string>
+     </property>
+    </widget>
+    <widget class="QLineEdit" name="lineEdit">
+     <property name="geometry">
+      <rect>
+       <x>100</x>
+       <y>70</y>
+       <width>301</width>
+       <height>51</height>
+      </rect>
+     </property>
+    </widget>
+    <widget class="QLabel" name="label_2">
+     <property name="geometry">
+      <rect>
+       <x>30</x>
+       <y>270</y>
+       <width>58</width>
+       <height>18</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>output:</string>
+     </property>
+    </widget>
+    <widget class="QLabel" name="label_3">
+     <property name="geometry">
+      <rect>
+       <x>130</x>
+       <y>20</y>
+       <width>401</width>
+       <height>18</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">color: rgb(255, 0, 255);
+font: 20pt &quot;Noto Sans&quot;;
+font: 16pt &quot;Noto Sans&quot;;</string>
+     </property>
+     <property name="text">
+      <string>if you have many tergets sbertthem by , </string>
+     </property>
+    </widget>
+   </widget>
+  </widget>
+  <widget class="QMenuBar" name="menubar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>800</width>
+     <height>30</height>
+    </rect>
+   </property>
+   <widget class="QMenu" name="menuwindows">
+    <property name="title">
+     <string>windows</string>
+    </property>
+    <widget class="QMenu" name="menupayload">
+     <property name="title">
+      <string>payload</string>
+     </property>
+     <addaction name="actiongenerate_payload"/>
+     <addaction name="actionbotnet"/>
+     <addaction name="actionreverseShell"/>
+    </widget>
+    <addaction name="actionWEB"/>
+    <addaction name="actionMITM"/>
+    <addaction name="actioncryptography"/>
+    <addaction name="menupayload"/>
+    <addaction name="actionBrute_force"/>
+    <addaction name="actionPhishing"/>
+    <addaction name="actionbtc_exploit"/>
+    <addaction name="actiongoogle_dork"/>
+    <addaction name="actionVulnerability_scan"/>
+   </widget>
+   <widget class="QMenu" name="menuhelp">
+    <property name="title">
+     <string>help</string>
+    </property>
+    <addaction name="actionabout"/>
+   </widget>
+   <addaction name="menuwindows"/>
+   <addaction name="menuhelp"/>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+  <action name="actionabout">
+   <property name="text">
+    <string>about</string>
+   </property>
+  </action>
+  <action name="actionWEB">
+   <property name="text">
+    <string>WEB</string>
+   </property>
+  </action>
+  <action name="actionMITM">
+   <property name="text">
+    <string>MITM</string>
+   </property>
+  </action>
+  <action name="actioncryptography">
+   <property name="text">
+    <string>cryptography</string>
+   </property>
+  </action>
+  <action name="actionBrute_force">
+   <property name="text">
+    <string>Brute-force</string>
+   </property>
+  </action>
+  <action name="actionPhishing">
+   <property name="text">
+    <string>Phishing</string>
+   </property>
+  </action>
+  <action name="actionbtc_exploit">
+   <property name="text">
+    <string>btc-exploit</string>
+   </property>
+  </action>
+  <action name="actiongoogle_dork">
+   <property name="text">
+    <string>google-dork</string>
+   </property>
+  </action>
+  <action name="actionVulnerability_scan">
+   <property name="text">
+    <string>Vulnerability-scan</string>
+   </property>
+  </action>
+  <action name="actiongenerate_payload">
+   <property name="text">
+    <string>generate-payload</string>
+   </property>
+  </action>
+  <action name="actionbotnet">
+   <property name="text">
+    <string>botnet</string>
+   </property>
+  </action>
+  <action name="actionreverseShell">
+   <property name="text">
+    <string>reverseShell</string>
+   </property>
+  </action>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
