@@ -1,0 +1,10 @@
+Victim Public IP: 127.0.0.1
+User-Agent: Mozilla/5.0 (X11; Linux x86_64; rv:78.0) Gecko/20100101 Firefox/78.0
+
+Current logged in user: shikyVictim Public IP: 127.0.0.1
+User-Agent: Mozilla/5.0 (X11; Linux x86_64; rv:78.0) Gecko/20100101 Firefox/78.0
+
+Current logged in user: shikyVictim Public IP: 127.0.0.1
+User-Agent: Mozilla/5.0 (X11; Linux x86_64; rv:78.0) Gecko/20100101 Firefox/78.0
+
+Current logged in user: shiky
