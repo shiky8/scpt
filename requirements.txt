@@ -4,7 +4,7 @@ bitcoin==1.1.42
 paramiko==2.10.1
 pynput==1.7.4
 Pillow==9.0.1
-cryptography==35.0.0
+cryptography==41.0.6
 setuptools==58.4.0
 beautifulsoup4==4.10.0
 PyYAML==6.0
