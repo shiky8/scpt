@@ -3,10 +3,10 @@ scapy==2.4.5
 bitcoin==1.1.42
 paramiko==2.10.1
 pynput==1.7.4
-Pillow==9.0.1
-cryptography==41.0.6
+Pillow==10.2.0
+cryptography==42.0.2
 setuptools==58.4.0
 beautifulsoup4==4.10.0
 PyYAML==6.0
-pycryptodome==3.11.0 
+pycryptodome==3.19.1 
 pypiwin32==223
