@@ -1,5 +1,5 @@
 PyQt5==5.15.6
-scapy==2.4.5
+scapy==2.7.0rc1
 bitcoin==1.1.42
 paramiko==2.10.1
 pynput==1.7.4
